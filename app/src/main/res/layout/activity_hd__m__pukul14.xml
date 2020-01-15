@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul14">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Ganda (Gorontalo)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu14gandagorontalo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sesuai dengan namanya, Gendang Melayu merupakan alat musik yang dijadikan sebagai alat musik khas suku Melayu, khususnya di daerah Sumatera Utara Indonesia. Alat musik ini terbuat dari kulit binatang seperti kerbau, kambing atau lembu, dan alat musik ini merupakan salah satu alat musik dalam keluarga genderang. Setiap bangsa seperti China, Melayu dan India mempunyai gendang dengan nama-namanya tersendiri. Gendang dapat dibuat dalam berbagai ukuran dan kegunaan. Ada gendang yang digunakan untuk persilatan bagi orang Melayu. Ada gendang yang digunakan bagi tari-tarian dan ada juga yang digunakan untuk menyambut perayaan dan untuk acara tertentu.\n\n
+    Secara umum gendang terdiri dari dua jenis, yaitu gendang biasa dan gendang hadrah. Gendang Biasa disebut juga dengan Gendang Tiong atau Gendang Campak. Gendang ini memiliki Tawangan (tabung Silinder) yang panjang, bervariasi antara 20-40 cm. Sementara garis tengah dalamnya disesuaikan dengan panjang tawangan. Bentuk tawangan lurus, yaitu bagian ujung sama besarnya dengan pangkalnya. Di salah satu ujung tawangan dipasang membran dari kulit kambing. Dan untuk mendapatkan suara bass biasanya orang menggunakan kulit sapi yang dipasang pada tawang berukuran besar. Membran gendang ini tidak dipasang secara permanen, melainkan diikat dengan rotan sedemikian rupa sehingga dapat dikencangkan atau dikendorkan sesuai dengan keinginan.  Untuk Gendang Hadrah, jenis ini mempunyai tawangan yang biasanya berukuran antara 15-30 cm. Membrannya memakai kulit kambing yang dipaku secara permanen pada tawangan. Disekeliling lingkaran tawangan terdapat tiga lubang untuk memasang giring-giring dari logam. Seperangkat gendang ini dapat dimainkan apabila ada minimal 3 buah gendang dengan nada suara yang berbeda. Biasanya dipakai pada acara arak-arakan penganten, upacara menyambut tamu, dan lain-lain. Gendang Melayu dan gendang lainnya sebenarnya memang tidak jauh berbeda, karena pada intinya alat musik itu sejenis. Cara pembuatannya pun secara umum juga sama. Pembuatan gendang sebenarnya tidaklah sulit, hanyalah dengan melubangi bagian kayu menggunakan peralatan tradisional sehingga membentuk dan menghiasi gendang. Meskin cara tersebut cukup menguras tenaga karena harus menghaluskan bahan baku agar suaranya bisa bagus. Pilihlah pohon dengan lingkaran kayu yang besar, kemudian di potong dengan ukuran 30/35-45 cm. Kayu dilubangi dengan pahat hingga tipis. Pada bagian muka tempat menempel kulit dibuat agak tipis kira-kira setebal ibu jari. Pada bagian belakangnya dibuat agak tebal dan diberi lingkaran setebal setengah atau 2 jari, dan kayu yang biasanya digunakan adalah dari jenis kayu mahoni.  Cara memainkan gendang juga cukup mudah. Dalam hal ini dikatakan mudah karena tidak diperlukan suatu not khusus untuk memainkannya. Memang alat musik pukul pada umumnya tidak begitu rumit untuk dimainkan. Mungkin hanya alat musik pukul modern seperti drum saja yang cukup rumit untuk memainkannya. Cara memainkan alat musik gendang ini cukup dengan dipukul, baik dengan tangan saja atau bisa juga dengan alat pemukul gendang. Sebuah gendang melayu biasanya dihargai antara Rp. 600 hingga 800 ribu tergantung ukuran dan juga motif dari ukirannya.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

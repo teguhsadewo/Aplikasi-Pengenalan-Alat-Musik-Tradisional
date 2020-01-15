@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Serune Kalee (Aceh)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at1serunekalee"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Serune Kalee adalah teromter khas Aceh dengan struktur bentuk mirip klarinet. Serune kalee biasa dimainkan sebagai instrumen utama dalam sebuah pertunjukan musk tradisi di Aceh. Diiringi geundrang, rapai, dan sejumlah instrumen tradisional lainnya. Hingga hari ini, Serune Kalee masih hidup lestari di lingkungan masyarakat Aceh, serta berperan besar dalam ritus-ritus sosial warga Aceh. Instrumen ini diklasifikasikan ke dalam jenis aerofon, atau instrumen yang memiliki sumber bunyi dari hembusan udara para rongga. Sejatinya, Serune Kalee berasal dari 2 kata, kani (serune) yang merujuk pada instrumen treadisional Aceh, dan (Kalee) yang merupakan nama desa Laweung, Kabupaten Pidie. Jadi secara sederhana, Serune Kalee bisa diartikan sebagai serunai/seruling dari daerah Kalee. Sangat mungkin penamaan tersebut dikatikan dengan kemunculan atau tempat pembuatan serunai/seruling tersebut.\n\n
+        Selain di Aceh, sejatinya alat musik serupa juga bisa dijumpai di daerah lainnya di Sumatra, seperti di lingkungan masyarakat Minangkabau dan Agam. Lebih jauh dari itu, Serunee Kalee juga memiliki kemiripan dengan beberapa instrumen dari neagara lain, seperti Malaysia, Thailand, dan Srilanka. Instrument-Instrument serupa tersebut memiliki sejumlah kemiripan dalam hal laras nada, vibrasi, volume suara, dan dinamika suara.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Sejarah dan Perkembangan Serune Kalee\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Merujuk pada data yang ada, instrumen ini sudah ada sejak masuknya Islam ke Aceh. Ada sebagaina yang mengatakan bahwa instrumen ini berasal dari Tiongkok ( Z.H Idris, 1993: 48-49, dikutip dalam melayuonline.com). Terlepas dari berbagai asumsi yang ada, fakta sejarah menunjukkan bahwa Aceh pada masa silam adalah kerajaan dengan letak yang strategis, sekaligus juga bersifat terbuka, sehingga banyak terjalin hubungan dengan berbagai bangsa dari luar. Dalam perkembangan, berbagai akulturasi yang ada telah melahirkan kesenian Aceh yang khas, yang dominan bernafaskan Islam.\n\n
+        Serune Kalee memgang peranan penting dalam berbagai pertunjukan kesenian di berbagai upacara, serta acara lainnya yang merupakan hiburan bagi masyarakat Aceh. Alat musik ini berbentuk bulat lurus yang memanjang yang pada bagian atas berbentung kecil kemudian membesar hingga ujing pada bagian bawah pada bagian tubuhnya terdapat lubang-lubang kecil untuk jari-jari, dan pada bagian bawah berbentuk seperti kelopak teratai. Serune Kalee merupakan alat musik yang mirip dengan terompet yang berasal dari Aceh yang dinamakan sebagai instrument utama dalam sebuah pertunjukan musik tradisi di Aceh, diiringi geundrang, rapai, dan sejumlah instrumen tradisional lainnya.\n\n
+        Alat in berperan dalam membawakan lagu yang cenderung instrumentalie, yang dimainnkan dengan alunan suara yang terus menerus. Yang dimainkan dengan cara ditiup dengan mengambil nafas dari mulut hidung serta leher. Biasanya dalam memainkan alat musik ini pemain menggunakan pakaian adat dalam pertunjukan maupun secara resmi. Untuk menghasilkan suara yang indah pemain harus mempunyai gigi yang utuh serta memiliki pernafasan yang kuat kemudian jari-juri kedua tangan mengatur tinggi dan rendahnya nada.\n\n
+        Alat musik Tradisional Serune Kalee terbuat dari bahan kayu, yang mana kayu yang dipilih sebagai bahan dasarnya adalah yang memiliki karakter kuat dan keras, sekaligus ringan. Sebelum dibuat, kayu tersebut terlebih dahulu direndam selama tiga bulan, setelah fase perendaman selesai, kayu dipangkas selama tiga bulan. Setalah fase perendaman selesai, selanjtnya kayu dipangkas sehingga yang tersesa hanya bagian yang disebut sebagai ‘Hati Kayu’. Kemudian di bor dan dibubut untuk membentuk lobang dengan diameter sekitar 2 cm. Setelah tercipta rongga, selanjutnya adalah tahap membuat lubnag-=-lubang nada, yakni 6 lkubang di bagian muka-atas sebagai interval nada, dan 1 lubang di bagian bawah sebagai syarat terciptanya suara dari serune Kalee\n\n
+"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

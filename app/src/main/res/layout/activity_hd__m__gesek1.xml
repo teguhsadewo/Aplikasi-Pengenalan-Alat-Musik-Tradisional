@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Gesek1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Tehyan (Jakarta)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ag1tehyanjakarta"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pernah lihat Ondel-ondel keliling? Kamu pasti familiar juga dengan bunyi musik melengking yang dimainkan saat atraksi itu. Itu adalah suara Tehyan. Tehyan merupakan alat musik khas Betawi. Mulanya alat musik ini dibawa oleh masyarakat Tionghoa yang saat itu menetap lama di Indonesia pada masa kolonial Belanda. Alat musik tersebut biasa dimainkan oleh masyarakat keturunan Tionghoa untuk dipadukan dengan kesenian gambang kromong, lenong betawi ataupun ondel-ondel.\n\n
+        Alat musik ini disebut langka lantaran tak banyak yang bisa memainkan. Terbuat dari kayu jati, Tehyan mempunyai tabung resonansi yang terbuat dari batok kelapa dan dilengkapi oleh dua senar. Alat musik yang memiliki nada dasar A ini mempunyai bentuk yang panjang dengan bagian bawahnya agak melebar. Jika diamati, bentuknya sangat mirip dengan postur badan manusia yang meliuk.\n\n
+        Tehyan adalah satu dari tiga jenis alat musik yang sama. Dua lainnya adalah Sukongdan Kong ahyan. Ketiga alat musik ini memiliki nada dasar yang berbeda. Untuk Sukong memiliki nada dasar G atau Bass sementara Kong ahyan memiliki nada dasar D atau melodi.\n\n
+        Untuk dapat memainkan alat musik yang hanya punya dua senar ini dimainkan dengan cara digesek pada bagian dawainya atau senarnya seperti memainkan biola. Menggesek alat musik ini harus disertai dengan perasaan agar nada yang tercipta semakin indah.  Inilah yang membuat alat ini memiliki ciri khas yang berbeda.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

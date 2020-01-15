@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".JenisMusik">
+
+    <Button
+        android:id="@+id/gesek"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbk"
+        android:textColor="@color/white"
+        android:text="Gesek"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/petik"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbk"
+        android:textColor="@color/white"
+        android:text="Petik"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="305dp" />
+    <Button
+        android:id="@+id/pukul"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbk"
+        android:textColor="@color/white"
+        android:text="Pukul"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/tiup"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbk"
+        android:textColor="@color/white"
+        android:text="tiup"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+</RelativeLayout>
+

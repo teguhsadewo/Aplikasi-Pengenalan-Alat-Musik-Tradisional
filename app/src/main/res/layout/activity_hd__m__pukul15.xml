@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul15">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Tifa (Papua)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu15tifapapua"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="          Tifa merupakan salah satu alat musik asal Papua yang banyak dikenal oleh masyarakat luas. Alat musik tersebut dimainkan dengan cara dipukul. Tifa merupakan alat musik tradisional yang memiliki bentuk hampir mirip dengan gendang. Bahkan, teknik untuk memainkan alat musik yang satu ini pun hampir sama.\n\n
+        Alat musik Papua  ini dibuat dari sebongkah kayu yang dilubangi pada bagian dalamnya. Kemudian, pada salah satu sisi Tifa ditutup dengan menggunakan kulit rusa yang sudah dikeringkan. Hal itulah yang nantinya akan menghasilkan suara yang indah.\n\n
+        Akan tetapi, tidak semua Tifa dibuat dengan menggunakan kulit rusa. Ada juga yang menggunakan kulit hewan lain untuk menutup salah satu sisi dari alat musik Tifa. Terdapat berbagai macam jenis Tifa yang bisa ditemukan, yakni Tifa Bas, Tifa Jekir Potong, Tifa Potong, Tifa Dasar dan Tifa Jekir.\n\n
+        Masyarakat Papua menggunakan alat musik tradisional yang satu ini sebagai iring-iringan lagu saat berdansa disertai dengan menggunakan api unggun ataupun yang lainnya. Akan tetapi, pada zaman dahulu Tifa digunakan untuk berperang.\n\n
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

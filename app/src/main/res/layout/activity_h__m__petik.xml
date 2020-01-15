@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/h_m_petik"
+    tools:context=".H_M_Petik">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/petik1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape1gambusriau"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/petik2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape2gambusjambi"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"/>
+
+            <Button
+                android:id="@+id/petik3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape4sasandontt"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/petik4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape5sampekalimantantimur"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/petik5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape6japenkalimantantengah"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/petik6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape7pantingkalimantanselatan"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/petik7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape8guotopapuabarat"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/petik8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ape9siterjawatengah"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Bumbung Lima "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps11_bumbunglima_bengkulu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Bengkulu bernama rumah ‘Bumbungan Tinggi’, tetapi oleh masyarakat Bengkulu lebih sering disebut rumah ‘Bubungan Lima’.Secara umum bangunan rumah adat Bengkulu merupakan rumah panggung yang ditopang oleh beberapa tiang.\n\n
+Nama ‘Bubungan Lima’ diambil dari  bentuk atap rumah tersebut. Selain ‘Bubungan Lima’, rumah adat Bengkulu ini sering juga dikenal dengan nama rumah ‘Bubungan Haji’, ‘Bubungan Limas’ dan juga ‘Bubungan Jembatan’.\n\n
+Rumah unik nan cantik dari bumi raflesia ini memang menarik untuk dipelajari, mulai dari struktur bangunannya yang unik, filosofi, hingga fungsi bangunan.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Struktur Bangunan Rumah Bubungan Lima\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Provinsi Bengkulu merupakan daerah yang terletak di jalur gempa, sehingga desain rumah adat bengkulu disesuaikan dengan kondisi tersebut. Rumah Bubungan Lima merupakan rumah panggung dan di desain untuk tahan terhadap goncangan gempa.\n\n
+Desain tahan gempa ini dapat diamati dari adanya 15 buah tiang dengan tingginya mencapai 1,8 meter. Tiang-tiang penyangga tersebut ditumpangkan ke atas batu datar yang besar. Fungsi dari batu datar ini adalah untuk meredam goncangan gempa. Selain itu, penggunaan batu datar tersebut juga untuk mencegah lapuknya tiang.\n\n
+Umumnya rumah cantik dan tahan gempa ini terbuat dari kayu kemuning atau dikenal dengan kayu balam. Karakter kayu balam yang lentur namun tahan hingga ratusan tahun membuat kayu ini dipilih sebagai material utama rumah.\n\n
+Bagian lantai  rumah terbuat dari papan yang telah diserut dengan halus. Bagian atap rumah Bubung Lima terbuat dari ijuk pohon enau atau bisa juga sirap. Pada bagian depa rumah terdapat tangga. Jumlah anak tangganya harus selalu ganjil, hal ini berkaitan dengan kepercayaan masyarakat setempat. Secara umum, Struktur Rumah Bubungan Lima dibedakan menjadi :\n\n
+
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="1. Bagian Atas\n
+Bagian atas rumah Bubungan Lima merupakan atap yang terbuat dari ijuk atau bambu. Namun, dalam perkembangannya sudah banyak juga yang menggunakan seng sebagai atap. Pecu atau pelapon rumah ini terbuat dari papan tetapi ada juga yang menggunakan pelupuh bambu. Balok-balok kayu yang menghubungkan bagian atas dengan rumah dinamakan peran. Kasau yang menempel dengan kap, berfungsi sebagai tempat menempelnya atap.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="2. Bagian Tengah\n
+Pada bagian tengah bangunan ini terdiri dari kosen atau kerangka rumah yang terbuat dari kayu balam. Dinding terbuat dari papan atau ada juga yang menggunakan pelupuh. Jendela ada yang berbentuk ram atau biasa. Tulusi atau lubang angin umumnya terletak di bagian atas jendela atau pintu.\n\n
+Tiang penjuru, tiang penjuru halaman dan tiang tengah. Terdapat juga bendok atau balok yang melentang di sepanjang dinding menghubungkan antar tiang sudut rumah.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="3. Bagian Bawah\n
+Pada bagian bawah rumah Bubungan Lima terdapat lainnya yang terbuat dari papan, pelupuh datau juga bilah bambu. Geladan yang terdiri dari 8 papan dim dengan lebar 50 cm, dipasang di sepanjang dinding luar atas balok.\n\n
+Kijing, merupakan penutup balok yang terletak di pinggir luar sepanjang dinding rumah. Tilan, yakni balok berukuran sedang yang berfungsi sebagai tempat menempelnya lantai. Pada papan lantai terdapat juga Bidani yang dibuat dari bambu tebal yang dipasang melintang di papan lantai.\n\n
+Fungsinya adalah untuk menahan serangan musuh atau hewan liar dari bawah rumah. Pelupuh kamar tidur, disusun sejajar dengan papan lantai. Lapik tiang yang merupakan batu datar sebagai pondasi tiap tiang rumah. Tangga depan dan tangga depan dengan jumlah anak tangga yang ganjil.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Filosofi Dan Ciri Khas Rumah Bubungan Lima\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Ada beberapa ciri khas yang membedakan rumah adat Bengkulu dengan rumah adat yang ada di daerah lainnya di Indonesia. Salah satunya adalah bentuk atapnya yang berbentuk limas dengan ketinggian mencapai 3,5 meter.\n\n
+Selain itu banyaknya tiang yang berfungsi sebagai penyangga bangunan dalam meredam goncangan gempa juga menambah khasnya rumah adat Bengkulu. Tangga yang terletak di bagian depan bangunan dengan jumlah anak tangga yang ganjil, semakin menegaskan ciri khas rumah Bubungan Lima.\n\n
+Saat proses menaikkan bubungan rumah juga terdapat tradisi unik. Ritual penolak balak biasanya dilakukan dengan menggantungi bubungan rumah dengan beragam hasil pertanian, seperti sebatang tebu hitam, setandan pisang mas, kondo (kundur), setawar sedingin, dan dibagian tulangnya diberi kain putih yang sudah di rajah.\n\n
+Berdasarkan fungsinya, maka susunan rumah adat Bengkulu terbagi atas:\n\n
+•	Berendo\n Berendo merupakan tempat untuk menerima tetamu yang dikenal. Selain itu Barendo juga difungsikan sebagai tempat untuk bersantai di pagi dan sore hari. Terkadang juga sebagai tempat bermain anak.\n\n
+•	Hall \n Bagian Hall adalah ruangan untuk menerima tetamu yang sudah dikenal dengan baik. Ia bisa juga merupakan kerabat atau tokoh yang disegani. Selain  itu hall juga umum dipakai sebagai tempat untuk bercengkrama bersama keluarga besar.\n\n
+•	Bilik Gedang n\ Bilik gedang merupakan kamar utama dari rumah Bubunga Lima. Kamar ini biasa ditempati oleh pasangan suami istri dan anak kecil yang belum disapih.\n\n
+•	Bilik Gadis \n Ruangan ini merupakan bilik yang digunakan sebagai tempat si gadis dalam keluarga. Ruangan ini biasanya bersebelahan dengan bilik gedang.\n\n
+•	Ruang Tengah \n Ruangan ini biasanya dikosongkan dari berbagai macam perabot rumah.Pada bagian sudut ruangan biasanya terdapat tikar sebab fungsi ruangan ini adalah tempat menerima tamu ibu rumah tangga, atau juga keluarga dekat si gadis. Selain itu, ruangan ini juga sebagai tempat tidurnya anak bujang dalam keluarga tersebut.\n\n
+•	Ruang Makan \n Bagian ini terletak bersebelahan dengan ruangan dapur dan difungsikan sebagai ruang untuk makan.\n\n
+•	Gerigik \n Gerang merupakan bagian rumah yang digunakan untuk menyimpan tempayan air. Ruangan ini biasanya digunakan sebagai tempat untuk mencuci piring dan bersih-bersih peralatan lainnya sebelum memulai pekerjaan dapur.\n\n
+•	Dapur \n Ruangan ini terletak diantara ruang makan dan garang.  Disinilah tempat ibu rumah tangga memasak sekaligus tempat menyimpan bumbu dan bahan makanan.\n
+"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

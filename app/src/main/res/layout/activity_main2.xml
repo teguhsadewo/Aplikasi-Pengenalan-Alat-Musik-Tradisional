@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/buttonjenis"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/buttonbk"
+        android:text="Alat Musik Daerah"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp"/>
+
+    <Button
+        android:id="@+id/buttonrumah"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/buttonbk"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Rumah Adat"
+        android:fontFamily="@font/bebas"
+
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp"/>
+
+    <Button
+        android:id="@+id/lagudaerah"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="40dp"
+
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Lagu Daerah"
+        android:fontFamily="@font/bebas"
+        android:background="@drawable/buttonbk"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbk"
+        android:fontFamily="@font/bebas"
+        android:text="About"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="239dp" />
+</RelativeLayout>

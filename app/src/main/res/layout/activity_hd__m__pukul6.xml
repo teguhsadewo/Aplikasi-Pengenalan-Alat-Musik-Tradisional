@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gendang Panjang (Kepulauan Riau)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu6gendangkepulauanriau"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Gendang Panjang adalah sebuah alat musik yang berasal dari daerah Kepulauan Riau, yang termasuk alat musik Membranofon. cara memaikannya ditepuk dengan telapak tangan. Di India, Gendang Panjang disebut dengan ” Dhol ” Gendang panjang ini kedua sisinya di tutupi dengan kulit yang bikin alat musik ini tahan lama dan awet. Gendang panjang selalu dimainkan 2 buah, yaitu induk untuk gendang dengan ukuran besar yang bermembran kulit kerbau dan anak untuk gendang yang berukuran lebih kecil dan bermembran kulit kambing ini.\n\n
+Kedua membran dalam gendang panjang diikat dengan tali dari rotan. Ukuran gendang panjang rata-rata sekitar 21 inci dan terbuat dari kayu marbau yang keras dan tahan lama banget untuk alat musik satu ini.\n\n
+        Cara memainkan gendang dengan menggunakan tangan untuk memukul atau dengan menggunakan alat pemukul gendang. Di setiap pentas gendang ini digunakan untuk meramaikan suasana, atau sebagai pengiring tarian atau pada pencak silat dan untuk acara tradisi. Di samping itu, alat musik ini dimainkan untuk mengiringi penyambutan tamu dan pada upacara bimbang gandang di pernikahan adat dan untuk tradisi dan alat musik ini menjadi legendaris di daerahnya.\n\n
+Gendang Panjang ini merupakan sebuah alat musik dimana alat ini mampu memberikan sebuah ciri khas tersendiri hingga menjadi salah satu fenomena tersendiri, saking populernya alat ini banyak dicari dan dipelajari oleh seluruh masyarakat Indonesia bahkan dunia, Berbagai macam alat musik tradisional, asal usul alat musik.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

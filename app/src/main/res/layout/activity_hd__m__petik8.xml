@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Petik8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Siter (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ape9siterjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Siter dan celempung adalah alat musik petik di dalam gamelan Jawa. Ada hubungannya juga dengan kecapi di gamelan Sunda. Siter dan celempung masing-masing memiliki 11 dan 13 pasang senar, direntang kedua sisinya di antara kotak resonator. Ciri khasnya satu senar disetel nada pelog dan senar lainnya dengan nada slendro. Umumnya sitar memiliki panjang sekitar 30 cm dan dimasukkan dalam sebuah kotak ketika dimainkan, sedangkan celempung panjangnya kira-kira 90 cm dan memiliki empat kaki, serta disetel satu oktaf di bawah siter. Siter dan celempung dimainkan sebagai salah satu dari alat musik yang dimainkan bersama (panerusan), sebagai instrumen yang memainkan cengkok (pola melodik berdasarkan balungan). Baik siter maupun celempung dimainkan dengan kecepatan yang sama dengan gambang (temponya cepat).\n\n
+        Nama ‘siter’ berasal dari Bahasa Belanda ’citer’, yang juga berhubungan dengan Bahasa Inggris ’zither’. ‘Celempung’ berkaitan dengan bentuk musikal Sunda celempungan. Senar siter dimainkan dengan ibu jari, sedangkan jari lain digunakan untuk menahan getaran ketika senar lain dipetik, ini biasanya merupakan ciri khas instrumen gamelan. Jari kedua tangan digunakan untuk menahan, dengan jari tangan kanan berada di bawah senar sedangkan jari tangan kiri berada di atas senar. Siter dan celempung dengan berbagai ukuran adalah instrumen khas Gamelan Siteran, meskipun juga dipakai dalam berbagai jenis gamelan lain.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

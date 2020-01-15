@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Krong Bade"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps1_krongbade_aceh"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Krong Bade adalah rumah adat dari Nanggroe Aceh Darussalam. Rumah Krong Bade juga biasa dikenal dengan nama rumoh Aceh. Rumah ini mempunyai tangga depan yang digunakan bagi tamu atau orang yang tinggal untuk masuk ke dalam rumah. Rumah Krong Bade adalah salah satu budaya Indonesia yang hampir punah. Rumah Krong Bade saat ini sudah jarang dipakai karena hampir sebagian masyarakat aceh memilih untuk tinggal di rumah modern. Hal ini dikarenakan harga pembangunan rumah modern jauh lebih murah dibandingkan dengan Rumah Krong Bade. Selain biaya pembangunan, biaya perawatan Rumah Krong Bade juga memakan biaya yang tidak sedikit.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ciri Khas\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Krong Bade memiliki beberapa ciri khas. Tidak semua Rumah Krong Bade mempunyai bentuk yang sama, tetapi ada beberapa hal yang menjadi ciri khas dari Rumah Krong Bade. Rumah Krong Bade memiliki tangga di bagian depan rumah bagi orang-orang yang akan masuk ke dalam rumah. Rumah Krong Bade memiliki tangga karena tinggi rumah yang berada beberapa meter dari tanah. Umumnya, tangga Rumah Krong Bade dari tanah adalah 2,5-3 meter. Jumlah anak tangga Rumah Krong Bade umumnya ganjil. Rumah Krong Bade memiliki bahan dasar yaitu kayu. Rumah Krong Bade juga memiliki banyak ukiran pada dinding rumahnya. tetapi banyaknya ukiran pada Rumah Krong Bade bergantung dari kemampuan ekonomi pemilik rumah. Ukiran ini pun tidak sama satu dengan yang lain. Rumah Krong Bade berbentuk persegi panjang dan memanjang dari timur ke barat. Atap Rumah Krong Bade terbuat dari daun rumbia.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Pembagian Ruangan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pembagian ruangan dalam Rumah Krong Bade terdiri dari 4 bagian yaitu bagian bawah, bagian depan, bagian tengah, dan bagian belakang. Setiap ruang memiliki fungsi masing-masing.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="1.    Ruang Bawah\n
+Bagian bawah Rumah Krong Bade digunakan untuk menyimpan barang-barang pemilik rumah seperti padi atau hasil panen lainnya. Dapat dikatakan bahwa ruang bawah berfungsi sebagai gudang. Ruang bawah juga dipakai untuk menaruh alat penumbuk padi. Selain itu, ruang bawah juga pusat aktivitas bagi kaum perempuan yaitu membuat kain khas Aceh dan sebagai tempat menjual kain tersebut.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="2.    Ruang Depan\n
+Ruang depan berfungsi sebagai ruang santai. Ruangan ini bisa dipakai untuk beristirahat bagi anggota keluarga dan juga bagi kegiatan yang sifatnya santai seperti anak-anak belajar. Ruang depan juga bisa dipakai untuk menerima tamu. Ruang depan tidak memiliki kamar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="3.    Ruang Tengah\n
+Krong Bade dan karena itu, ruangan ini juga dikenal sebagai rumah inong. Berbeda dengan ruang depan, ruang tengah memiliki beberapa kamar di sisi kiri dan sisi kanan. Ruang tengah mempunyai letak lebih tinggi daripada ruang depan. Ruang tengah tidak boleh dimasuki oleh tamu karena ruangan ini hanya khusus untuk anggota keluarga. Anggota keluarga pun tidak semua bisa masuk ke ruang tengah. Umumnya, ruang tengah ini dipakai sebagai ruang tidur kepala keluarga. Pada acara-acara khusus keluarga seperti pernikahan, ruang tengah dipakai sebagai ruang tidur pengantin. Ruang tengah juga dipakai pada acara kematian sebagai ruang pemandian mayat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="4.    Ruang Belakang\n
+Ruang belakang atau yang biasa disebut sebagai seurameo likot adalah ruang santai untuk keluarga. Ruangan ini letaknya lebih rendah daripada ruang tengah dan berfungsi sebagai dapur serta tempat keluarga bercengkramah. Ruang belakang sama seperti ruang depan yang tidak memiliki kamar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bahan-bahan bangunan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Dalam membangun Rumah Krong Bade dibutuhkan beberapa bahan bangunan. Pertama, kayu adalah bahan utama dari rumah aceh. Kayu digunakan untuk membuat tiang penyangga rumah. Kedua, papan yang digunakan untuk membuat dinding dan lantai rumah. Ketiga, bambu atau yang biasa disebut trieng digunakan untuk membuat alas lantai. Keempat, Temor atau yang biasa disebut enau digunakan sebagai bahan cadangan untuk membuat dinding dan lantai selain bambu. Kelima, Tali Pengikat atau yang biasa disebut dengan taloe meu-ikat digunakan untuk mengikat bahan-bahan bangunan. Tali pengikat ini terbuat dari bahan rotan, tali ijuk, atau kulit pohon waru. Keenam Daun Rumbia atau yang biasa disebut dengan oen meuria yang digunakan sebagai bahan dasar untuk membuat atap rumah. Ketujuh, Daun Enau digunakan sebagai bahan cadangan untuk membuat atap, apabila daun Rumbia tidak ada. Kedelapan, Pelepah Rumbia atau biasa disebut dengan peuleupeuk meuria adalah bahan dasar untuk membuat dinding rumah dan juga lemari.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Makna\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Krong Bade mempunyai makna tersendiri bagi masyarakat Aceh. Rumah ini merupakan identitas dari masyarakat Aceh. Penggunaan bahan materi bangunan yang diambil dari alam mempunyai makna bahwa masyarakat Aceh mempunyai kehidupan yang dekat dengan alam. Masyarakat Aceh bahkan tidak menggunakan paku dalam membuat rumah Krong Bade. Mereka menggunakan tali untuk mengikat satu bahan bangunan dengan bahan bangunan yang lain. Ukiran-ukiran pada rumah Krong Bade pun mempunyai makna tersendiri bagi masyarakat Aceh. Hal ini berhubungan dengan status sosial seseorang dalam masyarakat Aceh. Banyaknya ukiran pada rumah Krong Bade yang dimiliki seseorang menentukan kemampuan ekonomi dari orang tersebut.\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Pembangunan Rumah\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pembangunan rumah Krong Bade dilakukan tidak dengan sembarangan. Ada beberapa hal yang dilakukan untuk membangun rumah ini, seperti penentuan hari baik, pengadaan kenduri, dan pemilihan kayu. Penentuan hari baik dilaksanakan berdasarkan saran dari seorang pemuka masyarakat. Demikian juga halnya dengan pemilihan kayu. Pemilihan kayu didasarkan pada pengetahuan lokal masyarakat yang memandang bahwa ada beberapa jenis kayu yang dapat bertahan lama jika dipakai untuk membangun rumah. Tahap-tahap yang harus dilakukan untuk membangun rumah adalah rapat keluarga, pengumpulan bahan, pengolahan bahan, dan perangkaian bahan. Rapat keluarga juga turun mengambil bagian penting dalam membangun rumah agar tidak terjadi perpecahan dalam rumah. Dalam rapat keluarga diundang seorang pemuka masyarakat untuk memberikan saran-saran yang patut didengarkan oleh keluarga yang hendak membangun rumah. Pengumpulan bahan dilakukan bersama-sama dengan melihat kayu yang baik untuk dijadikan bahan bangunan. Saat penebangan kayu, masyarakat Aceh berusaha untuk tidak merusak akar pohon yang lainnya sehingga sangat berhati-hati dalam penebangan kayu. Pengolahan bahan adaah pengolahan kayu sesuai dengan kebutuhan. Kebutuhan yang dimaksud di sini adalah kayu-kayu untuk peralatan rumah tangga maupun kayu-kayu untuk pondasi bangunan. Setelah pengolahan kayu, kayu-kayu tersebut dirancang atau digunakan sebagai fungsinya dan ini adalah tahap perangkaian bangunan. Kayu-kayu yang berfungsi sebagai tiang penyangga rumah akan ditancapkan ke tanah terlebih dahulu. Kayu pertama yang ditancapkan dianggap sebagai tiang utama dari rumah Krong Bade. Setelah tahap perangkaian bahan selesai, maka tahap akhir yaitu menghias rumah dengan berbagai ornamen juga ukiran-ukiran pada badan rumah Krong Bade.\n\n"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Petik4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Sampe (Kalimantan Timur)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ape5sampekalimantantimur"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sampe merupakan alat musik tradisional Suku Dayak. Penyebutan alat musik yang dimainkan dengan cara dipetik ini berbeda-beda dalam tradisi masing-masing Sub suku dayak yang ada di Kalimantan Timur.\n
+            "/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Sejarah \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Orang-orang suku Dayak yang sebagian besar menetap di wilayah Kalimantan, Indonesia dan Malaysia Timur telah melalui periodesasi zaman yang sangat lama. Oleh karena itu, kaum Melayu Tua ini tentunya memiliki peradaban dan kebudayaan beserta semua perangkat adat dan tradisinya. Salah satu wujud hasil budaya orang Dayak adalah alat musik tradisional yang memiliki ciri dan kegunaan yang khas. Dalam kehidupan sehari-hari orang Dayak, seni musik dan alat-alat musiknya menjadi salah satu media yang diperlukan dalam pelaksanaan upacara-upacara adat, selain tentu saja juga berfungsi sebagai sarana hiburan. Terdapat berbagai jenis alat musik dalam tradisi kebudayaan orang Dayak, termasuk alat musik pukul, tiup, maupun petik. Salah satu alat musik petik yang cukup poluler di kalangan suku Dayak, terutama orang-orang suku Dayak yang hidup di Kalimantan Timur, adalah sampe. Sampe dalam bahasa lokal suku Dayak dapat diartikan ‘memetik dengan jari’. Dari makna namanya itu diketahui dengan jelas bahwa sampe adalah perangkat musik yang dimainkan dengan cara dipetik. Namun, penamaan alat musik Melayu Dayak ini ternyata berbeda-beda di tiap-tiap sub etnis suku Dayak yang ada di Kalimantan timur. Nama sampe’ digunakan oleh orang-orang suku Dayak Kenyah, orang-orang suku Dayak Bahau dan Kanyaan menyebutnya dengan nama sape’, suku Dayak Modang mengenal alat musik ini sebagai sempe, sedangkan orang-orang Dayak Tunjung dan Banua menamainya dengan sebutan kecapai’ .\n\n
+        Kendati sama-sama berjenis alat musik petik, tetapi sampe agak berbeda dengan gitar dalam cara memainkannya. Dalam memainkan gitar harus menggunakan satu tangan saja untuk memetik senar, sedangkan tangan lainnya difungsikan untuk mengatur nada pada dawai yang terdapat pada gagang gitar. Lain halnya dengan sampe di mana alat musik ini dapat dimainkan justru dengan jari-jari dari kedua belah tangan. Bedanya lagi, apabila gitar pada umumnya memiliki 6 senar, pada sampe biasanya hanya terdapat 3 senar meskipun ada juga sampe yang bersenar 4 dan seterusnya. Dulu, dawai sampe menggunakan tali dari serat pohon enau, tetapi kini sudah memakai kawat kecil sebagai dawainya. Pada bagian kepala sampe (ujung gagang), dipasang hiasan ukiran yang menggambarkan taring-taring dan kepala burung enggang.\n\n
+             "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Fungsi Dan Kegunaan \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sampe adalah alat musik yang berfungsi untuk menyatakan perasaan, baik perasaan riang gembira, rasa sayang, kerinduan, bahkan rasa duka nestapa. Dahulu, memainkan sampe pada siang hari dan malam hari memiliki perbedaan. Apabila dimainkan pada siang hari, umumnya irama yang dihasilkan sampe menyatakan perasaan gembira dan suka-ria. Sedangkan jika sampe dimainkan pada malam hari biasanya akan menghasilkan irama yang bernada sendu, syahdu, atau sedih. Terdapat ungkapan mengenai sampe yang termuat dalam Tekuak Lawe, sastra lisan yang diturunkan dari generasi ke generasi dalam tradisi masyarakat Dayak, khususnya suku Dayak Kanyaan dan Kenyah. Ungkapan yang berbunyi sape' benutah tulaang to'awah itu secara harﬁah dapat diartikan Sampe mampu meremukkan tulang-belulang hantu yang bergentayangan. Ungkapan tersebut menggambarkan bahwa alat musik sampe mampu membuat orang yang mendengarnya merinding hingga menyentuh tulang atau perasaan. Bagi para tetua adat Dayak di zaman dulu, keyakinan akan kesakralan sampe memang betul bisa dirasakan karena suasana pedesaan dan nuansa adat pada saat itu masih sangat kental.\n\n
+        Hingga kini, kepercayaan akan tuah sampe masih diyakini oleh para sesepuh Dayak, misalnya ketika sampe dimainkan dalam suatu upacara adat. Saat bunyi petikan sampe terdengar, seluruh orang akan terdiam, kemudian terdengar sayup-sayup lantunan doa atau mantra yang dibacakan bersama-sama. Dalam suasana seperti ini, tidak jarang di antara mereka ada yang kerasukan roh halus atau roh leluhur. Sampe juga dimainkan pada saat acara pesta rakyat atau acara gawai padai, sampe dimainkan untuk mengiringi tari-tarian yang lemah gemulai.\n\n
+        Seiring dengan perkembangan zaman, sampe kemudian tidak hanya berfungsi sebagai alat musik untuk menyatakan perasaan saja, tetapi sampe juga mulai sering dimainkan bersama dengan alat-alat musik lainnya. Anak-anak muda Dayak gemar memainkan sampe sembari berkumpul bersama di malam hari. Selain itu, sampe dimainkan oleh kaum Lelaki Dayak untuk menarik perhatian perempuan yang sedang ditaksirnya . Sampe juga berfungsi sebagai alat musik hiburan dalam suatu keluarga besar. Tradisi orang Dayak yang tinggal di rumah betang membuat sampe menjadi sarana yang termudah untuk meramaikan suasana atau untuk menghibur ketika ada salah seorang anggota yang sedang bersedih. Di rumah betang, tersedia sebuah ruangan besar untuk acara adat atau sebagai ruang keluarga. Di ruang besar inilah, para pemuda Dayak saling unjuk kemahiran dalam memainkan sampe Tidak hanya itu, sampe juga sering dimainkan sebagai wujud rasa syukur atas peristiwa atau moment tertentu, misalnya ketika hasil panen melimpah.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bahan dan Cara Pembuatan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Alat musik petik sampe dibuat dari bahan kayu pilihan. Kayu yang dinilai mempunyai kualitas baik sebagai bahan pembuat sampe adalah jenis-jenis kayu sebangsa kayu meranti, misalnya kayu pelantan, kayu adau, kayu marang, kayu tabalok, dan sejenisnya. Jenis kayu-kayu itu dipilih karena kuat, tidak mudah pecah, keras, tahan lama, dan tidak mudah dirusak atau dimakan binatang seperti rayap. Semakin keras dan banyak urat daging kayunya, maka suara yang dihasilkan sampe akan semaki baik pula . Untuk dawai atau senar sampe, pada awalnya masih menggunakan tali yang berasal dari serat pohon enau atau aren, tetapi sekarang senar sampe sering dibuat dari bahan kawat tipis sehingga bunyinya akan terdengar lebih nyaring .\n\n
+        Tahap-tahap pembuatan sampe adalah, pertama, batang pohon diratakan dengan menggunakan kapak lalu dijemur sampai kering. Setelah kayu benar-benar kering, balok kayu tersebut dilubangi secara memanjang, tetapi tidak sampai tembus ke permukaan. Jika proses melubangi kayu sudah selesai, lalu diukir lagi sesuai dengan bentuk yang diinginkan. Kemudian dibuat bahu atau gagang sampe kira-kira sebesar kepalan tangan. Di bagian ujungnya, dibuat lubang sebagai tempat pemutarnya sesuai dengan jumlah senar . Di setiap lubang putaran tersebut ditusuk dengan ujung pisau untuk membuat tempat memasukkan senar agar dapat dililitkan pada putarannya.\n\n
+        Sampai di sini tahap pembuatan sampe sebenarnya telah selesai, tetapi biasanya dilanjutkan dengan menambahkan ukiran dengan ornamen khas Dayak, yakni dengan corak burung enggang dan taring-taring hewan buruan yang merupakan lambang keagungan dan kebesaran orang-orang Dayak. Tahap selanjutnya adalah memasang senar di mana sebagai alat untuk menyeleraskan nada menggunakan belahan rotan yang dipotong-potong. Belahan rotan ini direkatkan dengan kelulut, sesuai dengan nada yang diinginkan . Bentuk sampe pada umumnya menyerupai perahu dan mempunyai bagian-bagian tertentu. Dalam bahasa suku Dayak Kenyah, penyebutan bagian-bagian sampe yakni: usa, mulam, batak, hudog sampe, uta, batuk, ndon, Iowong sampe, dan seterusnya .\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Cara Memainkan \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Cara memainkan alat musik sampe adalah mula-mula senar-senar sampe diselaraskan dengan perasaan pemetik nya. Hal ini dilakukan karena sampe adalah alat musik yang berfungsi untuk menyatakan perasaan seseorang. Oleh karena itu, hasil stem senar-senar sampe tersebut berbeda-beda untuk setiap orang. Bunyi senar yang dihasilkan itu masih merupakan nada-nada dasar. Untuk menyelaraskan nada-nada lainnya dilakukan dengan memindah-mindahkan ndon. Dengan cara ini, sampe pun bisa dimainkan sesuai dengan nada lagu yang diinginkan. Namun, jika ganti memainkan lagu lain, maka ndon sampe juga harus diubah atau diselaraskan lagi diinginkan. Cara memetik sampe adalah dengan jari-jari kedua tangan, baik tangan kiri maupun tangan kanan. Petikan ini akan menghasilkan bunyi accord . Pemetik sampe memainkan lagu hanya dengan berdasarkan perasaan sehingga bunyi yang dihasilkan pun akan mengena sesuai dengan perasaan si pemetik.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

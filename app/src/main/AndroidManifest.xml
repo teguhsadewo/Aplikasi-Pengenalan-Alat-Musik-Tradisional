@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pengenalanalatmusiktradisional">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoaplikasi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoaplikasi"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Audio_List_Row"></activity>
+        <activity android:name=".MusicPlayerActivity" />
+        <activity android:name=".H_Lagu_Daerah" />
+        <activity android:name=".Music_Player_Activity" />
+        <activity android:name=".HD_RA_Jawa6" />
+        <activity android:name=".HD_RA_Jawa5" />
+        <activity android:name=".HD_RA_Jawa4" />
+        <activity android:name=".HD_RA_Jawa3" />
+        <activity android:name=".HD_RA_Jawa2" />
+        <activity android:name=".HD_RA_Jawa1" />
+        <activity android:name=".HD_RA_Sumatera10" />
+        <activity android:name=".HD_RA_Sumatera9" />
+        <activity android:name=".HD_RA_Sumatera8" />
+        <activity android:name=".HD_RA_Sumatera7" />
+        <activity android:name=".HD_RA_Sumatera6" />
+        <activity android:name=".HD_RA_Sumatera5" />
+        <activity android:name=".HD_RA_Sumatera4" />
+        <activity android:name=".HD_RA_Sumatera3" />
+        <activity android:name=".HD_RA_Sumatera2" />
+        <activity android:name=".HD_RA_Sumatera1" />
+        <activity android:name=".H_P_Jawa" />
+        <activity android:name=".H_P_Sumatera" />
+        <activity android:name=".H_Rumah_Adat" />
+        <activity android:name=".HD_M_Petik8" />
+        <activity android:name=".HD_M_Petik7" />
+        <activity android:name=".HD_M_Petik6" />
+        <activity android:name=".HD_M_Petik5" />
+        <activity android:name=".HD_M_Petik4" />
+        <activity android:name=".HD_M_Petik3" />
+        <activity android:name=".HD_M_Petik2" />
+        <activity android:name=".HD_M_Petik1" />
+        <activity android:name=".HD_M_Gesek3" />
+        <activity android:name=".HD_M_Gesek2" />
+        <activity android:name=".HD_M_Gesek1" />
+        <activity android:name=".HD_M_Tiup10" />
+        <activity android:name=".HD_M_Tiup9" />
+        <activity android:name=".HD_M_Tiup8" />
+        <activity android:name=".HD_M_Tiup7" />
+        <activity android:name=".HD_M_Tiup6" />
+        <activity android:name=".HD_M_Tiup5" />
+        <activity android:name=".HD_M_Tiup4" />
+        <activity android:name=".HD_M_Tiup3" />
+        <activity android:name=".HD_M_Tiup2" />
+        <activity android:name=".HD_M_Tiup1" />
+        <activity android:name=".HD_M_Pukul27" />
+        <activity android:name=".HD_M_Pukul26" />
+        <activity android:name=".HD_M_Pukul25" />
+        <activity android:name=".HD_M_Pukul24" />
+        <activity android:name=".HD_M_Pukul23" />
+        <activity android:name=".HD_M_Pukul22" />
+        <activity android:name=".HD_M_Pukul21" />
+        <activity android:name=".HD_M_Pukul20" />
+        <activity android:name=".HD_M_Pukul19" />
+        <activity android:name=".HD_M_Pukul18" />
+        <activity android:name=".HD_M_Pukul17" />
+        <activity android:name=".HD_M_Pukul16" />
+        <activity android:name=".HD_M_Pukul15" />
+        <activity android:name=".HD_M_Pukul14" />
+        <activity android:name=".HD_M_Pukul13" />
+        <activity android:name=".HD_M_Pukul12" />
+        <activity android:name=".HD_M_Pukul11" />
+        <activity android:name=".HD_M_Pukul10" />
+        <activity android:name=".HD_M_Pukul9" />
+        <activity android:name=".HD_M_Pukul8" />
+        <activity android:name=".HD_M_Pukul7" />
+        <activity android:name=".HD_M_Pukul6" />
+        <activity android:name=".HD_M_Pukul5" />
+        <activity android:name=".HD_M_Pukul4" />
+        <activity android:name=".HD_M_Pukul3" />
+        <activity android:name=".HD_M_Pukul2" />
+        <activity android:name=".HD_M_Pukul1" />
+        <activity android:name=".H_M_Tiup" />
+        <activity android:name=".H_M_Petik" />
+        <activity android:name=".H_M_Pukul" />
+        <activity android:name=".H_M_Gesek" />
+        <activity android:name=".HalamanAbout" />
+        <activity android:name=".JenisMusik" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

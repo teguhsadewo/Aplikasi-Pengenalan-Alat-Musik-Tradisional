@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Angklung (Jawa Barat)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu5angklungjabar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="       Angklung (Aksara Sunda Baku adalah alat musik multitonal (bernada ganda) yang secara tradisional berkembang dalam masyarakat Sunda di Pulau Jawa bagian barat. Alat musik ini dibuat dari bambu, dibunyikan dengan cara digoyangkan (bunyi disebabkan oleh benturan badan pipa bambu) sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, baik besar maupun kecil. Dictionary of the Sunda Language karya Jonathan Rigg, yang diterbitkan pada tahun 1862 di Batavia, menuliskan bahwa angklung adalah alat musik yang terbuat dari pipa-pipa bambu yang dipotong ujung-ujungnya menyerupai pipa-pipa dalam suatu organ, dan diikat bersama dalam suatu bingkai, digetarkan untuk menghasilkan bunyi.
+Angklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia dari UNESCO sejak November 2010
+\n\n
+"/>
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:text="Asal-Usul Angklung\n"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="      Tidak ada petunjuk akan sejak kapan angklung digunakan, tetapi diduga bentuk primitifnya telah digunakan dalam kultur Neolitikum yang berkembang di Nusantara sampai awal penanggalan modern, sehingga angklung merupakan bagian dari relik pra-Hinduisme dalam kebudayaan Nusantara.\n\n
+        Catatan mengenai angklung yang baru muncul merujuk pada masa Kerajaan Sunda (abad ke-12 sampai abad ke-16). Asal usul terciptanya musik bambu seperti angklung berdasar pada pandangan hidup masyarakat Sunda yang agraris dengan sumber kehidupan dari padi (pare) sebagai makanan pokoknya. Hal ini melahirkan mitos kepercayaan terhadap Nyai Sri Pohaci sebagai lambang Dewi Padi pemberi kehidupan (hirup-hurip). Masyarakat Baduy, yang dianggap sebagai sisa-sisa masyarakat Sunda asli, menerapkan angklung sebagai bagian dari ritual mengawali penanaman padi. Permainan angklung gubrag di Jasinga, Bogor, adalah salah satu yang masih hidup sejak lebih dari 400 tahun lampau. Kemunculannya berawal dari ritus padi. Angklung diciptakan dan dimainkan untuk memikat Dewi Sri turun ke bumi agar tanaman padi rakyat tumbuh subur.\n\n
+        Jenis bambu yang biasa digunakan sebagai alat musik tersebut adalah bambu hitam (awi wulung) dan bambu ater (awi temen), yang jika mengering berwarna kuning keputihan. Tiap nada dihasilkan dari bunyi tabung bambunya yang berbentuk bilah tiap ruas bambu dari ukuran kecil hingga besar.\n\n
+        Di antara fungsi angklung yang dikenal oleh masyarakat Sunda sejak masa kerajaan Sunda adalah sebagai penggugah semangat dalam pertempuran. Fungsi angklung sebagai pemompa semangat rakyat masih terus terasa sampai pada masa penjajahan, itu sebabnya pemerintah Hindia Belanda sempat melarang masyarakat menggunakan angklung. Pelarangan itu sempat membuat popularitas angklung menurun dan hanya dimainkan oleh anak-anak pada waktu itu\n\n
+        Selanjutnya, lagu-lagu persembahan terhadap Dewi Sri tersebut disertai dengan pengiring bunyi tabuh yang terbuat dari batang-batang bambu yang dikemas sederhana, dan kemudian lahirlah struktur alat musik bambu yang kita kenal sekarang bernama angklung. Demikian pula pada saat pesta panen dan Seren Taun dipersembahkan permainan angklung. Pada penyajian angklung yang berkaitan dengan upacara padi, kesenian ini menjadi sebuah pertunjukan yang sifatnya arak-arakan, bahkan di sebagian tempat menjadi iring-iringan Rengkong, Dongdang, dan Jampana (usungan pangan) juga sebagainya.\n\n
+        Dalam perkembangannya, angklung berkembang dan menyebar ke seantero Jawa, lalu ke Kalimantan dan Sumatra. Pada 1908, tercatat sebuah misi kebudayaan dari Indonesia ke Thailand, antara lain ditandai dengan penyerahan angklung, lalu permainan musik bambu ini pun sempat menyebar di sana.\n\n
+Bahkan sejak 1966, Udjo Ngalagena, tokoh angklung yang mengembangkan teknik permainan berdasarkan laras-laras pelog, salendro, dan madenda, mulai mengajarkan bagaimana bermain angklung kepada banyak orang dari berbagai komunitas.\n\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Jenis Angklung \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  a.	Angklung Kanekes \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung di daerah Kanekes (kita sering menyebut mereka orang Baduy) digunakan terutama karena hubungannya dengan ritus padi, bukan semata-mata untuk hiburan orang-orang. Angklung digunakan atau dibunyikan ketika mereka menanam padi di huma (ladang). Menabuh angklung ketika menanam padi ada yang hanya dibunyikan bebas (dikurulungkeun), terutama di Kajeroan (Tangtu; Baduy Jero), dan ada yang dengan ritmis tertentu, yaitu di Kaluaran (Baduy Luar). Meski demikian, masih bisa ditampilkan di luar ritus padi tetapi tetap mempunyai aturan, misalnya hanya boleh ditabuh hingga masa ngubaran pare (mengobati padi), sekitar tiga bulan dari sejak ditanamnya padi. Setelah itu, selama enam bulan berikutnya semua kesenian tidak boleh dimainkan, dan boleh dimainkan lagi pada musim menanam padi berikutnya. Menutup angklung dilaksanakan dengan acara yang disebut musungkeun angklung, yaitu nitipkeun (menitipkan, menyimpan) angklung setelah dipakai.\n\n
+        Dalam sajian hiburan, Angklung biasanya diadakan saat terang bulan dan tidak hujan. Mereka memainkan angklung di buruan (halaman luas di pedesaan) sambil menyanyikan bermacam-macam lagu, antara lain: Lutung Kasarung, Yandu Bibi, Yandu Sala, Ceuk Arileu, Oray-orayan, Dengdang, Yari Gandang, Oyong-oyong Bangkong, Badan Kula, Kokoloyoran, Ayun-ayunan, Pileuleuyan, Gandrung Manggu, Rujak Gadung, Mulung Muncang, Giler, Ngaranggeong, Aceukna, Marengo, Salak Sadapur, Rangda Ngendong, Celementre, Keupat Reundang, Papacangan, dan Culadi Dengdang. Para penabuh angklung sebanyak delapan orang dan tiga penabuh bedug ukuran kecil membuat posisi berdiri sambil berjalan dalam formasi lingkaran. Sementara itu yang lainnya ada yang ngalage (menari) dengan gerakan tertentu yang telah baku tetapi sederhana. Semuanya dilakukan hanya oleh laki-laki. Hal ini berbeda dengan masyarakat Daduy Dalam, mereka dibatasi oleh adat dengan berbagai aturan pamali (pantangan; tabu), tidak boleh melakukan hal-hal kesenangan duniawi yang berlebihan. Kesenian semata-mata dilakukan untuk keperluan ritual.\n\n
+        Nama-nama angklung di Kanekes dari yang terbesar adalah: indung, ringkung, dongdong, gunjing, engklok, indung leutik, torolok, dan roel. Roel yang terdiri dari 2 buah angklung dipegang oleh seorang. Nama-nama bedug dari yang terpanjang adalah: bedug, talingtit, dan ketuk. Penggunaan instrumen bedug terdapat perbedaan, yaitu di kampung-kampung Kaluaran mereka memakai bedug sebanyak 3 buah. Di Kajeroan; kampung Cikeusik, hanya menggunakan bedug dan talingtit, tanpa ketuk. Di Kajeroan, kampung Cibeo, hanya menggunakan bedug, tanpa talingtit dan ketuk.\n\n
+        Di Kanekes yang berhak membuat angklung adalah orang Kajeroan (Tangtu; Baduy Jero). Kajeroan terdiri dari 3 kampung, yaitu Cibeo, Cikartawana, dan Cikeusik. Di ketiga kampung ini tidak semua orang bisa membuatnya, hanya yang punya keturunan dan berhak saja yang mengerjakannya di samping adanya syarat-syarat ritual. Pembuat angklung di Cikeusik yang terkenal adalah Ayah Amir (59), dan di Cikartawana Ayah Tarnah. Orang Kaluaran membeli dari orang Kajeroan di tiga kampung tersebut.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  b.	Angklung Reyog \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung Reyog merupakan alat musik untuk mengiringi Tarian Reyog Ponorogo di Jawa Timur. angklung Reyog memiliki khas dari segi suara yang sangat keras, memiliki dua nada serta bentuk yang lengkungan rotan yang menarik (tidak seperti angklung umumnya yang berbentuk kubus) dengan hiasan benang berumbai-rumbai warna yang indah. di kisahkan angklung merupakan sebuah senjata dari kerajaan bantarangin ketika melawan kerajaan lodaya pada abad ke 9, ketika kemenangan oleh kerajaan bantarangin para prajurit gembira tak terkecuali pemegang angklung, karena kekuatan yang luar biasa penguat dari tali tersebut lenggang hingga menghasilkan suara yang khas yaitu klong- klok dan klung-kluk bila didengar akan merasakan getaran spiritual.\n\n
+        Dalam sejarahnya angklung Reyog ini digunakan pada film: Warok Singo Kobra (1982), Tendangan Dari Langit (2011) Dan penggunaan angklung Reyog pada musik seperti: tahu opo tempe, sumpah palapa, kuto reog, Resik Endah Omber Girang, dan campursari berbau ponorogoan.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  c.	Angklung Banyuwangi \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Angklung banyuwangi ini memiliki bentuk seperi calung dengan nada budaya banyuwangi\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  d.	Angklung Bali \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="angklung bali memiliki bentuk dan nada yang khas bali,\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  e.	Angklung Gubrag \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung gubrag terdapat di kampung Cipining, kecamatan Cigudeg, Bogor. Angklung ini telah berusia tua dan digunakan untuk menghormati dewi padi dalam kegiatan melak pare (menanam padi), ngunjal pare (mengangkut padi), dan ngadiukeun (menempatkan) ke leuit (lumbung). Dalam mitosnya angklung gubrag mulai ada ketika suatu masa kampung Cipining mengalami musim paceklik.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  f.	Angklung Badeng  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Badeng merupakan jenis kesenian yang menekankan segi musikal dengan angklung sebagai alat musiknya yang utama. Badeng terdapat di Desa Sanding, Kecamatan Malangbong, Garut. Dulu berfungsi sebagai hiburan untuk kepentingan dakwah Islam. Tetapi diduga badeng telah digunakan masyarakat sejak lama dari masa sebelum Islam untuk acara-acara yang berhubungan dengan ritual penanaman padi. Sebagai seni untuk dakwah badeng dipercaya berkembang sejak Islam menyebar di daerah ini sekitar abad ke-16 atau 17. Pada masa itu penduduk Sanding, Arpaen dan Nursaen, belajar agama Islam ke kerajaan Demak. Setelah pulang dari Demak mereka berdakwah menyebarkan agama Islam. Salah satu sarana penyebaran Islam yang digunakannya adalah dengan kesenian badeng.\n\n
+Angklung yang digunakan sebanyak sembilan buah, yaitu 2 angklung roel, 1 angklung kecer, 4 angklung indung dan angklung bapa, 2 angklung anak; 2 buah dogdog, 2 buah terbang atau gembyung, serta 1 kecrek. Teksnya menggunakan bahasa Sunda yang bercampur dengan bahasa Arab. Dalam perkembangannya sekarang digunakan pula bahasa Indonesia. Isi teks memuat nilai-nilai Islami dan nasihat-nasihat baik, serta menurut keperluan acara. Dalam pertunjukannya selain menyajikan lagu-lagu, disajikan pula atraksi kesaktian, seperti mengiris tubuh dengan senjata tajam.
+Lagu-lagu badeng: Lailahaileloh, Ya’ti, Kasreng, Yautike, Lilimbungan, Solaloh.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  g.	Angklung Buncis  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Buncis merupakan seni pertunjukan yang bersifat hiburan, di antaranya terdapat di Baros (Arjasari, Bandung). Pada mulanya buncis digunakan pada acara-acara pertanian yang berhubungan dengan padi. Tetapi pada masa sekarang buncis digunakan sebagai seni hiburan. Hal ini berhubungan dengan semakin berubahnya pandangan masyarakat yang mulai kurang mengindahkan hal-hal berbau kepercayaan lama. Tahun 1940-an dapat dianggap sebagai berakhirnya fungsi ritual buncis dalam penghormatan padi, karena sejak itu buncis berubah menjadi pertunjukan hiburan. Sejalan dengan itu tempat-tempat penyimpanan padi pun (leuit; lumbung) mulai menghilang dari rumah-rumah penduduk, diganti dengan tempat-tempat karung yang lebih praktis, dan mudah dibawa ke mana-mana. Padi pun sekarang banyak yang langsung dijual, tidak disimpan di lumbung. Dengan demikian kesenian buncis yang tadinya digunakan untuk acara-acara ngunjal (membawa padi) tidak diperlukan lagi.\n
+        Nama kesenian buncis berkaitan dengan sebuah teks lagu yang terkenal di kalangan rakyat, yaitu cis kacang buncis nyengcle..., dst. Teks tersebut terdapat dalam kesenian buncis, sehingga kesenian ini dinamakan buncis.\n\n
+        Instrumen yang digunakan dalam kesenian buncis adalah 2 angklung indung, 2 angklung ambrug, angklung panempas, 2 angklung pancer, 1 angklung enclok. Kemudian 3 buah dogdog, terdiri dari 1 talingtit, panembal, dan badublag. Dalam perkembangannya kemudian ditambah dengan tarompet, kecrek, dan goong. Angklung buncis berlaras salendro dengan lagu vokal bisa berlaras madenda atau degung. Lagu-lagu buncis di antaranya: Badud, Buncis, Renggong, Senggot, Jalantir, Jangjalik, Ela-ela, Mega Beureum. Sekarang lagu-lagu buncis telah menggunakan pula lagu-lagu dari gamelan, dengan penyanyi yang tadinya laki-laki pemain angklung, kini oleh wanita khusus untuk menyanyi.\n\n
+        Dari beberapa jenis musik bambu di Jawa Barat (Angklung) di atas, adalah beberapa contoh saja tentang seni pertunjukan angklung, yang terdiri atas: Angklung Buncis (Priangan/Bandung), Angklung Badud (Priangan Timur/Ciamis), Angklung Bungko (Indramayu), Angklung Gubrag (Bogor), Angklung Ciusul (Banten), Angklung Dog dog Lojor (Sukabumi), Angklung Badeng (Malangbong, Garut), dan Angklung Padaeng yang identik dengan Angklung Nasional dengan tangga nada diatonis, yang dikembangkan sejak tahun 1938. Angklung khas Indonesia ini berasal dari pengembangan angklung Sunda. Angklung Sunda yang bernada lima (salendro atau pelog) oleh Daeng Sutigna alias Si Etjle (1908–1984) diubah nadanya menjadi tangga nada Barat (solmisasi) sehingga dapat memainkan berbagai lagu lainnya. Hasil pengembangannya kemudian diajarkan ke siswa-siswa sekolah dan dimainkan secara orkestra besar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  h.	Angklung Padaeng  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung padaeng adalah angklung yang dikenalkan oleh Daeng Soetigna sejak sekitar tahun 1938. Terobosan pada angklung padaeng adalah digunakannya laras nada Diatonik yang sesuai dengan sistem musik barat. Dengan demikian, angklung kini dapat memainkan lagu-lagu internasional, dan juga dapat bermain dalam Ensembel dengan alat musik internasional lainnya.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  i.	Angklung Sarinande   \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung sarinande adalah istilah untuk angklung padaeng yang hanya memakai nada bulat saja (tanpa nada kromatis) dengan nada dasar C. Unit kecil angklung sarinade berisi 8 angklung (nada Do Rendah sampai Do Tinggi), sementara sarinade plus berisi 13 angklung (nada Sol Rendah hingga Mi Tinggi).\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  j.	Angklung Toel   \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung toel diciptakan oleh Kang Yayan Udjo sekitar tahun 2008.[1] Pada alat ini, ada rangka setinggi pinggang dengan beberapa angklung dijejer dengan posisi terbalik dan diberi karet. Untuk memainkannya, seorang pemain cukup men-toel angklung tersebut, dan angklung akan bergetar beberapa saat karena adanya karet.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  k.	Angklung Sri-Murni    \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung ini merupakan gagasan Eko Mursito Budi yang khusus diciptakan untuk keperluan robot angklung.[2] Sesuai namanya, satu angklung ini memakai dua atau lebih tabung suara yang nadanya sama, sehingga akan menghasilkan nada murni (mono-tonal). Ini berbeda dengan angklung padaeng yang multi-tonal. Dengan ide sederhana ini, robot dengan mudah memainkan kombinasi beberapa angklung secara simultan untuk menirukan efek angklung melodi maupun angklung akompanimen.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="  l.	Ansambel angklung   \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Agar lebih kaya suaranya, angklung sebaiknya dimainkan dengan alat musik lain, membentuk ansambel. Beberapa ansambel angklung yang sudah mapan adalah: \n
+1.	Klasik Padaeng \n\n
+Ansambel angklung klasik yang dikenalkan oleh Daeng Soetigna ini terdiri atas:\n\n
+•	Angklung melodi\n
+•	Angklung akompanimen\n
+•	Bas betot\n\n
+Kombinasi minimal inilah yang paling populer dan umum dijumpai saat konser maupun lomba paduan angklung.
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="2.	Angklung solo    \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Angklung solo adalah konfigurasi yang menggantungkan satu unit angklung melodi pada suatu palang sehingga bisa dimainkan satu orang saja. Sesuai dengan konvensi nada diatonis, maka ada dua jajaran gantungan angklung. Yang bawah berisi nada penuh, sedangkan yang atas berisi nada kromatis. Angklung solo ini digagas oleh Yoes Roesadi tahun 1964, dan dimainkan bersama alat musik basanova dalam grup Aruba (Alunan Rumpun Bambu). Sekitar tahun 1969, nama Aruba ini disesuaikan menjadi Arumba\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="3.	Arumba    \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Arumba adalah istilah bagi seperangkat alat musik yang minimal terdiri atas: \n\n
+•	Satu unit angklung melodi, digantung sehingga bisa dimainkan oleh satu orang\n
+•	Satu unit bass lodong, juga dijejer agar bisa dimainkan satu orang\n
+•	Gambang bambu melodi\n
+•	Gambang bambu pendamping\n
+•	Gendang\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Teknik permainan angklung    \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Memainkan sebuah angklung sangat mudah. Seseorang tinggal memegang rangkanya pada salah satu tangan (biasanya tangan kiri) sehingga angklung tergantung bebas, sementara tangan lainnya (biasanya tangan kanan) menggoyangnya hingga berbunyi. Dalam hal ini, ada tiga teknik dasar menggoyang angklung:\n\n
+•	Kurulung (getar), merupakan teknik paling umum dipakai, di mana tangan kanan memegang tabung dasar dan menggetarkan ke kiri-kanan berkali-kali selama nada ingin dimainkan.\n
+•	Centok (sentak), adalah teknik di mana tabung dasar ditarik dengan cepat oleh jari ke telapak tangan kanan, sehingga angklung akan berbunyi sekali saja (stacato).\n
+•	Tengkep, mirip seperti kurulung namun salah satu tabung ditahan tidak ikut bergetar. Pada angklung melodi, teknik ini menyebabkan angklung mengeluarkan nada murni (satu nada melodi saja, tidak dua seperti biasanya). Sementara itu pada angklung akompanimen mayor, teknik ini digunakan untuk memainkan akord mayor (3 nada), sebab bila tidak ditengkep yang termainkan adalah akord dominan septim (4 nada).\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Angklung interaktif     \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Angklung interaktif adalah kegiatan di mana seorang konduktor mengajak banyak orang, yang umumnya awam, untuk bermain angklung beramai-ramai. Kegiatan ini bisa dilakukan di tempat pariwisata atau acara ramah tamah. Pada para peserta akan dibagikan angklung-angklung yang sudah diberi nomor sesuai nadanya. Lalu, sang konduktor akan memimpin, biasanya dengan cara:\n\n
+1.	Konduktor membuka satu layar besar bertuliskan lagu dalam not angka, lalu mengajak para peserta memainkan angklung yang tepat dengan menunjuk nada pada layar.\n
+2.	Konduktor mengajarkan isyarat tangan untuk nada-nada tertentu pada penonton, kemudian memimpin suatu lagu dengan memberikan isyarat yang tepat secara berurutan untuk diikuti para peserta. Isyarat tangan ini di-adaptasi oleh Mang Udjo, berdasar isyarat yang dikembangkan oleh John Curwen.\n
+3.	Sebelumnya, Pak Daeng Soetigna menggunakan isyarat gambar binatang untuk melatih anak-anak TK.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Modernisasi angklung      \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Secara esensial, angklung adalah alat musik bambu yang dimainkan dengan digetar. Hal tersebut tidak boleh diubah. Meski demikian, berbagai upaya kreatif untuk memodernisasinya terus berlangsung, seperti: \n\n
+•	Angklung elektrik karya Agus Suhardiman\n
+•	Angklung otomatis, Tugas akhir Kadek Kertayasa di STIKOM Surabaya\n
+•	Tra-digi, angklung robot yang dikontrol oleh i-pod, ciptaan Hasim Ghozali.\n
+•	Klungbot, robot angklung yang mula-mula dikreasi oleh Krisna Diastama dan Karismanto Rahmadika, kemudian dilanjutkan oleh Eko Mursito Budi.\n
+"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

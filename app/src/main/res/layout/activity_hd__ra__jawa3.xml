@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Joglo Jawa Tengah"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj11_rumahjoglo_jateng"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Jawa Tengah – Membicarakan kekayaan budaya di Indonesia rasanya tidak ada habisnya. Memang Indonesia terkenal dengan beragam budayanya. Salah satunya adalah rumah adatnya. Ada banyak rumah adat di Indonesia, seperti rumah adat Jawa Tengah.\n\n
+Rumah adat di daerah Jawa Tengah yang sekarang banyak kita kenal mungkin adalah rumah Joglo. Padahal sejatinya ada berbagai jenis rumah adat yang tersebar di Jawa Tengah. Masing-masing rumah adat memiliki perbedaan.\n\n
+Adanya berbagai rumah adat ini tidak hanya menjadi lambang kebudayaan. Tapi, di sisi lain juga menjadi salah satu lambang strata sosial. Untuk melestarikan budaya tak ada salahnya anda mengenal rumah adat Jawa Tengah.\n\n
+Beberapa jenis rumah adat dapat anda pelajari di sini. Namun, sebelum memahami jenis-jenis rumah adat baiknya anda lebih dahulu mempelajari sejarah rumah adat. Sehingga paham tentang perkembangan rumah adat di Jawa Tengah.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Memiliki Sejarah Rumah Adat Jawa Tengah\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+
+                android:text="      Kita mungkin banyak yang tidak tahu bagaimana sejarah rumah adat di Jawa Tengah. Kebanyakan dari kita hanya mengerti jenis rumah adat yang ada di Jawa Tengah. Namun, sedikit yang berusaha menyelami sejarahnya.\n\n
+Arsitektur dari bangunan Joglo biasanya khas sekali dengan arsitektur Jawa. Namun, taukah anda jika sebenarnya arsitektur rumah adat ini banyak dipengaruhi oleh budaya agama hindu. Apalagi hindu kuno dulu memiliki banyak pengikut di Jawa Tengah.\n\n
+Ajaran keagamaan yang dianut masyarakat turut mempengaruhi kondisi sosial masyarakat. Ternyata tidak hanya terbatas kondisi sosial. Namun juga, kondisi arsitektur bangunan yang ada. Ini dapat anda amati dari bangunan yang ada.\n\n
+Kebanyakan bangunan rumah adat yang masih asli hampir dapat disamakan dengan pura umat Hindu yang berasal dari India. Tak heran mengingat berkembangnya agama hindu pada masa itu. Lambat-laun ini mempengaruhi kondisi lingkungan. \n\n
+Pengaruh ini terlihat tidak hanya dari paparan budaya yang menjadi ‘tradisi’ warga sekitar. Namun, juga anda bisa melihatnya dari bentuk rumah adat tersebut. Bentuknya yang seperti pura di India adalah warisan dari penganut Hindu di masa terdahulu.\n\n
+Semakin berjalannya waktu ada banyak ‘aliran’ rumah adat yang berbeda satu sama lain. Ini dianggap sebagai salah satu bentuk penyesuaian terhadap perubahan. Jadi tidak perlu heran ketika menemukan rumah Joglo yang berbeda dari yang lain.\n\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Berbagai Jenis Rumah Adat di Jawa Tengah\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Jika kita banyak membahas seputar sejarah rumah adat. Kali ini kita akan membahas terkait berbagai jenis rumah adat Jawa Tengah yang mungkin belum anda ketahui. Jadi akan membantu menambah pengetahuan anda tentang rumah adat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="1. Rumah Adat Joglo\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Joglo dianggap sebagai salah satu rumah yang paling familiar dibanding tipe-tipe rumah adat lainnya. Saat ini di Jawa Tengah juga masih dapat anda temui berbagai rumah adat Joglo yang masih dirawat dengan baik.\n\n
+Memang rumah Joglo terkenal dengan lambang kekayaan pemilik. Tak heran jika pemilik rumah Joglo bukan sembarang orang. Teras yang luas serta tak bersekat menjadi ciri khas rumah ini. Selain itu ditengah ruangan rumah Joglo juga disokong oleh empat tiang.\n\n
+Tiang-tiang inilah yang biasanya disebut sebagai Soko Guru. Tak hanya menjadi tempat tinggal, namun rumah Joglo juga dianggap sebagai lambang kekayaan. Karena memang rumah Joglo hanya mampu dimiliki oleh orang-orang yang berlebihan finansial.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="2. Rumah Adat Panggang Pe\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj12_panggangpe_jateng"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Ternyata rumah adat jawa Tengah yang populer tidak hanya rumah adat Joglo. Namun, di sini anda dapat menemukan rumah adat lain, rumah adat Panggang Pe. Rumah yang satu ini cukup terkenal di Jawa Tengah.\n\n
+Untuk model rumah adat sendiri adalah rumah yang memiliki empat hingga enam tiang. Pada bagian tiang yang sebelah depan biasanya sengaja dibuat menjadi lebih pendek dibanding tiang belakang. Sehingga dapat disebut jika rumah adat ini cukup unik.\n\n
+Umumnya rumah adat ini dimanfaatkan untuk mendirikan kios maupun warung. Saat ini ada berbagai aliran dari rumah adat Panggang Pe. Namun ada beberapa aliran yang memiliki kesamaan.\n\n
+Contoh rumah adat yang memiliki kesamaan adalah Cere Gancet, Empyak Satangkep, Gedhang Salirang, serta Gedhang Setangkep. Keempat rumah adat ini sama-sama terdiri dari dua rumah Panggang Pe yang sengaja disatukan. Wah, unik ya.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="3. Rumah Adat Tajug\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj13_tajug_jateng"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Masing-masing rumah adat Jawa Tengah memiliki filosofinya sendiri-sendiri. Bahkan dapat dikatakan jika masing-masing memiliki fungsi yang hampir selalu berbeda. Seperti rumah adat Tajug yang satu ini.\n\n
+Rumah adat tajug merupakan rumah adat yang biasa digunakan untuk bangunan suci seperti masjid serta bangunan-bangunan lain. Jika penggunaannya untuk tujuan tempat tinggal tentu tidak diperbolehkan.\n\n
+Hal ini karena rumah adat Tajug dianggap sebagai tipe rumah yang disucikan. Jadi tidak sembarang bangunan dapat menggunakan rumah adat jenis ini. Hanya bangunan-bangunan tertentu yang dinilai pas dengan filosofinya.\n\n
+Biasanya rumah adat ini memiliki atap yang berbentuk runcing. Bentuknya dapat dikatakan seperti bujur sangkar. Untuk tipe sendiri tidak hanya ada satu tipe rumah adat Tajug. Sebaliknya total tipe rumah adat ini mencapai hingga 13 tipe.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="4. Rumah Adat Kampung\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj14_rumahkampung_jateng"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Memang dapat dikatakan jika rumah adat Jawa Tengah umumnya menunjukkan strata sosial pemiliknya. Hal ini seperti pada rumah adat Kampung. Memang rumah adat yang satu ini hampir mirip rumah Panggang Pe.\n\n
+Tapi, jangan salah rumah adat ini memiliki cirinya sendiri. Biasanya ciri yang dapat anda lihat adalah pada bagian tiang. Ini karena tiang yang digunakan biasanya adalah kelipatan empat. Lalu dimulai dari angka delapan.\n\n
+Masalah tiang itulah yang menjadi ciri khas dari rumah adat ini. Tentu berbeda dengan rumah adat Joglo yang memiliki tiang berjumlah empat. Jadi ada pembeda yang jelas antara rumah adat Joglo dan Kampung dari segi tiang penyangga.\n\n
+Untuk rumah adat ini ada sekitar kurang lebih 13 tipe. Beberapa tipe yang ada seperti Pacul Gowang, Gajah Ngombe, Kampung Pokok dan lain-lain. Rumah adat ini sendiri biasa dimiliki oleh kalangan orang biasa.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="5. Rumah Adat Limasan\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj15_limasan_jateng"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Terakhir anda akan menemui rumah adat Limasan. Kenapa disebut rumah adat Limasan adalah karena atapnya yang berbentuk Limas. Atap dari rumah adat ini memiliki empat sisi. Rumah ini cukup sering ditemukan di Jawa.\n\n
+Seperti rumah-rumah adat yang lain rumah adat ini juga memiliki banyak tipe. Mulai dari Gajah Mungkur, Klabang Nyander, Lambang Sari dan masih banyak lagi. Setiap tipe memiliki bentuk yang agak berbeda sesuai dengan tipe rumah adatnya.\n\n
+Sama seperti rumah adat Kampung, rumah adat yang satu ini juga dimiliki oleh rakyat biasa. Cara mengenali rumah adat ini juga bukan dari jumlah penyangga seperti pada rumah adat Kampung. Namun dari bentuk atap rumah yang berbentuk limas.\n\n
+Indonesia memang kaya akan kebudayaannya. Hal ini terlihat dari rumah adat Jawa Tengah saja yang ternyata cukup banyak. Belum lagi tipe-tipe rumah adat yang ada di dalam setiap jenis rumah adat. Tentu ini menambah banyak daftar kekayaan budaya kita.\n\n
+Kekayaaan-kekayaan budaya inilah yang patut untuk kita jaga. Sehingga nantinya tidak lekang tergerus jaman. Apalagi saat ini arus kemajuan jaman menggerus berbagai macam budaya lokal yang ada.\n\n
+Jika hal ini terus terjadi selama terus menerus maka justru akan menghilangkan budaya lokal yang ada. Untuk itu sebaiknya kita mulai menjaga kebudayaan mulai sekarang. Salah satunya adalah dengan mempelajari budaya-budaya yang ada.\n\n
+"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

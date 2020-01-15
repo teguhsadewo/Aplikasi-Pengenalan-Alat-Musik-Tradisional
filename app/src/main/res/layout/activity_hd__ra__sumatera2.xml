@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Bolon"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps2_rumahbolon_sumut"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Sumatera Utara – Indonesia mempunyai kekayaan budaya yang sangat beraneka ragam. Kekayaan budayanya berupa rumah adat, pakaian, tarian, senjata, suku, lagu daerah maupun bahasa daerah. Salah satu provinsi yang memiliki budaya yang beraneka ragam adalah sumatra utara.\n\n
+Salah satu budaya yang masih dijaga sampai saat ini adalah rumah adat sumatera Utara yang masih mudah ditemui. Provinsi yang beribu kota di medan ini mayoritas dihuni oleh suku batak. Merupakan suku terbanyak dan merupakan suku asli di sana.\n\n
+Suku batak merupakan suku terbesar kedua setelah suku jawa. Batak juga di kelompokan menjadi sub suku. Diantaranya suku toba, karo, simalungun, angkola, pak pak dan mandailing. Masing masing sub suku mempunyai kebudayaan yang berbeda beda.\n\n
+Dapat dilihat dari rumah adat masing masing sub suku. Meskipun yang sudah diakui nasional baru rumah adat bolon. Untuk mengetahui lebih dalam tentang rumah adat. Berikut adalah macam rumah adat sumatra utara beserta filosofi dan fungsinya.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Rumah Adat Sumatera Utara\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Suku batak memiliki beberapa rumah adat. Rumah adat sumatra utara diantaranya rumah adat karo, mandailing, nias, bolon, melayu dan pakpak. Masing masing mempunyai kebudayaan yang berbeda dan keunikan masing masing. Berikut ulasannya:\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1. Rumah Adat Karo\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ps3_rumahkaro_sumut"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Merupakan salah satu rumah adat sumatera utara yang juga sering disebut juga dengan rumah adat siwaluh jabu. Makan dari nama siwaluh jabu tersebut merupakan rumah yang dihuni oleh delapan keluarga. Dan setiap keluarga mempunyai peran masing masing di dalam rumah tersebut.\n\n
+Penempatan keluarga dalam rumah karo ditentukan oleh adat. Terdiri jari jabu jahe atau jabu hilir dan jabu julu atau jabu hulu. Sedangkan jabu jahe masih di bagi lagi menjadi dua yaitu jabu ujung kayu dan jabu rumah sendipar ujung kayu.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1. Rumah Adat Nias\n"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ps4_rumahnias_sumut"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat sumatera utara yang kedua adalah rumah adat nias. Sering disebut omo hada rumah adat ini berbentuk rumah panggung tradisional orang  nias. Ada juga rumah nias dengan desain yang berbeda. Rumah tersebut merupakan kediaman kepala negeri (tuhenori), kepala desa (salawa) atau kaum bangsawan dan sering disebut dengan nama omo sebuah.\n\n
+Rumah adat nias dibangun diatas tiang tiang kayu nibung yang tinggi dan juga besar serta beralaskan oleh alas rumbia. Denahnya ada yang bentuk bulet telu merupakan didaerah nias timur, barat, dan utara. Sedangkan di daerah nias tengah dan selatan bentuk denahnya persegi panjang.\n\
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="3. Rumah Adat Mandailing\n"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ps5_adatmandailing_sumut"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Suku mandailing merupakan suku yang berada di provinsi sumatra utara yang berbatasan dengan provinsi riau. Memiliki destinasi wisata yang sangat memakau dan budaya kearifan lokal yang masih dipegang erat oleh warga setempat. Di kabupaten mandailing natal, rumah adat mandailing dapat ditemui.\n\n
+Kabupaten mandailing natal merupakan bagian dari padang lawas dan tapanuli selatan. Rumah adat mandailing juga sering disebut dengan bagas godang. Bagas yang bermakna rumah dan godang yang bermakna banyak dalam bahasa mandailing.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="4. Rumah Adat Bolon\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sering disebut rumah balai batak toba dan telah diakui oleh nasional sebagai perwakilan rumah adat sumatera utara. Rumah adat ini masuk kategori panggung dan berbentuk persegi panjang. Dan hampir keseluruhannya terbuat dari bahan bahan alam.\n\n
+Penghuni dari rumah adat ini biasanya 4-6 keluarga yang hidup bersama sama. Rumah panggung dibuat agar rumah mempunyai kolong. Yang biasanya digunakan untuk kandang hewan peliharaan masyarakat batak, seperti ayam, babi dan kambing.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nilai Filosofi\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Dijadikan sebagai rumah adat sumatera utara. Rumah adat Bolon memiliki keunikan tersendiri dari segi  desain arsitekturnya. Sehingga dapat menjadi pembeda dari rumah adat dengan provinsi yang lain. Berikut adalah ciri khas rumah adat bolon diantaranya:\n\n
+•	Dindingnya pendek namun cukup untuk berdiri karena tidak memakai plafon.\n
+•	Atapnya seperti pelana kuda dengan sudut yang sangat sempit sehingga terlihat cukup tinggi.\n
+•	Pada bagian atas dihiasi anyaman untuk memperindah penampilan rumah.\n
+•	Pada bagian atas pintu dihiasi lukisan hewan atau groga. Seperti lukisan kerbau atau cicak dengan dominan warna merah, putih dan hitam. Simbol cicak mempunyai makna bahwa masyarakat batak mempunyai rasa persaudaraan yang kuat pada sesamannya. Sedangkan simbol kerbau merupakan tanda terimakasih.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Fungsi Rumah Adat Sumatera Utara\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada masa silam rumah  adat Bolon merupakan rumah kediaman 13 raja raja batak. Namun seiring berkembangnya zaman menjadi rumah rumah bagi penduduk suku  batak secara umum. Untuk menunjang beberapa fungsi rumah adat sumatera utara terbagi atas beberapa ruang.\n\n
+•	Ruang Jabu Bong\n
+Fungsi ruang ini merupakan ruang khusus untuk kepala keluarga yang terletak di belakang sudut sebelah kanan.\n\n
+•	Ruang Jabu Soding \n
+merupakan ruang khusus yang diperuntukkan untuk anak perempuan yang letaknya di sudut sebelah kiri dan berhadapan dengan jabu bong.\n\n
+•	Ruang Jabu Suhat\n
+Fungsi ruangan ini biasa buat anak lelaki yang sudah menikah letaknya di depan sudut sebelah kiri.\n\n
+•	Ruang Tampar Piring \n
+Merupakan ruangan untuk menyambut tamu yang letaknya berada disebelah jabu suhat.\n\n
+•	Ruang Jabu Tonga Rona Ni Jabu Rona \n
+Merupakan ruang keluarga yang letaknya berada ditengah dan paling besar dari ruang yang lain.\n\n
+•	Kolong\n
+Sebagai tempat menyimpan bahan makanan dan sekaligus sebagai kandang ternak.\n\n
+Pembagian tersebut bukan berarti dipisahkan oleh dinding pemisah. Secara umum merupakan ruangan yang luas dan tanpa ada sekat. Namun aturan tersebut dipisahkan oleh aturan adat yang membatasi dan mengikat terutama anggota keluarga dan tamu yang datang.\n
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul20">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Rebana (Melayu)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu20rebanamelayu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rebana (bahasa Jawa: terbang) adalah gendang berbentuk bundar dan pipih yang merupakan khas suku melayu. Bingkai berbentuk lingkaran terbuat dari kayu yang dibubut, dengan salah satu sisi untuk ditepuk berlapis kulit kambing. Kesenian di Malaysia, Brunei, Indonesia dan Singapura sering memakai rebana bersama gambus digunakan untuk mengiringi tarian zapin. Rebana juga digunakan untuk melantunkan kasidah dan hadroh. Di bumiayu, rebana juga dijadikan sebagai lambang kota tersebut.\n\n
+    Bagi masyarakat Melayu di negeri Pahang, permainan rebana sangat populer, terutamanya di kalangan penduduk di sekitar Sungai Pahang. Tepukan rebana mengiringi lagu-lagu tradisional seperti indong-indong, burung kenek-kenek, dan pelanduk-pelanduk. Di Malaysia, selain rebana berukuran biasa, terdapat juga rebana besar yang diberi nama Rebana Ubi, dimainkannya pada hari-hari raya untuk mempertandingkan bunyi dan irama.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

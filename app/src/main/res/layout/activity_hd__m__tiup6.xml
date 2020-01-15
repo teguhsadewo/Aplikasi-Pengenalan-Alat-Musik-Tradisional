@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Fu (Maluku Utara))"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at6fumalukuutara"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Fu merupakan alat musik yang terbuat dari kulit kerang dan cara memainkannya dengan ditiup pada bagian yang berlubang atau terbuka. Selain digunakan untuk memanggil penduduk, alat musik ini juga biasa digunakan untuk mengiringi tari-tarian khususnya masyarakat Suku Asmat, Kabupaten Merauke. Biasanya fu dimainkan dan menjadi paduan harmonisasi yang memberikan warna tersendiri pada ciri khas musik Papua. Saat ini keberadaan Fu perlahan terkikis bahkan hampir hilang kegunaannya. Fu lebih banyak disimpan menjadi pajangan di museum. Ada beberapa desa yang melestarikan Fu, seperti desa Sirisori, Amalatu dan desa hutumuri yang masih melestarikan musik ini sehingga fungsinya tetap terlaksana dengan baik.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

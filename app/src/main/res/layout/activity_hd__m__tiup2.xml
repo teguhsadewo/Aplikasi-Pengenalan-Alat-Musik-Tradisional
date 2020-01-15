@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Saluang (Padang)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at2saluangpadang"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Saluang adalah alat musik tradisional khas Minangkabau, Sumatra Barat. Yang mana alat musik tiup ini terbuat dari bambu tipis atau talang (Schizostachyum brachycladum Kurz). Orang Minangkabau percaya bahwa bahan yang paling bagus untuk dibuat saluang berasal dari talang untuk jemuran kain atau talang yang ditemukan hanyut di sungai. Alat ini termasuk dari golongan alat musik suling, tetapi lebih sederhana pembuatannya, cukup dengan melubangi talang dengan empat lubang. Panjang saluang kira-kira 40-60 cm, dengan diameter 3-4 cm. Adapun kegunaan lain dari talang adalah wadah untuk membuat lamang (lemang), salah satu makanan tradisional Minangkabau. Dalam mebuat saluang ini kita harus menentukan bagian atas dan bawahnya terlebih dahulu untuk menentukan pembuatan lubang, kalau saluang terbuat dari bambu, bagian atas saluang merupakan bagian bawah ruas bambu. Pada bagian atas saluang diserut untuk dibuat meruncing sekitar 45 derajat sesuai ketebalan bambu. Untuk membuat 4 lubang pada alat musik tradisional saluang ini mulai dari ukuran 2/3 dari panjang bambu, yang diukur dari bagian atas, dan untuk lubang kedua dan seterusnya berjarak setengah lingkaran bambu. Untuk besar lubang agar menghasilkan suara yang bagus, haruslah bulat dengan garis tengah 0,5 cm. Pemain saluang legendaris bernama Idris Sutan Sati dengan penyanyinya Syamsimar.\n\n
+        Keutamaan para pemain saluang ini adalah dapat memainkan saluang dengan meniup dan menarik napas bersamaan, sehingga peniup saluang dapat memainkan alat musik itu dari awal dari akhir lagu tanpa putus. Cara pernapasan ini dikembangkan dengan latihan yang terus menerus. Teknik ini dinamakan juga sebagai teknik manyisiahan angok (menyisihkan napas).\n\n
+        Tiap nagari di Minangkabau mengembangkan cara meniup saluang, sehingga masing-masing nagari memiliki ciri khas tersendiri. Contoh dari ciri khas itu adalah Singgalang, Pariaman, Solok Salayo, Koto Tuo, Suayan dan Pauah. Ciri khas Singgalang dianggap cukup sulit dimainkan oleh pemula, dan biasanya nada Singgalang ini dimainkan pada awal lagu. Sedangkan, ciri khas yang paling sedih bunyinya adalah Ratok Solok dari daerah Solok.\n\n
+        Dahulu, kabarnya pemain saluang ini memiliki mantera tersendiri yang berguna untuk menghipnotis penontonnya. Mantera itu dinamakan Pitunang Nabi Daud. Isi dari mantera itu kira-kira: Aku malapehan pituang Nabi Daud, buruang tabang tatagun-tagun, aia mailia tahanti-hanti, takajuik bidodari di dalam sarugo mandanga bunyi saluang ambo, kununlah anak sidang manusia...... dan seterusnya .\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

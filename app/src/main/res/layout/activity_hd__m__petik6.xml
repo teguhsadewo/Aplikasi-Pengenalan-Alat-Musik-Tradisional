@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Petik6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Panting (Kalimantan Selatan)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ape7pantingkalimantanselatan"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Musik Panting adalah musik tradisional dari suku Banjar di Kalimantan Selatan. Disebut musik Panting karena didominasi oleh alat musik yang dinamakan Panting, sejenis gambus yang memakai senar (panting) maka disebut musik Panting.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Sejarah \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada awalnya musik Panting berasal dari daerah Tapin, Kalimantan Selatan. Panting merupakan alat musik yang dipetik yang berbentuk seperti gambus Arab tetapi ukurannya lebih kecil. Pada waktu dulu musik panting hanya dimainkan secara perorangan atau secara solo. Karena semakin majunya perkembangan zaman dan musik Panting akan lebih menarik jika dimainkan dengan beberapa alat musik lainnya, maka musik panting sekarang ini dimainkan dengan alat-alat musik seperti babun, gong,dan biola dan pemainnya juga terdiri dari beberapa orang. Nama musik panting berasal dari nama alat musik itu sendiri, karena pada musik Panting yang terkenal alat musiknya dan yang sangat berperan adalah Panting, sehingga musik tersebut dinamai musik panting. Orang yang pertama kali memberi nama sebagai musik Panting adalah A. Sarbaini. Dan sampai sekarang ini musik Panting terkenal sebagai musik tradisional yang berasal dari Kalimantan Selatan.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tokoh-Tokoh\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada umumnya orang yang memainkan musik Panting adalah masyarakat Banjar. Tokoh yang paling terkenal sebagai pemain Panting adalah A. Sarbaini. Dan ada juga grup-grup musik Panting yang lain. Tetapi sekarang ini seiring dengan adanya perkembangan zaman grup musik Panting menjadi semakin sedikit bahkan jarang ditemui.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Alat-Alat Musik\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Alat-alat musik Panting terdiri dari :\n\n
+    •	Panting, alat musik yang berbentuk seperti gabus Arab tetapi lebih kecil dan memiliki senar. Panting dimainkan dengan cara dipetik.\n
+    •	Babun, alat musik yang terbuat dari kayu berbentuk bulat, ditengahnya terdapat lubang, dan di sisi kanan dankirinya dilapisi dengan kulit yang berasal dari kulit kambing. Babun dimainkan dengan cara dipukul.\n
+    •	Gong, biasanya terbuat dari aluminium berbentuk bulat dan ditengahnya terdapat benjolan berbentuk bulat. Gong dimainkan dengan cara dipukul.\n
+    •	Biola, sejenis alat gesek.\n
+    •	Suling bambu, dimainkan dengan cara ditiup.\n
+    •	Ketipak, bentuknya mirip tarbang tetapi ukurannya lebih kecil, dan kedua sisinya dilapisi dengan kulit.\n
+    •	Tamburin, alat musik pukul yang terbuat dari logam tipis dan biasanya masyarakat Banjar menyebut tamburin dengan nama guguncai.\n
+            "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Cara Penyajian \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Menurut cara penyajiannya Panting termasuk jenis musik ansambel campuran. Karena terdiri dari berbagai jenis alat musik. Dalam pertunjukan musik Panting, biasanya jumlah pantingnya sebanyak 3 buah dan ditambah alat-alat musik lainnya. Musik panting disebut juga dengan nama japin apabila penyajiannnya diiringi dengan tarian. Musik panting disajikan dengan lagu-lagu yang biasanya bersyair pantun. Pantun tersebut berisi nasihat ataupun pantun petuah, dan pantun jenaka. Lagu yang dinyanyikan monotor, yang artinya musik tersebut dinyanyikan tanpa ada reff. Pemain musik Panting memainkan musik tersebut dengan cara duduk, para pemain laki-laki duduk dengan bersila, sedangkan pemain perempuan duduk dengan bertelimpuh. Para pemain musik Panting pada umumnya mengenakan pakaian Banjar. Yang laki-laki mengenakan peci sebagai tutup kepala sedangkan pemain perempuan menggunakan kerudung.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Fungsi \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Musik Panting mempunyai fungsi sebagai :\n\n
+    •	Sebagai hiburan, karena musiknya dan syair-syairnya yang kadang-kadang jenaka dan dapat menghibur orang banyak. Oleh karena itu, musik panting sering digunakan pada acara perkawinan.\n
+    •	Sebagai sarana pendidikan, karena di dalam musik Panting syainya berisi tentang nasihat-nasihat dan petuah.\n
+    •	Sebagai musik yang memiliki nilai-nilai agama, karena musik-musiknya mengandung unsur-unsur agama.\n
+    •	Untuk mempererat tali silaturahmi antar sesama warga masyarakat.\n
+    •	Sebagai kesenian musik tradisional yang berasal dari Kalimantan Selatan.\n
+            "/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

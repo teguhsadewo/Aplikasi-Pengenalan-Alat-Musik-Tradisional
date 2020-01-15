@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Triton (Papua)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at8tritonpapua"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      alat musik Papua yang kedua ada Triton. Triton adalah alat musik yang terbuat dari cangkang kerang. Nama dari alat musik tersebut berasal dari nama sebuah pulau yang katanya memiliki keindahan alam yang jauh lebih indah daripada Raja Ampat.\n\n
+        Alat musik yang dimainkan dengan cara ditiup tersebut ternyata tidak dibuat seperti pada beberapa alat musik lainnya. Akan tetapi, Anda bisa menemukan Triton dengan mudah di beberapa pesisir pantai seperti Kepulauan Raja Ampat, Wondama, Nabire, Waropen, Yapen dan Biak.\n\n
+        Alat musik tersebut merupakan alat musik tradisional yang berasal dari Papua Barat. Dulunya, Triton digunakan untuk sarana komunikasi dan memanggil bantuan. Namun, saat ini Triton digunakan hanya untuk hiburan saja.\n"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

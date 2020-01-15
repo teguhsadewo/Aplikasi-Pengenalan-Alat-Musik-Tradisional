@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Petik3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Sasando (Nusa Tenggara Timur)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ape4sasandontt"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sasando adalah sebuah alat musik dawai yang dimainkan dengan dipetik. Instumen musik ini berasal dari pulau Rote, Nusa Tenggara Timur. Secara harfiah nama Sasando menurut asal katanya dalam bahasa Rote, sasandu, yang berasal dari kata Sandu atau Sanu yang artinya bergetar atau meronta. Suara sasando memiliki kemiripan dengan alat musik dawai lainnya seperti gitar, biola, kecapi, dan harpa. Sasando menurut Organologi tergolong dalam Sitar tabung Bambu.\n\n
+        Bagian utama sasando berbentuk tabung panjang yang biasa terbuat dari bambu. Lalu pada bagian tengah, melingkar dari atas ke bawah diberi ganjalan-ganjalan di mana senar-senar (dawai-dawai) yang direntangkan di tabung, dari atas kebawah bertumpu. Ganjalan-ganjalan ini memberikan nada yang berbeda-beda kepada setiap petikan senar. Lalu tabung sasando ini ditaruh dalam sebuah wadah yang terbuat dari semacam anyaman daun lontar yang dibuat seperti kipas. Wadah ini merupakan tempat resonansi sasando. Perkembangan Sasando berjalan seiring perubahan waktu. Modifikasi dan peningkatan kualitas bunyi mulai dilakukan. Agar mendapat bunyi yang lebih keras dan bisa disesuai dalam wadah pertunjukkan musik apapun maka Sasando akustik beralih perlahan lahan ke Sasando elektrik. Bentuk Sasandopun dimodifikasi dan dibuat lebih modern dan elegan. Ditahun 2018 bahkan mulai diciptakan oleh seorang pemain Sasando profesional Natalino Mella Sasando yang diberi nama Sasando Bariton. Sasando bariton mempunyai bunyi yg berbeda dengan sasando pada umumnya. Sasando ini menggunakan jenis senar yang berbeda dalam ketebalannya dan mempunyai bunyi yang lebih bulat dan lebih terasa bassnya. Dilengkapi dengan 32 senar berwarna dan bridge yang bisa dipindahkan serta bisa dimainkan dengan teknik 10 jari yang membuat sasando ini akan lebih kaya untuk dipelajari.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

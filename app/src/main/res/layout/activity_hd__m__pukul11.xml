@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul11">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gendang (Bangka Belitung)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu11cengcengbali"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Cengceng merupakan sebuah alat music tradisional yang breasala dari Bali. Alat music ini terbuat dari kayu nangka dan tembaga. Cengceng ini dimainkan dengan cara tembaga bagian atasnya dipukulkan ke bagian tembaga budar bagian bawah, sehingga akan menimbulkan bunyi bersuara ‘ceng ceng’\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Fungsi Alat Musik Ceng Ceng \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Di Bali sendiri Alat music Ceng Ceng merupakan atlat music tradisional yang cukup terkenal. Alat music ini merupakan unsur terpenting di dalam seperangkat gamelan Bali. Selain itu alat music Ceng Ceng juga sering diperlukan bersama dengan gong gede, semar pengulingan, barungan gamelan gong kebyar, pelegongan, barongan, dan sebagainya.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Bentuk Alat Musik Ceng Ceng \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Alat Musik Ceng Ceng pada umumnya terbuat dari kayu nangka dan juga tembaga. Alat music ini terdari atas 6 (enam) buah logam border di bagian bawahnya dan 2 (dua ) buah logam bundar di bagian atasnya. Pada bagian atas perunggu CengCeng terdapat seutas tali yang berfungsi untuk memegang Ceng Ceng. Tali ini umumnya berwarna merah dan dibuat dengan sedemikian rupa. Tali ini disebut uga dengan “Bungan Ceng Ceng”. Jika dilihat secara sekilas, alat music Ceng Ceng ini tampak seperti sambal.\n\n
+        Ceng Ceng Bali dibuat menyerupai bentuk kura-kura. Pengukirannya terinspirasi dari tokoh legenda Bali, yaitu kura-kura mistis. Di Provinsi Bali, Terkenal dengan sebuah legenda mengenai kura-kura mistis yang mempunyai nilai magis yakni dapat menyeimbangkan dunia di atas punggungnya. Kura-kura ini merupakan symbol sumbu bumi bersama dengan naga yang menjadi dasar pura yang berkedudukan tinggi.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

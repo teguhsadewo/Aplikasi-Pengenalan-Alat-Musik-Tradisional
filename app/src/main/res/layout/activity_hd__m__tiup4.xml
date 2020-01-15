@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Serunai (Bali)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at4serunaibali"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Serunai, atau juga disebut puput serunai, adalah nama alat musik tiup yang dikenal di Indonesia sebagai alat musik tradisional masyarakat Minang. Bagian unik dari serunai adalah ujungnya yang mengembang, berfungsi untuk memperbesar volume suara.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Latar belakang \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Asal mula serunai atau puput serunai diperkirakan datang dari nama shehnai, alat musik yang berasal dari Lembah Kashmir di dataran India Utara. Alat musik shehnai diduga merupakan perkembangan dari alat musik pungi yang dipakai dalam musik para pemikat ular tradisional India.\n\n
+ Setelah dikenal luas di dataran tinggi Minangkabau (kawasan Sumatra Barat sekarang), serunai menjadi populer sebagai alat musik tiup tradisional Minang. Alat musik ini dikenal merata di Sumatra Barat, terutama di bagian dataran tinggi seperti di daerah Agam, Tanah Datar dan Lima Puluh Kota, dan juga di sepanjang pesisir pantai Sumatra Barat. Alat musik ini sejak lama telah dipopulerkan ke seluruh Indonesia oleh para imigran dari Minang dan juga telah dikenal sebagai alat musik tradisional di Malaysia dan masyarakat Banjar di Kalimantan dengan nama yang sama.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Kegunaan"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Puput serunai biasanya dimainkan dalam acara-acara adat yang ramai, seperti upacara perkawinan, penghulu (batagak pangulu dalam bahasa Minang), dan sebagainya. Alat musik ini juga biasa dimainkan dengan bebas, baik perorangan, pada saat memanen padi atau saat bekerja di ladang. Musik serunai juga populer untuk mengiringi pertunjukan pencak silat Minang. Dalam sebuah penampilan, serunai dapat dimainkan secara solo (sendirian) dan dapat digabung dengan alat musik tradisional lainnya, seperti talempong, gendang, dan sebagainya yang menghasilkan perpaduan bunyi dan irama tradisional khas Minang.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Desain dan pembuatan\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bahan untuk membuat sebuah puput serunai tradisional Minang terdiri dari batang padi, kayu atau bambu, tanduk kerbau atau daun kelapa. Bagian penata bunyi serunai terbuat dari kayu capo ringkik atau dari bambu talang yang ukurannya sebesar ibu jari tangan. Capo ringkik adalah sejenis tanaman perdu yang mempunyai lapisan kayu keras namun mempunyai bagian dalam yang lunak, sehingga mudah untuk dilubangi. Kayu yang panjangnya 20 cm tersebut diberi 4 lubang yang berselisih jarak 2,5 cm, yang berfungsi memberi beda tinggi rendah nada. Nada yang lazim pada alat musik tradisional Minang termasuk puput serunai adalah nada pentatonis ’do-re-mi-fa-sol’.\n\n
+        Puput adalah bagian yang ditiup pada alat musik serunai, biasa terbuat dari kayu, bambu talang, atau batang padi tua. Bagian ini disambungkan oleh bagian penyambung yang berfungsi sebagai pangkal puput tersebut. Panjangnya sekitar 5 cm dan terbuat dari kayu keras. Penyambung ini dilubangi untuk saluran udara tiup, yang bersambungan dengan poros badan dan poros corong. Di bagian belakang, bagian penyambung ini juga berbentuk corong, dengan diameter 2 cm.\n\n
+        Bagian corong adalah bagian ujung serunai yang dibentuk membesar seperti ujung akhir alat musik trompet. Fungsi bagian ini adalah untuk memperkeras atau memperbesar volume suara. Bagian ini biasanya terbuat dari kayu, terutama kayu gabus, dari tanduk kerbau yang secara alamiah telah berbentuk lancip mengembang, ataupun dari daun kelapa yang dililitkan. Panjangnya sekitar 10 sampai 12 cm, dengan garis tengah 6 cm di bagian yang mengembang.\n\n
+        Dalam pembuatan serunai terdapat spesifikasi yang bervarisi di tiap daerah. Bahkan ada jenis serunai yang pengaturan nadanya dilakukan dengan cara menutup dan membuka permukaan bagian corong.\n\n"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

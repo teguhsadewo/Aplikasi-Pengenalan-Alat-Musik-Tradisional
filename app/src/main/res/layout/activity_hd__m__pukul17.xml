@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul17">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Bedug (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu17bedugjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bedug adalah alat musik tabuh seperti gendang. Bedug merupakan instrumen musik tradisional yang telah digunakan sejak ribuan tahun lalu, yang memiliki fungsi sebagai alat komunikasi tradisional, baik dalam kegiatan ritual keagamaan maupun politik. Di Indonesia, sebuah bedug biasa dibunyikan untuk pemberitahuan mengenai waktu salat atau sembahyang. Bedug terbuat dari sepotong batang kayu besar atau pohon enau sepanjang kira-kira satu meter atau lebih. Bagian tengah batang dilubangi sehingga berbentuk tabung besar. Ujung batang yang berukuran lebih besar ditutup dengan kulit binatang yang berfungsi sebagai membran atau selaput gendang. Bila ditabuh, bedug menimbulkan suara berat, bernada khas, rendah, tetapi dapat terdengar sampai jarak yang cukup jauh.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Sejarah \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bedug sebenarnya berasal dari India dan Cina. Berdasarkan legenda Cheng Ho dari Cina, ketika Laksamana Cheng Ho datang ke Semarang, mereka disambut baik oleh Raja Jawa pada masa itu. Kemudian, ketika Cheng Ho hendak pergi, dan hendak memberikan hadiah, raja dari Semarang mengatakan bahwa dirinya hanya ingin mendengarkan suara bedug dari masjid. Sejak itulah, bedug kemudian menjadi bagian dari masjid, seperti di negara Cina, Korea dan Jepang, yang memposisikan bedug di kuil-kuil sebagai alat komunikasi ritual keagamaan. Di Indonesia, sebuah bedug biasa dibunyikan untuk pemberitahuan mengani waktu salat atau sembahyang. Saat Orba berkuasa bedug pernah dikeluarkan dari surau dan masjid karena mengandung unsur-unsur non-Islam. Bedug digantikan oleh pengeras suara. Hal itu dilakukan oleh kaum Islam modernis, namun warga NU melakukan perlawanan sehingga sampai sekarang dapat terlihat masih banyak masjid yang mempertahankan bedug.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Fungsi \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="
+    •	Fungsi sosial: bedug berfungsi sebagai alat komunikasi \n       atau petanda kegiatan masyarakat, mulai dari ibadah, \n       petanda bahaya, hingga petanda berkumpulnya sebuah \n       komunitas.\n
+    •	Fungsi estetika: bedug berfungsi dalam pengembangan \n        dunia kreatif, konsep, dan budaya material musikal.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Cara pembuatan sederhana \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada awalnya, kambing atau sapi dikuliti. Kulit hewan yang biasa dibuat sebagai bahan baku bedug antara lain kulit kambing, sapi, kerbau, dan banteng. Kulit sapi putih memiliki kualitas yang lebih baik dibandingkan dengan kulit sapi coklat. Sebab, kulit sapi putih lebih tebal daripada kulit sapi coklat, sehingga bunyi yang dihasilkannya akan berbeda disamping, keawetannya yang lebih rendah. Kemudian, kulit tersebut direndam ke dalam air detergen sekitar 5-10 menit. Jangan terlalu lama agar tidak rusak. Lalu, kulit dijemur dengan cara dipanteng (digelar) supaya tidak mengerut. Setelah kering, diukur diameter kayu yang sudah dicat dan akan dibuat bedug. Seteleh selesai diukur, kulit tersebut dipasangkan pada kayu bonggol kayu yang sudah disiapkan. Proses penyatuan kulit hewan dengan kayu dilakukan dengan paku dan beberapa tali-temali.\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Permainan (seni ngadulag)\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Seni ngadulag berasal dari daerah Jawa Barat. Pada dasarnya, bedug memiliki fungsi yang sama seperti yang telah dijelaskan sebelumnya. Namun, tabuhan bedug di tiap-tiap daerah memiliki perbedaan dengan daerah lainnya, sehingga menjadikannya khas. Sehingga lahirlah sebuah istilah ‘Ngadulag’ yang menunjuk pada sebuah keterampilan menabuh bedug. Kini keterampilan menabuh bedug telah menjadi bentuk seni yang mandiri yaitu seni Ngadulag (permainan bedug). Di daerah Bojonglopang, Sukabumi, seni ngadulag telah menjadi sebuah kompetisi untuk mendapatkan penabuh bedug terbaik. Kompetisi terbagi menjadi 2 kategori, yaitu keindahan dan ketahanan. Keindahan mengutamakan irama dan ritme tabuhan bedug, sedangkan ketahanan mengutamakan daya tahan menabuh atau seberapa lama kekuatan menabuh bedug. Kompetisi ini diikuti oleh laki-laki dan perempuan. Dari permainan inilah seni menabuh bedug mengalami perkembangan. Dahulu, peralatan seni menabuh bedug hanya terdiri dari bedug, kohkol, dan terompet. Tapi kini peralatannya pun mengalami perkembangan. Selain yang telah disebutkan di atas, menabuh bedug kini juga dilengkapi dengan alat-alat musik seperti gitar, keyboard, dan simbal.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Terbesar di Dunia \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bedug terbesar di dunia berada di dalam Masjid Darul Muttaqien, Purworejo. Bedug ini merupakan karya besar umat Islam yang pembuatannya diperintahkan oleh Adipati Tjokronagoro I, Bupati Purworejo pertama. dibuat pada tahun 1762 Jawa atau 1834 M. Dan diberi nama Kyai Begelan. Ukuran atau spesifikasi bedug ini adalah : Panjang 292 cm, keliling bagian depan 601 cm, keliling bagian belakang 564 cm, diameter bagian depan 194 cm, diameter bagian belakang 180 cm. Bagian yang ditabuh dari bedug ini dibuat dari kulit banteng. Bedug raksasa ini dirancang sebagai ‘sarana komunikasi’ untuk mengundang jamaah hingga terdengar sejauh-jauhnya lewat tabuhan bedug sebagai tanda waktu salat menjelang adzan dikumandangkan.\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

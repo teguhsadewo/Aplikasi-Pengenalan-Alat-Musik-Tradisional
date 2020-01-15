@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="16dp"
+android:paddingTop="16dp"
+android:paddingRight="16dp"
+android:paddingBottom="16dp"
+android:background="@drawable/background"
+tools:context=".HD_M_Pukul27">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/myriadpro"
+    android:text="Alat Musik Tradisonal \n Butsake (Papua)"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="30dp" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="90dp"
+    android:background="@drawable/apu27butsakepapua"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="300dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:text="      Butshake merupakan alat musik tradisional yang terbuat dari bamboo dan buah kenari. Biasanya alat musik ini dimainkan pada pesta tari-tarian adat. Buyshake ini sendiri mempunyai suara khas yakni gemericik saat diayunkan. Suara alat musik ini merupakan hasil tabrakan antar buah kenari yang disusun pada bambu tersebut.\n\n"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

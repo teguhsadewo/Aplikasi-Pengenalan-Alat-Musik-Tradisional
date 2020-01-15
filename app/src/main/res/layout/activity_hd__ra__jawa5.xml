@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Adat Badui"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj17_badui_banten"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Badui adalah rumah adat dari provinsi Banten. Hal ini didasarkan pada rumah adat yang dimiliki oleh suku Badui. Suku Baduy/Badui merupakan kelompok etnis masyarakat adat suku Banten di wilayah Kabupaten Lebak, Banten. Bentuk rumah adat Badui sering di sebut dengan istilah Julang Ngapak.\n\n
+        Secara umum rumah adat Badui memilki gaya bangunan seperti rumah panggung. Bahan yang bisa digunakan untuk bangunan rumah adat Badui adalah bambu. Rumah adat Badui merupakan simbol kesederhanaan dari masyarakatnya. Adapun keutamaan yang ingin didapat dari bangunan rumah ini adalah fungsi perlindungan dan kenyamanan. Selain itu semangat kekeluargaan di suku Badui masih sangat kental, sehingga dalam proses pembangunan rumah adat Badui melibatkan warga sekitar dengan cara gotong royong.\n\n
+            "/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bagian-Bagian Bangunan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Badui pada umumnya memiliki struktur bangunan yang tinggi menyerupai rumah panggung. Hal ini dikarenakan kontur tanah yang biasa dihuni oleh suku Badui yang tidak rata. Untuk menyesuaikan dengan keadaan ini, maka pada bagian yang miring ataupun tidak rata dan bergelombang maka biasanya masyarakat Badui meletakkan batu kali yang ditumpuk. Fungsi utama dari batu ini adalah sebagai penyangga bangunan yang dikhawatirkan tanahnya bergerak ataupun longsor. Rumah adat Badui dibangun dengan mengikuti kontur tanah tempat didirikannya bangunan. Hal inilah mengapa orang Badui seringkali disebut sangat menjaga kelestarian lingkungan.\n\n
+Bagian atap dari rumah adat Badui ini terdiri atas daun yang disebut dengan sulah nyanda. Nyanda memiliki makna bersandar dalam posisi tidak lurus namun agak merebah ke arah belakang. Hal ini terlihat dari posisi sulah nyanda yang dibuat panjang dan memiliki derajat kemiringan yang lebih rendah di bagian kerangka di bawah atap. Bagian bilik rumah dan pintu dibuat dari anyaman bambu. Anyaman ini disusun dan dianyam secara vertikal yang dikenal dengan nama sarigsig. Teknik ini dibuat berdasarkan perkiraan saja dengan tidak diukur terlebih dahulu. Adapun untuk keamanan rumah, maka pemilik rumah biasanya membuat dua buah kayu yang disusun menjadi palang sehingga bisa ditarik dan didorong dari bagian luar rumah.\n\n
+        Sebagian besar dan bahkan seluruh bagian dari rumah adat ini menggunakan material yang seluruhnya berasal dari alam. Tentu saja dengan tetap mempertimbangkan kelestarian alam dengan menggunakan seperlunya saja. Seluruh bangunan rumah tinggal suku Badui menghadap ke utara-selatan dan saling berhadapan. Menghadap ke arah barat dan timur tidak diperkenankan berdasarkan adat yang berlaku di perkampungan suku Badui.\n\n
+Rumah adat Badui dibagi dalam 3 bagian yaitu bagian sosoro (depan), tepas (tengah) dan imah (belakang). Bagian rumah sosoro biasanya dipergunakan tuan rumah untuk menerima kunjungan tamu. Bagian ini letaknya memanjang ke arah bagian lebar rumah. Bagian rumah selanjutnya adalah ruang tepas yang membujur ke arah bagian panjang atau ke belakang digunakan untuk acara makan atau ruangan tidur anak-anak. Tidak ada pembatas antara ruangan sosoro dan tepas sehingga kedua ruangan ini menyatu dalam bentuk huruf L yang siku. Hal ini akan dilaksanakan bersesuaian dengan rencana yang telah dirancang sebelumnya. Bagian inti dari rumah adat Badui adalah pada bagian imah. Ruangan ini memiliki fungsi yang khusus dan penting. Biasanya orang Badui menggunakannya sebagai dapur dan juga kamar tidur bagi pemilik rumah dan istri.\n\n
+Beberapa ciri utama dari rumah adat Badui adalah sebagai berikut:\n\n
+    •	Bangunan dari rumah adat Badui ini tidak boleh menyentuh tanah.\n
+    •	Setiap bagian dari tiang ruang selalu disangga dengan sebuah batu.\n
+    •	Dindingnya terbuat dari anyaman bambu.\n
+    •	Atap rumah adat Badui terdiri atas atap kiri dan atap kanan. Bagian kiri dari atap ini biasanya memiliki ukuran yang sedikit lebih panjang.\n
+    •	Bahan ijuk ataupun daun kelapa banyak digunakan sebagai bahan atap rumah adat Badui.\n
+    •	Tidak memiliki jendela.\n
+    •	Lantai rumahnya terbuat dari bambu\n
+
+
+"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

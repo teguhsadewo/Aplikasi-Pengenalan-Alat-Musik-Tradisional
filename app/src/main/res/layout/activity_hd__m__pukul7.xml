@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gamelan (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu7gamelanjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Gamelan (bahasa Jawa: ꦒgaꦩꦼmêꦭꦤ꧀lan, translit. gamêlan, har. 'tabuhan') adalah music ansambel tradisional Jawa, Sunda, dan Bali di Indonesia yang memiliki tangga nada pentatonis dalam sistem tangga nada (laras) slendro dan pelog. Terdiri dari instrumen musik perkusi yang digunakan pada seni musik karawitan. Instrumen yang paling umum digunakan adalah metalofon antara lain gangsa, gender, bonang, gong, saron, slenthem dimainkan oleh wiyaga menggunakan palu (pemukul) dan membranofon berupa kendhang yang dimainkan dengan tangan. Juga idiofon berupa kemanak dan metalofon lain adalah beberapa di antara instrumen gamelan yang umum digunakan. Instrumen lain termasuk xilofon berupa gambang, aerofon berupa seruling, kordofon berupa rebab, dan kelompok vokal disebut sindhen.\n\n
+        Seperangkat gamelan dikelompokkan menjadi dua, yakni gangsa pakurmatan dan gangsa ageng. Gangsa pakurmatan dimainkan untuk mengiringi hajad dalem (upacara adat karaton), jumenengan (upacara penobatan raja atau ratu), tingalan dalem (peringatan kenaikan takhta raja atau ratu), garebeg (upacara peristiwa penting), sekaten (upacara peringatan hari lahir Nabi Muhammad). Gangsa ageng dimainkan sebagai pengiring pergelaran seni budaya umumnya dipakai untuk mengiringi beksan (seni tari), wayang (seni pertunjukan), uyon-uyon (upacara adat/hajatan), dan lain-lain.[3] Saat ini, gamelan banyak digunakan di pulau Jawa, Madura, Bali, dan Lombok.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Terminologi \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Kata gamelan berasal dari bahasa jawa gamêl yang berarti 'memukul' atau 'menabuh', dapat merujuk pada jenis palu yang digunakan untuk memukul instrumen, diikuti akhiran an yang menjadikannya kata benda. Istilah karawitan mengacu pada musik gamelan klasik dan praktik pertunjukan, dan berasal dari kata rawit, yang berarti 'rumit' atau 'dikerjakan dengan baik'. Kata ini berasal dari kata bahasa Jawa yang berakar dari bahasa Sanskerta, 'rawit', yang mengacu pada rasa kehalusan dan keanggunan yang diidealkan dalam musik Jawa. Kata lain dari akar kata ini, pangrawit, berarti seseorang dengan pengertian demikian, dan digunakan sebagai penghargaan ketika mendiskusikan musisi gamelan yang terhormat. Bahasa Jawa halus (krama) untuk 'gamelan' adalah gangsa, dibentuk dari kata tiga dan sedasa (tiga dan sepuluh) merujuk pada elemen pembuat gamelan berupa perpaduan tiga bagian tembaga dan sepuluh bagian timah. Perpaduan tersebut menghasilkan perunggu, yang dianggap sebagai bahan baku terbaik untuk membuat gamelan.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Sejarah \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Keberadaan gamelan mendahului proses transisi budaya Hindu-Buddha yang mendominasi Nusantara, dalam catatan-catatan awalnya dan dengan demikian mewakili bentuk kesenian asli Nusantara. Dalam mitologi Jawa, gamelan diciptakan oleh Batara Guru pada 167 Saka (atau 230 M), dewa yang memerintah sebagai raja seluruh Jawa dari sebuah istana di Wukir Mahendra Giri di Medang Kamulan(sekarang Gunung Lawu). Batara Gurumenciptakan gong sebagai sinyal untuk memanggil para dewa. Untuk pesan yang lebih kompleks, kemudian ia menciptakan dua gong lainnya, sehingga membentuk set gamelan utuh. \n\n
+        Gambar paling awal dari himpunan alat musik (musik ansambel) gamelan ditemukan di relief dinding candi Borobudur dibangun abad ke-8 oleh Gunadharma pada masa wangsa Sailendra di Kabupaten Magelang, Jawa Tengah. Relief tersebut menampilkan sejumlah alat musik termasuk suling, lonceng, kendhang dalam berbagai ukuran, kecapi, alat musik dawaiyang digesek dan dipetik, ditemukan dalam relief tersebut. Bagaimanapun, relief tentang himpunan alat musik tersebut dikatakan sebagai asal mula gamelan. \n\n
+        Instrumen gamelan diperkenalkan menjadi bentuk seperangkat piranti musik lengkap dan berkembang di zaman Kerajaan Majapahit, dan menyebar keberbagai daerah seperti Bali, Sunda, dan Lombok. Menurut prasasti dan manuskrip yang bertanggal dari periode Majapahit, kerajaan bahkan memiliki balai seni yang bertugas mengawasi seni pertunjukan, termasuk gamelan. Balai seni mengawasi konstruksi alat musik, serta menjadwalkan pentas pertunjukan.
+Pada proses penetrasi Islam, Sunan Bonang menggubah gamelan yang waktu itu sangat kental dengan estetika Hindu, juga memberi nuansa baru. Gubahannya waktu itu memberi nuansa transendental atau wirid yang mendorong kecintaan pada kehidupan, dan menambahkan instrumen bonang pada satu set gamelan.\n\n
+        Dalam lingkup kraton di Jawa gamelan tertua yang diketahui adalah Gamelan Munggang dan Gamelan Kodok Ngorek, berasal dari abad ke-12. Ini membentuk dasar tempo cepat atau 'gaya keras' pada gamelan. Sebaliknya, tempo pelan atau 'gaya lembut' berkembang dari tradisi kemanak juga berkaitan dengan tradisi melantunkan geguritan (puisi Jawa), dengan cara yang sering diyakini mirip dengan paduan suara yang menyertai tarian modern bedaya. Pada abad ke-17, gaya keras dan lembut bercampur, dan sebagian besar menjadi variasi pada gaya gamelan modern Bali, Jawa, dan Sunda, dihasilkan dari berbagai cara pencampuran unsur-unsur tersebut. Dengan demikian, terlepas dari keragaman gaya yang tampak, banyak konsep, instrumen, dan teknik teoretis yang sama dibagikan di antara gaya-gaya tersebut. \n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ragam \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Jenis-jenis gamelan dibedakan berdasarkan koleksi instrumen dan penggunaan suara, penyetelan tangga nada (laras), repertoar, gaya, dan konteks budaya. Secara umum, tidak ada dua ansambel gamelan yang sama, dan yang muncul di kraton sering dianggap memiliki gaya dan penyetelan sendiri. Gaya tertentu juga dapat dibagikan oleh ansambel terdekat, yang mengarah ke gaya daerah.\n\n
+        Jenis gamelan umumnya dikelompokkan berdasarkan geografis, dengan pembagian utama antara gaya yang disukai oleh orang Bali, Jawa, dan Sunda. Orang Madura juga memiliki gaya gamelan sendiri, meskipun tidak lagi digunakan. Gamelan Sunda mempunyai dinamika degung, yang menggunakan subset instrumen gamelan dengan laras pelog tertentu. Gamelan Bali sering dikaitkan dengan keahlian dan perubahan tempo yang cepat dan dinamika gong kebyar. Gamelan Jawa, sebagian besar didominasi oleh kraton-kraton di Jawa, sesuai dengan gayanya masing-masing, dikenal dengan kualitas meditasi yang lebih pelan atau bertempo lambat dan bersifat transendental atau mersudi yang meiliki makna berusaha mencapai sesuatu dengan kesabaran. \n\n
+        Gamelan telah menyebar melalui migrasi dan minat budaya, terkadang muncul gaya baru. Gamelan Melayu berasal dari tradisi Jawa melaluiLingga, Kepulauan Riau yang diperkenalkan oleh Sultan Sulaiman II Badrul Alam Shah di Kesultanan Lingga juga dibawa ke Terengganu, kemudian diperkenalkan ke Pahang oleh Sultan Ahmad Muadzam Shah, yang kemudian membentuk identitasnya sendiri yang berbeda. Gamelan Suriname berasal dari para imigran Jawa ke Suriname pada masa Hindia Belanda, yang memainkan gamelan dengan gaya seperti yang ditemukan di desa-desa di Jawa Tengah. \n\n"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Doll (Bengkulu)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu2dollbengkulu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Alat music doll merupakan bedug tradisional yang berasal dari Provinsi Bengkulu, Indonesia. Doll termasuk alat music kategori membranofon. Alat music doll biasanya dimainkan oleh pria dan dibuat dengan menggunakan bonggol dari pohon kelapa. Dalam pembuatannya bonggol ponoh kelapa tersebut dilubangi tengahnya dan ditutupi dengan kulit lembu atau kulit kambing sebagai selaput penghasil bunyi. Doll memiliki ukuran diameter 70-125 cm. Doll selalu dimainkan dalam perayaan tabot di Bengkulu. Doll juga sering digunakan sebagai music pengiring dalam tarian-tarian tradisional di Bengkulu.\n\n
+        Alat music doll memiliki tiga macam teknik penabuhan, yaitu teknik suwena teknik tamatam, dan teknik suwari. Ketiga jenis teknik dimainkan berdasarkan situasi dan kondisi dimana doll dimainkan. Teknik suwena umumnya dimainkan dengan tempo yang perlahan. Teknik suwena biasanya dimainkan pada suasana dukacita. Teknik tamatam dimainkan dimainkan dengan suasana gembira. Pada tekni tamatam doll akan dipukul dengan tempo cepat dan meriah. Teknik penabuhan terakhir adalah teknik suwari, teknik suwari dimainkan dengan tabuhan satu-satu dan dimainkan saat mengiringi parade. Dalam pementasan alat music doll biasanya akan dimainkan bersama alat music lainnya seperti tassa. Tassa adalah rebana yang dimainkan dengan cara dipukul menggunakan kayu rotan.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

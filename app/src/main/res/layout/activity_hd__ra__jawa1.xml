@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Imah Badak Heuay"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj1_badakheuay_jabar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Jawa Barat – Jawa Barat termasuk salah satu propinsi di Indonesia yang letaknya di bagian barat sendiri dari pulau Jawa. Propinsi ini memiliki kebudayaan yang sangat unik jika dibandingkan dengan kebudayaan di daerah lain. Salah satunya adalah bentuk rumah adat Jawa Barat.\n\n
+        Rumah adat di sini mengandung simbol kepribadian mereka. Selain itu tanah di daerah Jawa Barat ini terkenal sangat indah, subur dan makmur. Masyarakat di daerah Jawa Barat ini lebih terkenal dengan istilah Urang Sunda.\n\n
+        Masyarakat Sunda terkenal sangat ramah, bersahaja, sopan serta bersifat optimis. Hal ini patut untuk dijadikan contoh sebagai salah satu kebudayaan timur yang sangat bagus. Rumah adatnya sendiri memiliki nilai filosofi yang tinggi terutama dalam segi desain dan perpaduan warnanya.\n\n
+        Berbagai Jenis Rumah Adat di Jawa Barat
+Jika kita sudah banyak membahas rumah adat dari berbagai daerah, kali ini kami akan memberikan beberapa jenis rumah adat di Jawa Barat yang harus kamu ketahui. Supaya kita tau dan dapat menambah wawasan, berikut rumah adat yang ada di daerah jawah tengah.\n\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="1. Imah Badak Heuay\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Jawa Barat yang satu ini memiliki arti/makna badak yang sedang menguap. Ciri khusus dari rumah adat ini terletak pada bagian atapnya. Sedangkan desainnya, hampir mirip dengan rumah Tagog Anjing. Pada bagian atap belakangnya melewati tepian, sehingga kalau diperhatikan dengan sungguh-sungguh rumah ini mirip sekali dengan badak yang menguap.\n\n
+        Rumah adat Badak Heuay ini masih banyak dijumpai didaerah masyarakat Sukabumi. Bahkan sampai sekarang rumah dengan desain ini masih dipakai sebagai rumah hunian masyarakat sini. Jika anda berkunjung ke daerah Sukabumi terutama didaerah pedesaan rumah adat ini akan banyak dijumpai.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="2. Rumah Togog Anjing\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj2_tagoganjing_jawbar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Togog Anjing mempunyai arti sebagai anjing yang sedang duduk. Desain rumah adat Jawa Barat yang satu ini menyerupai bentuk anjing pada saat duduk. Atapnya terdiri dari dua atap yang menyatu dengan bentuk segitiga.Sedangkan bagian atap yang satunya lagi menyambung jadi satu pada bagian depan. Atap yang bentuknya menyambung tersebut dikenal dengan istilah soronday.\n\n
+        Fungsi dari atap ini umumnya sebagai peneduh bagian teras depan sehingga memberi kesan yang sejuk. Desain rumah seperti ini merupakan ciri khas rumah masyarakat Garut.Desain atap dari rumah Togog Anjing ini memberi kesan klasik dan sederhana sekali. Ada beberapa jenis bungalow, hotel dan tempat-tempat istirahat disekitar puncak yang juga memakai desain atap rumah ini.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="3. Imah Julang Ngapak\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj3_julangngapak_jabar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Dalam bahasa Indonesia Imah Julang Ngapak mempunyai makna sebagai burung yang lagi mengepakkan sayapnya. Rumah adat Jawa Barat yang satu ini desain atapnya tampak agak melebar disetiap sisinya.Selain itu atap rumah ini memiliki kemiripan layaknya seekor burung yang lagi mengepakkan sayapnya. Sebagai pelengkap biasanya ada cagak gunting (capit hurang) pada bagian bubungannya.\n\n
+        Atap rumah Julang Ngapak ini terbuat dari ijuk, bahan rumbia atau alang-alang yang diikat jadi satu dengan kerangka atap bambu. Meskipun berbahan dasar rumbia dan ijuk atap ini kelihatan sangat bagus dan tidak bocor.Desain rumah ini banyak dipakai didaerah Tasikmalaya. Bahkan gedung ITB (Institut Teknologi Bandung) sendiri menggunakan desain atap model ini.\n\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="4. Imah Jolopong\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj4_julopong_jabar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Jenis rumah adat yang satu ini sangat populer di Jawa Barat. Desain rumah inilah yang paling banyak digunakan di masyarakat Jawa Barat dan sekitarnya. Sesuai dengan namanya yang berarti “terkulai” .Rumah adat Jawa Barat ini memiliki atap yang nampak tergolek lurus. Bentuk rumah ini paling banyak diminati karena desainnya lebih mudah dibuat dan tentu saja lebih hemat material.\n\n
+        Bagian atap dari Imah Jolopong ini terdapat dua bagian dimana kalau kedua ujungnya ditarik akan terbentuk segitiga sama kaki. Desain dari rumah ini merupakan ciri khusus rumah adat di sini dan lebih terkenal dengan istilah suhunan. Rumah adat Jolopong ini paling banyak digunakan oleh masyarakat didaerah Garut.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="5. Imah Parahu Kumureb\n"/>
+
+            <Button
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pj5_parahukumureb_jabar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Imah Parahu Kumureb merupakan rumah adat Jawa Barat yang lebih dikenal dengan istilah perahu tengkurep. Desain dari rumah adat ini terdiri dari empat bagian utama dengan bagian belakang dan depan berbentuk trapesium.\n\n
+        Sedangkan dua bagian disisi kiri kanan bentuknya segitiga sama sisi. Di daerah Palembang rumah adat seperti ini lebih terkenal dengan desain atap Limasan.Sesuai sekali dengan namanya rumah adat yang satu ini tampak seperti perahu yang terbalik. Desain atap dari rumah adat ini mudah sekali bocor. Hal ini dikarenakan terlalu banyaknya sambungan pada bagian atapnya.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="6. Imah Capit Gunting\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj6_capitguntinig_jabar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Merupakan satu nama susuhunan (bentuk atap) yang ada pada rumah adat masyarakat Sunda jaman dulu. Dalam bahasa lain istilah susuhunan ini sama dengan undagi yang berarti tata arsitektur. Capit Gunting sendiri tersusun dari dua kata yakni Capit Dan Gunting. Dalam Bahasa Sunda Capit berarti mengambil sesuatu barang dengan dijepitkan.Sedangkan Gunting sama artinya dengan pisau yang menyilang.\n\n
+        Sedangkan bentuk rumah adat Jawa Barat yang satu ini bangunan atapnya sangat berbeda dengan yang biasanya. Atap (suhunan) bagian ujung depan atas dan belakang atasnya menggunakan bambu (kayu). Kayu ini bentuknya menyilang diatas sehingga lebih mirip dengan sebuah gunting pakaian. \n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="7. Rumah Adat Kasepuhan\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj7_kesepuhan_jabar"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Kasepuhan ini lebih terkenal dengan Keraton Kasepuhan. Untuk rumah adat Jawa Barat yang satu ini berbentuk keraton. Keraton ini didirikan oleh Pangeran Cakrabuana pada tahun 1529. Beliau ini putra Prabu Siliwangi  yang berasal dari Kerajaan Padjajaran. Keraton ini merupakan perluasan Keraton Pakungwati yang sudah ada sebelumnya. Beberapa bagian yang terdapat dalam Keraton Kasepuhan:\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="  a. Pintu Gerbang Utama\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Terdapat dua buah pintu gerbang yang pertama letaknya di sebelah selatan sedangkan yang kedua di sebelah utara kompleks. Yang sebelah selatan dinamakan LawangSanga (pintu sembilan). Sedangkan yang gerbang utara dinamakan Kreteg Pangrawit (berupa jembatan).\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="  b. Bangunan Pancaratna\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Fungsi utama dari bangunan Pancaratna ini adalah sebagai tempat seba (tempat menghadap) pembesar desa atau kampung. Paseban ini nantinya akan diterima oleh seorang Demang atau Wedana. Letak bangunan ini disebelah kiri depan kompleks dengan arah barat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="  c. Bangunan Pangrawit\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Bangunan Pangrawit letaknya disebelah kiri depan kompleks dengan posisi menghadap kearah utara. Sedangkan nama Pancaniti sendiri berasal dua kata yaitu panca yang berarti jalan dan niti yang berarti raja (atasan).Fungsi utama bangunan ini sebagai tempat istirahat, tempat perwira melatih prajurit, dan sebagai tempat pengadilan.\n\n
+Dari sekian macam bentuk rumah adat Jawa Barat yang telah dijelaskan diatas pasti memiliki keunikan dan ciri khas tersendiri. Keunikan dan ciri khas tersebut merupakan simbol atau cerminan dari kepribadian masyarakat daerah asal.\n\n
+Hal ini menandakan kalau tanah air Indonesia kaya akan beragam jenis budaya dan kekayaan nusantara. Kekayaan budaya ini hendaknya kita lestarikan dan merupakan alat pemersatu bangsa.\n\n"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

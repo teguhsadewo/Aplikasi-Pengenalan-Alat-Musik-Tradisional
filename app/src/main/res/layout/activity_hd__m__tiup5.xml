@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Nafiri (Maluku)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at5nafirimaluku"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Nafiri merupakan alat musik tradisional yang berasal dari provinsi Riau di pulau Sumatra yang bentuknya mirip dengan terompet. Masyarakat melayu di Riau sendiri tidak hanya mengembangkan alat musik seperti nafiri tetapi juga alat-alat musik seperti: canang, tetawak, lengkara, kompang, gambus, marwas, gendang, rebana, serunai, rebab, beduk, gong, seruling, kecapi, biola dan akordeon. Alat-alat musik di atas menghasilkan irama dan melodi tersendiri yang berbeda dengan alat musik lainnya. Kita dapat melihat permainan alat musik ini bersama dengan pertunjukkan makyong yang merupakan sebuah bentuk kesenian tradisional yang saat ini masih dimainkan dan diwariskan di provinsi Riau. Selain sebagai alat musik, nafiri juga digunakan sebagai alat komunikasi masyarakat melayu. Terutama untuk memberitahukan tentang adanya bencana, dan berita tentang kematian.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

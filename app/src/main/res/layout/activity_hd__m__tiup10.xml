@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Pikon (Papua)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at10pikonpapua"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pikon berasal dari bahasa Baliem, yaitu pikonane, arti dari pikonane sendiri adalah alat musik bunyi. Alat musik dari papua ini terkenal unik karena terbuat dari sejenis bamboo yang beruas-ruas dan berongga bernama Hite. Alat musik dari papua ini biasanya dimainkan oleh kaum pria, suara yang dihasilkan mirip dengan suara kicau burung.\n\n
+        Untuk alat music pikon ini sangat khas karena tidak sembarang orang dapat memainkannya. Cara memainnya juga terbilang rumit. Sehingga menjadikannya sebagai alat musik yang istimewa.\n\n
+        Alat musik pikon ini, dimainkan dengan cara ditiup sambil menarik talinya. Alat musik dari papua ini hanya mengeluarkan nada-nada dasar seperti do, mi, dan sol. Karena itu hanya orang-orang tertentu yang dapat memainkan alat musik ini memadukannya dalam sebuah melodi lagu yang indah dan masin di dengar.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul25">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gambang (Betawi, Jakarta)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu25gambangbetawi"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Gambang kromong (atau ditulis gambang keromong) adalah sejenis orkes yang memadukan gamelan dengan alat-alat musik Tionghoa, seperti sukong, tehyan, dan kongahyan . Sebutan gambang kromong diambil dari nama dua buah alat perkusi, yaitu gambang dan kromong. Awal mula terbentuknya orkes gambang kromong tidak lepas dari seorang pemimpin komunitas Tionghoa yang diangkat Belanda (kapitan Cina) bernama Nie Hoe Kong (masa jabatan 1736-1740).\n\n
+    Bilahan gambang yang berjumlah 18 buah, biasa terbuat dari kayu suangking, huru batu, manggarawan atau kayu jenis lain yang empuk bunyinya bila dipukul. Kromong biasanya dibuat dari perunggu atau besi, berjumlah 10 buah (sepuluh pencon). Tangga nada yang digunakan dalam gambang kromong adalah tangga nada pentatonik Cina, yang sering disebut salendro Cina atau salendro mandalungan. Instrumen pada gambang kromong terdiri atas gambang, kromong, gong, gendang, suling, kecrek, dan sukong, tehyan, atau kongahyan sebagai pembawa melodi\n\n
+    Orkes gambang kromong merupakan perpaduan yang serasi antara unsur-unsur pribumi dengan unsur Tionghoa. Secara fisik unsur Tionghoa tampak pada alat-alat musik gesek yaitu sukong, tehyan, dan kongahyan. Perpaduan kedua unsur kebudayaan tersebut tampak pula pada perbendaharaan lagu-lagunya. Di samping lagu-lagu yang menunjukkan sifat pribumi, seperti lagu-lagu Dalem (Klasik) berjudul: Centeh Manis Berdiri, Mas Nona, Gula Ganting, Semar Gunem, Gula Ganting, Tanjung Burung, Kula Nun Salah, dan Mawar Tumpah dan sebagainya, dan lagu-lagu Sayur (Pop) berjudul: Jali-jali, Stambul, Centeh Manis, Surilang, Persi, Balo-balo, Akang Haji, Renggong Buyut, Jepret Payung, Kramat Karem, Onde-onde, Gelatik Ngunguk, Lenggang Kangkung, Sirih Kuning dan sebagainya, terdapat pula lagu-lagu yang jelas bercorak Tionghoa, baik nama lagu, alur melodi maupun liriknya, seperti Kong Ji Liok, Sip Pat Mo, Poa Si Li Tan, Peh Pan Tau, Cit No Sha, Ma Cun Tay, Cu Te Pan, Cay Cu Teng, Cay Cu Siu, Lo Fuk Cen, dan sebagainya.\n\n
+    Lagu-lagu yang dibawakan pada musik gambang kromong adalah lagu-lagu yang isinya bersifat humor, penuh gembira, dan kadangkala bersifat ejekan atau sindiran. Pembawaan lagunya dinyanyikan secara bergilir antara laki-laki dan perempuan sebagai lawannya.\n\n
+    Gambang kromong merupakan musik Betawi yang paling merata penyebarannya di wilayah budaya Betawi, baik di wilayah DKI Jakarta sendiri maupun di daerah sekitarnya (Jabotabek). Jika terdapat lebih banyak penduduk peranakan Tionghoa dalam masyarakat Betawi setempat, terdapat lebih banyak pula grup-grup orkes gambang kromong. Di Jakarta Utara dan Jakarta Barat, misalnya, terdapat lebih banyak jumlah grup gambang kromong dibandingkan dengan di Jakarta Selatan dan Jakarta Timur.\n\n
+    Dewasa ini juga terdapat istilah 'gambang kromong kombinasi'. Gambang kromong kombinasi adalah orkes gambang kromong yang alat-alatnya ditambah atau dikombinasikan dengan alat-alat musik Barat modern seperti gitar melodis, bas, gitar, organ, saksofon, drum dan sebagainya, yang mengakibatkan terjadinya perubahan dari laras pentatonik menjadi diatonik tanpa terasa mengganggu. Hal tersebut tidak mengurangi kekhasan suara gambang kromong sendiri, dan lagu-lagu yang dimainkan berlangsung secara wajar dan tidak dipaksakan.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

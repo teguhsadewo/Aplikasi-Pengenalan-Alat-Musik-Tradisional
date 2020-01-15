@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gong (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu16gongjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Gong merupakan sebuah alat musik pukul, instrumen (waditra) yang terbuat dari perunggu atau logam lain, berbentuk bundar dan besar seperti kuali. Sebagai waditra berpenclon yang sangat besar, gong mempunyai garis tengah 69 cm s/d 105 cm. Di atas mistranya diberi variasi ular naga yang dibuat dari kayu. Dalam kesenian Betawi instrumen gong juga tergabung dalam Gambang Rancag, mengiringi tari Topeng Gong, dan sebagainya. Dipukul dengan alat pemukul yang empuk bunyinya sangat rendah dan bergelombang suara, digantung dengan mempergunakan tali (digayor). Waditra tersebut berfungsi sebagai tanda akhir kalimat lagu atau sebagai tanda pada bentuk-bentuk gending.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

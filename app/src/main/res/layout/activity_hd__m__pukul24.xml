@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul24">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Kompang (lampung)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu24kompanglampung"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Kompang ialah sejenis alat muzik tradisional yang paling popular bagi masyarakat Melayu. Ia tergolong dalam kumpulan alat muzik gendang. Kulit kompang biasanya diperbuat daripada kulit kambing betina, namun mutakhir ini, kulitnya juga diperbuat dari kulit lembu, kerbau malah getah sintetik.\n\n
+    Pada kebiasaannya, seurat rotan akan diselit dari bahagian belakang antara kulit dan bingkai kayu bertujuan menegangkan permukaan kompang, bertujuan menguatkan bunyi kompang. Kini, gelung plastik turut digunakan.\n\n
+    Terdapat dua bahagian kompang iaitu bahagian muka (ada kulit) dipanggil belulang. manakala, bahagian badan (kayu) dipanggil baluh. Kompang perlu diletakkan penegang atau dipanggil sedak iaitu sejenis rotan yang diletakkan antara belulang dan baluh, sedak ini diletakkan bertujuan untuk menegangkan bahagian belulang dan menyedapkan bunyi kompang apabila dipalu.\n\n
+    Alat muzik ini berasal dari dunia Arab dan dipercayai dibawa masuk ke Tanah Melayu sama ada ketika zaman Kesultanan Melaka oleh pedagang India Muslim, atau melalui Jawa pada abad ke-13 oleh pedagang Arab.\n\n
+Kompang biasanya berukuran enam belas inci ukur lilit dan ditutup dengan kepingan kulit pada sebelah permukaan. Ia mempunyai bukaan cetek dan dimainkan dengan memegang dengan sebelah tangan sementara dipalu dengan sebelah tangan yang lain.\n\n
+        Cara memalu kompang ialah dengan menepuk kulit kompang dengan bahagian jari-jari atau tapak tangan mengikut rentak. Kompang biasanya dimainkan semasa perarakan, kenduri dan upacara-upacara tradisi lain.\n
+Bunyi yang berlainan dihasilkan dengan membezakan cara bukaan tapak tangan. Bunyi 'bum' di perolehi dengan tepukan di sisi kompang dan tapak tangan dikuncup/rapat. Bunyi 'pak' di perolehi dengan tepukan di tengah kompang dengan jari tangan yang terbuka.\n\n
+    Paluan kompang terbahagi kepada 2 bahagian iaitu paluan tradisi dan paluan moden ataupun kreatif. Paluan tradisi adalah paluan di mana memukul kompang sambil menyayi ataupun bersyair dalam versi Arab ataupun bahsa Melayu klasik. Manakala paluan moden pula di mana paluan tersebut diselitkan dengan gerakan ataupun tarian. Di Sabah, pertandingan kompang sering diadakan untuk memartabatkan kembali kesenian Melayu yang telah hampir pupus ini.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Kompang Bengkalis Riau \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Kompang Bengkalis Riau merupakan salah satu tradisi muzik yang menggunakan kompang sebagai medium penjanaan bunyi muzik. Kompang Bengkalis Riau dipercayai berasal dari Kampung Jawa, Muar, Johor, Malaysia. Ia telah berkembang sejak tahun 40-an lalu di bumi Bengkalis, Riau, Indonesia apabila seorang tokoh muzik yang bernama Pak Maun yang pulang dari Muar, Johor ke Bengkalis. Pak Maun lalu dikatakan mengajar alunan muzik kompang kepada abangnya iaitu Muhammad Ali. Apabila ilmu ini diperturunkan ke Muhammad Ali, Pak Maun telah berpindah ke daerah Bantan Tua, iaitu sebuah kampung dipanggil Resam. Bermula dari situlah permainan alat muzik Kompang Bengkalis Riau mula berkembang secara aktif.\n\n
+    Menurut suatu rancangan dokumentari berjudul ‘Musik Tradisi Riau’ yang dijayakan oleh Dinas Kebudayaan Kesenian dan Pariwisata Provinsi Riau, temu bual telah diadakan bersama Encik Zailani Sulung, yakni salah seorang tokoh muzik kompang Riau merupakan anak murid kepada Pak Amir yang merupakan anak murid Pak Maun telah mempelajari kompang sejak tahun 1963.\n"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

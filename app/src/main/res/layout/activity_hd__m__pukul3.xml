@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Bende (Sumatera Selatan)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu3bendelampung"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bende Berasal dari Lampung yang mempunyai jenis bunyi Ideofon, yaitu jenis bunyi yang berasal dari bahan dasarnya. Cara menggunakannya yaitu dipukul dengan alat pukul yang khusus. Alat music Bende ini berasal pada daerah Lampung yang memiliki jenis suara yaitu Ideofon. Bende atau Canang adalah sejenis Gong kecil yandapat ditemukan di hamper seluruh kepulauan Nusantara, dari Sumatera hingga Maluku dan Papua. Scara Visual alat music bende sangat mriip dengan alat music aramba, yang membedakan keduanya hanya pada ukurannya dan warna yang digunakan.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Fungsi Alat Musik Bende\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada masa lalu alat music bende biasanya digunakan untuk memberikan penanda kepada masyarakat untuk berkumpul di alun-alun terkait informsi dari penguasa, untuk menyertai kedatangan raja atau penguasa de daerah tersebut, atau untuk menandai diadakannya pesta rakyat. Saat ini bende biasanya digunakan untuk menandakan adanya keramaian seperti topeng monyek atau pesta rakyat lainnya. Bende sudah ada sejak zaman nenek moyak kita terbukti pda relief Candi Sukuh pada abad ke 15 yang terlihat dengan jelas bentuk atau wujuud bende tersebut.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Cara Memainkannya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Untuk memainkan alat ini juga sama yakni dengan cara dipukul. Pada bagian pusat alat iini terdapat tonjulan bulat yang menjadi tempat unutk dipukul. Alat untuk memukulnya juga dibuat khusus sehingga tidak sampai merusak alat music Bende.\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

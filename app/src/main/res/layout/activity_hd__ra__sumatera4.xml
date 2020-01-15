@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Limas "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps7_rumahlimas_sumsel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Limas merupakan prototipe rumah tradisional Sumatra Selatan. Selain ditandai dengan atapnya yang berbentuk limas, rumah tradisional ini memiliki lantai bertingkat-tingkat yang disebut Bengkilas dan hanya dipergunakan untuk kepentingan keluarga seperti hajatan. Para tamu biasanya diterima diteras atau lantai kedua.Rumah Limas ini memiliki nama lain, yaitu Rumah Bari. Di Malaysia, rumah Limas ini juga banyak ditemukan di daerah Johor, Selangor dan Terengganu. konstruksi rumah limas adalah bentuk rumah panggung, di rumah ini banyak ditemukan berbagai ragam hias, yang menunjukkan identitas adat masyarakat.\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tingkatan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pembangunan Rumah ini selalu menghadap ke Timur dan Barat atau dalam Falsafah disebut menghadap ke arah Matahari Terbit dan Matahari Terbenam. Tiap tingkatan rumah disebut dengan kekijing. Rumah bertingkat tingkat-tingkat ini memiliki filosofi budaya tersendiri untuk setiap tingkatnya sesuai dengan nilai-nilai budaya tradisional. Yaitu usia, jenis kelamin, bakat, pangkat, dan martabat.\n\n
+•	Pagar Tenggalung\nyaitu Teras pada Rumah Limas. Tamu akan dipersilahkan duduk di teras, atau lantai dua saja. Rumah Limas sangat luas dan seringkali digunakan sebagai tempat berlangsungnya hajatan atau acara adat. Tingkat pertama rumah ini disebut pagar tenggalung, karena ruangannya tidak memiliki dinding pembatas, dan terhampar seperti beranda. Suasana di tingkat pertama lebih santai dan biasa berfungsi sebagai tempat menerima tamu.\n\n
+•	Jogan\nRumah di tingkat dua sebut jogan, dan khusus diperuntukan bagi anggota keluarga pemilik rumah yang berjenis kelamin laki-laki. Pembagian ruang secara fisik berfungsi batasan aktivitas yang berlangsung di rumah berdasarkan tingkat keprivasiannya. Secara personal, sikap pribadi masyarakat Palembang menjunjung tinggi kehormatan laki-laki dan wanita. Kemudian secara sosial, menunjang citra diri kebudayaan Palembang yaitu dengan menjunjung tinggi norma-norma adat yang berlaku di masyarakat.\n\n
+•	Kekijing Tiga\nPosisinya ada di lantai ke tiga atau lebih tinggi dibanding dengan lantai sebelumnya.Pada lantai ini diberi batas dengan menggunakan penyekat. Ruangan ini biasanya untuk tempat menerima para undangan dalam suatu acara atau hajatan, terutama untuk handai taulan atau tamu yang sudah paruh baya.\n\n
+•	Kekijing Empat\n
+Pada lantai ke empat, posisi lantai lebih tinggi lagi. Begitu juga dengan orang-orang yang dipersilakan untuk mengisi ruangan ini pun memiliki hubungan kekerabatan lebih dekat dan dihormati, seperti undangan yang lebih tua, dapunto dan datuk.Tempat duduk para tetamu pada saat sedekah atau kenduri sudah ditentukan berdasarkan status tamu tersebut.\n\n
+•	Gegajah\nPada lantai tertinggi, atau tingkatan ke lima di sebut dengan raungan gegajah. Ruangan ini hanya boleh dimasuki oleh orang yang dihormati dan mempunyai kedudukan yang sangat tinggi di dalam keluarga atau keluarga inti.Uniknya di dalam ruangan gegajah terdapat undakan lantai yang disebut amben. Amben inilah yang digunakan untuk mengadakan musyarawah para penghuni gegajah. Selain itu juga terdapat kamar pengantin, yang hanya difungsikan jika pemilik rumah sedang mengadakan pesta pernikahan.\n\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bahan Rumah\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Kebanyakan rumah limas luasnya mencapai 400 sampai 1000 meter persegi atau lebih, yang didirikan diatas tiang-tiang dari kayu unglen atau ulin yang kuat dan tahan air. Dinding, pintu dan lantai umumnya terbuat dari kayu tembesu. Sedang untuk rangka digunakan kayu seru. Setiap rumah, terutama dinding dan pintu diberi ukiran. Rumah Limas ini memiliki banyak jendela berukuran besar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Penyebaran\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Di Indonesia, rumah limas banyak terdapat didaerah Sumatra Selatan. Sedangkan di Malaysia, rumah limas banyak terdapat di Johor, Selangor dan Terengganu. Kebanyakan rumah limas Johor memiliki kolong, yaitu bagian bawah rumah berpagar dimana fungsinya untuk tempat menyimpan barang. Rumah limas seperti ini biasanya dikenal sebagai rumah baju kurung.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

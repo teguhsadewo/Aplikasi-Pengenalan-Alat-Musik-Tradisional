@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul22">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Talempong (Sumatera Barat)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu21talempongjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Talempong (atau dikenal sebagai Cak Lempong di Malaysia) adalah sebuah alat musik pukul tradisional khas suku Minangkabau. Bentuknya hampir sama dengan instrumen bonang dalam perangkat gamelan. Talempong dapat terbuat dari kuningan, tetapi ada pula yang terbuat dari kayu dan batu. Saat ini talempong dari jenis kuningan lebih banyak digunakan.\n\n
+    Talempong berbentuk lingkaran dengan diameter 15 sampai 17,5 sentimeter, pada bagian bawahnya berlubang sedangkan pada bagian atasnya terdapat bundaran yang menonjol berdiameter lima sentimeter sebagai tempat untuk dipukul. Talempong memiliki nada yang berbeda-beda. Bunyinya dihasilkan dari sepasang kayu yang dipukulkan pada permukaannya.\n\n
+    Talempong biasanya digunakan untuk mengiringi tarian pertunjukan atau penyambutan, seperti Tari Piring yang khas, Tari Pasambahan, Tari Alang Suntiang Pangulu dan Tari Gelombang. Talempong juga digunakan untuk melantunkan musik menyambut tamu istimewa. Talempong ini memainkanya butuh kejelian dimulai dengan tangga nada do dan diakhiri dengan si.[butuh rujukan] Talempong biasanya dibawakan dengan iringan akordeon, instrumen musik sejenis organ yang didorong dan ditarik dengan kedua tangan pemainnya. Selain akordeon, instrumen seperti saluang, gandang, serunai dan instrumen tradisional Minang lainnya juga umum dimainkan bersama talempong.\n\n
+    Di Negeri Sembilan, Malaysia, Talempong dikenali dengan nama Caklempong. Negeri Sembilan telah didatangi oleh suku Minangkabau yang bermigrasi dari Sumatra Barat pada abad ke 15 Masehi dan satu-satunya negara bagian di Malaysia yang mengamalkan sistem Lareh Bodi Caniago.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

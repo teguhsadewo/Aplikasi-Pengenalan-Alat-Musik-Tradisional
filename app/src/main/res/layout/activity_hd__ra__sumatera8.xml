@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Kajang Leko  "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps13_rumahjambi_jambi"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Jambi – Provinsi Jambi adalah sebuah provinsi yang letaknya berada di Pulau Sumatera. Suku yang mendiami provinsi Jambi adalah suku Batin. Suku ini merupakan suku yang sedang mempertahankan adat istiadat yang diwariskan oleh nenek moyang mereka. Salah satunya adalah rumah adat Jambi.\n\n
+Rumah kajang leko yang tidak lain adalah rumah adat Jambi ini berasal dari 60 tumbi atau keluarga yang pindah ke Koto Rayo. Arsitektur rumah kajang leko ini sangatlah unik. Sehingga tidak heran jika rumah ini masih tetap dipertahankan hingga kini.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Gaya Arsitektur Rumah Adat Jambi \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah kajang leko memiliki gaya seperti rumah adat di Indonesia pada umumnya. Yaitu berupa  rumah panggung. Uniknya, rumah ini dibuat tinggi sehingga sangat bermanfaat ketika banjir. Selain itu dengan desain tersebut dapat digunakan untuk menghindari dari serangan musuh seperti binatang buas.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1.    Konstruksi Rumah \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah ini di konsep oleh arsitektur Marga batin. Bentuknya persegi panjang dengan ukuran 12 x 9 meter. Bangunan ini berdiri dengan ditopang 30 tiang berukuran besar, dimana 24 merupakan tiang utama dan 6 lagi merupakan tiang pelamban.\n\n
+Untuk naik ke rumah panggung ini, kalian harus menaiki tangga. Rumah adat Jambi ini memiliki dua tangga. Di sebelah kanan sebagai tangga utama dan sebelah kiri merupakan tangga penteh.\n\n
+Konstruksi bagian atap dari rumah adat ini sangat unik. Bagaimana tidak, atapnya diberi nama ‘gajah mabuk’ sesuai dengan nama pembuat desain. Bubungan atapnya seperti perahu dengan ujung atas melengkung dan terbuat dari anyaman ijuk. Lengkungan ini disebut potong jerambah atau lipat kajang. Dinding rumah kajang leko sangatlah elok, karena terbuat dari kayu dengan hiasan ukiran yang cantik.\n\n
+Di bagian langit-langit, terdapat material yang disebut tebar layar. Tebar layar ini merupakan plafon yang memisahkan antara ruangan loteng dengan ruangan di bawahnya. Ruang loteng ini sering digunakan sebagai ruang penyimpanan. Untuk menuju ke ruangan ini, menggunakan tangga patetah.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="2. Jumlah Ruangan  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Ruangan didalam sebuah rumah adat memiliki fungsinya masing-masing. Setiap ruangan memiliki makna yang khusus terutama dalam rumah adat Jambi ini. Secara umum, rumah adat Jambi ini terdiri dari 8 ruang, yaitu :\n\n
+•	Pelamban\n Pelamban merupakan bagian bangunan yang berada di sebelah kiri bangunan induk. Lantainya terbuat dari bambu belah yang telah diawetkan. Yang kemudian bambu ini dipasang dengan jarak untuk mempermudah air mengalir di bawahnya.\n\n
+•	Ruang gaho\n Ruang yang terdapat di ujung sebelah kiri bangunan ini memiliki arah memanjang. Di dalam ruangangaho ini terdapat dapur, ruang tempat air dan ruang tempat menyimpan.\n\n
+•	Ruang masinding\n Ruang masinding merupakan serambi depan yang digunakan untuk menerima tamu. Ruangan ini berkaitan dengan masinding. Dalam musyawarah adat, ruangan ini digunakan untuk tempat duduk orang biasa. Uniknya, hanya tamu laki-laki saja yang ditempatkan di ruangan ini.\n\n
+•	Ruang tengah\n Sesuai namanya, ruangan ini berada di tengah-tengah bangunan. Antara ruang tengah dan ruang masinding tidak memakai dinding. Pada saat pelaksanaan upacara adat, ruangan ini ditempati oleh perempuan.\n\n
+•	Ruang balik menahan\n Ruang balik menahan merupakan serambi dalam yang terdiri dari beberapa ruang. Yaitu ruang makan, ruang tidur orang tua dan ruang tidur anak gadis.\n\n
+•	Ruang balik melintang\n Ruangan ini berada di ujung sebelah kanan bangunan dan menghadap ke ruang tengan dan ruang masinding. Ruangan balik melintang berukuran 2 x 9 meter. Lantai ruangan dibuat lebih tinggi daripada ruangan lainnya karena dianggap sebagai ruang utama. Ruangan ini tidak boleh ditempati oleh sembarang orang.\n\n
+•	Ruang atas / penteh\n Penteh merupakan ruang yang ada di atas bangunan. Ruang ini seperti plafon yang membatasi antara atap dan bagian bawah. Penteh biasanya digunakan untuk menyimpan barang.\n\n
+•	Ruang bawah / bauman\n Bauman merupakan ruang bawah tidak berlantai dan tidak berdinding. Ruangan ini digunakan untuk menyimpan, memasak ketika ada pesta dan untuk kegiatan – kegiatan lainnya.\n
+"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="3.    Ornamen  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Ornamen dan hiasan pada rumah adat kajang leko ini sangat cantik. Oranamen yang digunakan memiliki beberapa motif ragam hias yang berbentuk ukiran. Ciri khas motif yang digunakan adalah motif flora dan fauna.\n\n
+Motif flora yang digunakan antara lain motif bungo tanjung, tampuk manggis dan bungo jeruk. Motif bungo tanjung ini biasanya diukirkan di bagian depan masinding sedangkan motif bungo jeruk di luar rasuk atau belandar dan di atas pintu.\n\n
+Diukir dengan motif flora karena untuk menunjukkan bahwa di jambi terdapat banyak tumbuh – tumbuhan. Selain itu juga sebagai lambang bahwa pentingnya peran hutan terhadap masyarakat Jambi. Yang menarik adalah, motif flora ini dibuat berwarna sehingga memberikan kesan cantik di dalamnya.\n\n
+Berbeda dengan motif flora, motif fauna merupakan motif binatang. Motif yang digunakan adalah motif ikan yang merupakan lambang bahwa masyarakat Jambi adalah nelayan.\n\n
+Untuk motif ini dibuat tidak berwarna. Motif fauna biasa diukir di bagian bendul gaho serta balik melintang. Hiasan yang berbentuk ikan ini sudah distilir ke dalam bentuk daun-daunan yang dilengkapi bentuk sisik ikan.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="4. Susunan Rumah Satu Dengan Rumah Lainnya  \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah-rumah kejang lako di Jambi ini khususnya di Rantau Panjang dibangun dalam satu kompleks yang berderet memanjang. Rumah-rumah ini juga dibangun saling berhadap-hadapan. Jarak antar rumah sekitar 2 meter. Dan di bagian belakang tiap rumah terdapat sebuah bangunan khusus untuk menyimpan padi. Bangunan ini sering disebut dengan bilik atau lumbung.\n\n
+Masyarakat yang masih menggunakan rumah adat Jambi ini biasanya masyarakat yang berada di desa. Tepatnya di daerah Jambi Seberang yaitu jalan menuju jembatan Gentala Arasy.\n
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

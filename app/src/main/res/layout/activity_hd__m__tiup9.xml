@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Terompet Reog (Ponorogo)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at9terompetreogponorogo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Trompet adalah alat musik tiup logam. Terletak pada jajaran tertinggi di antara tuba, eufonium, trombon, sousafon, French horn, dan Bariton. Trompet di-pitch di B♭. Trompet hanya memiliki tiga tombol, dan pemain trompet harus menyesuaikan embouchure untuk mendapatkan nada yang berbeda.\n
+            "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Jenis trompet\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+
+                android:text="      Jenis yang paling umum adalah trompet B♭, tetapi trompet C, D, E♭, E, F, G dan A juga dapat ditemukan. Trompet C paling umum dipakai dalam orkestra Amerika, dengan bentuknya yang lebih kecil memberikan suara yang lebih cerah, dan hidup dibandingkan dengan trompet B♭.\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Bermain trompet\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+
+                android:text="      Tentu saja semua orang dapat bermain trompet. Namun, bagi pemain trompet, dibutuhkan napas yang panjang dan kuat. Umumnya, perokok sedikit sulit memainkannya karena napas nya yang lebih pendek daripada orang yang bukan perokok. Jadi, jika seseorang menyukai alat musik tiup seperti trompet ini, disarankan tidak merokok atau mempunyai aktivitas atau kebiasaan atau penyakit yang menjadikannya bernapas pendek.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

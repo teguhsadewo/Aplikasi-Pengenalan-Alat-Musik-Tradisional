@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Aramba (Sumatera Selatan)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu1arambasumut"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="        Alat Musik Aramba (Arumba) merupakan bagian dari alat musik tradisional Sumatera Utara (Sumut), tepatnya dari kabupaten Nias. Alat ini dipakai oleh warga setempat dalam acara kesenian daerah, seperti penikahan. Dimainkan oleh satu orang, alat musik Aramba termasuk jenis musik alat musik ideofon. Bagi warga Nias, alat musik ini diyakini mempunyai nilai keramat alias mistis.\n\n
+        Tidak bisa ditepiskan, Aramba otomatis termasuk menjadi alat musik tradisional Indonesia yang harus mendapat pelestarian oleh pihak pemerintah supaya tidak punah di telan zaman. Semua warga Indonesia harus mendukung apa yang dilakukan pemerintah. Dimulai dari pemerintah dan selanjutnya mendapat dukungan dari masyarakat umum. Jangan lalai. Pasalnya beberapa budaya asli Indonesia sudah jatuh ketangan negara tetangga.\n"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:text="Masih Eksiskah Alat Musik Aramba Ini?                 "
+                    />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="       Jawabanya sangatlah unik. Karena alat musik Aramba terbagi menjadi yang khusus dan yang umum. Untuk Aramba khusus cuma digunakan ‘Ngaoto Mbalugu’ yang merupakan keturunan bangsawan. Jadi orang biasa mungkin jarang memainkan aramba khusus ini.\n\n
+        Bagi orang biasa, akan menggunakan alat musik Aramba yang pada umumnya. Seiring berjalanannya sang waktu, bisa saja alat musik ini dijual bebas dan semua orang bisa memainkannya.\n\n
+        Contoh sederhanya, dulu internet adalah sarana yang tidak bisa dijangkau banyak orang. Namun dengan perkembangan teknologi informasi, semua orang bisa dengan mudah mengakses alat komunikasi modern itu. Sepertinya, begitu juga dengan alat musik.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Sejarah Alat Musik Aramba \n"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="      Di internet tidak ditemukan sumber yang pasti mengenai sejarah alat musik Aramba. Namun yang pasti, sejarah alat musik Aramba ini adalah hasil kerajinan dari Jawa yang dibawa ke Nias dengan sistem barter.\n\n
+Jadi bukanlah menurut sumber diatas bukanlah asli budaya lokal Nias. Dalam hal ini masih bisa saja terjadi perdebatan. Karena biasanya sejarah selalu sesuai dengan kepentingan siapa yang ingin menciptakan sejarah itu.\n\n
+Mungkin butuh waktu untuk mengetahui lebih dalam lagi. Bisa dengan datang langsung ke kapubaten Nias yang terletak di provinsi Sumatera Utara. Menuju Nias saat ini bisa dijangkau melalui jalur darat, laut dan udara.\n"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Bagaimana Cara Memainkannya Alat Musik Aramba?\n"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bisa dibilang memainkan alat musik Aramba sangatlah mudah. Karena alat musik ini dimainkan dengan cara dipukul menggunakan tangan. Bagian yang dipukul yaitu bagian bundar, yang berbentuk bulatan menonjol di bagian tengahnya. Aramba biasanya digantungkan dengan seutas tali pada sebuah palang horizontal.\n\n
+Hanya saja, karena Aramba sifatnya tidak menjadi alat musik penentu dalam pagelaran musik, jadi dimainkan harus selaras dengan alat musik lainnya. Jika tidak bisa menyesuaikan, maka suara musik jadi tidak seirama dan tidak enak di telinga.\n\n
+Selain Aramba, ada banyak lagi alat musik tradisional Sumut yang harus Anda ketahui sebagai warga Indonesia yang baik dan benar. Untuk mendapatkan informasi lebih lengkap mengenai alat musik tradisional Sumatera Utara, Anda bisa cari pada blog ini melalui menu pencarian. Tak cuma itu, semua nama – nama alat musik tradisional Indonesia harus juga dikenali oleh kita. Dengan kita mengenalinya, maka dengan begitu kita ada rasa memiliki dan cinta terhadap budaya asli Indonesia.\n"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

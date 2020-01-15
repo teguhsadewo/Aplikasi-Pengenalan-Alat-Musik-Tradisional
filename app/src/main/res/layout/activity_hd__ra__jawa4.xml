@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Bangsal Kencono"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj16_bangsalkecono_jogja"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Bangsal Kencono adalah rumah tradisional berbentuk Joglo dan merupakan rumah adat khas Kerajaan Mataram atau Keraton Yogyakarta. Bangsal Kencono merupakan bangunan pendopo yang merupakan rumah adat yang dibangun di kawasan Keraton Yogyakarta. Sementara rumah adat joglo sendiri merupakan rumah adat Jawa yang eksis sejak jaman kerajaan. Rumah adat Bangsal Kencono sendiri merupakan rumah adat berbentuk joglo yang memiliki fungsi khusus di Keraton. Di mana rumah adat ini memiliki halaman yang sangat luas, ditumbuhi oleh tanaman, dan beberapa sangkar burung. Di depan Bangsal Kencono akan terdapat dua patung batu Gupolo, dua raksasa yang memegang gada—sejenis alat pemukul.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Fungsi dan Bentuk Rumah Adat Bangsal Kencono\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Bangsal kencono Kraton Yogyakarta berfungsi sebagai rumah tempat tinggal para raja Keraton Yogyakarta. Selain dikenal difungsikan sebagai tempat tinggal raja, rumah adat Bangsal Kencono juga memiliki fungsi sebagai ruang pertemuan penting. Dilihat dari desainnya bentuk Rumah Adat Bangsal Kencono memiliki sedikit pengaruh dari seni arsitektur khas Belanda, Portugis dan Cina. Di dalam desain Rumah Adat Bangsal Kencono nampak ada unsur-unsur desain tersebut meski didominasi oleh adat Jawa dari segi ukiran, atap, bentuk tiang dan dinding bangunannya. Atap Rumah Bangsal Kencono bentuknya mirip dengan rumah adat Jawa, Joglo, secara umumnya. Rumah ini memiliki bagian atap yang bubungan tingginya ditopang oleh empat tiang di tengah. Tiang itu disebut Soko Guru. Material pembuatan atap terdiri atas genteng yang terbuat dari tanah atau sirap. Sementara bagian dinding dan tiang dibuat dari bahan kayu, umumnya jika bukan kayu Jati akan dipilih kayu nangka yang memiliki kualitas tinggi karena tahan lama, tidak mudah rapuh oleh cuaca. Khusus Rumah Adat Bangsal Kencono memiliki warna hijau tua atau hitam pada tiang penopang. Tiang ini juga ditopang oleh umpak batu berwarna hitam keemasan. Sementara untuk lantainya, Rumah Adat Bangsal Kencono di Keraton sudah memiliki lantai yang dibuat dari marmer atau batu granit. Permukaan bagian dalam Rumah Adat Bangsal Keraton posisinya lebih tinggi daripada bagian halamannya, sehingga ada anak tangga di area pintu masuk Rumah Adat Bangsal Kencono.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Ciri khas Rumah adat Bangsal Kencono Yogyakarta\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Ciri khas rumah Adat Bangsal Kencono dapat dilihat dari berbagai segi. Pertama, dari segi Ukuran luas dari rumah Adat Bangsal Kencono biasanya disesuaikan dengan kebutuhannya. Khusus untuk Bangsal Kencono milik keraton Yogyakarta, ukurannya sangat luas dan besar guna menampung tamu istana yang jumlahnya bisa ratusan sampai ribuan. kedua, dari segi desain dan motif ukiran Bangsal Kencono akan didesain berdasarkan filosofi selaras dengan alam. Desain interior dan eksterior akan disesuaikan satu sama lain. bila desain interior dihias dengan ukiran-ukiran yang bernuansa alam, maka desain interiornya dihias dengan beragam pot bunga dan terdapat pula sangkar burung untuk menyempurnakan pemandangan. Arti dari keberadaan sangat burung yang dilengkapi dengan seekor burung di Bangsal Kencono sendiri cukup unik. Filosofi dari sangkar dan burung di sini sebagai klangenan, sebuah wahana di mana raja atau penghuni istana dapat bermain dan berkomunikasi dengan burung untuk melepas penatnya. Di samping itu juga menjadi simbol betapa hewan merupakan bagian penting dari istana Kerajaan Ngayogyakarta. Dalam budaya Jawa, ocehan burung menjadi pertanda sesuatu yang berhubungan dengan alam. Karena Raja Keraton Yogyakarta dipercaya memiliki hubungan khusus dengan alam, maka burung dalam nuansa kejawen ini menjadi sebuah pemandu untuk memahami keadaan alam setiap harinya. Ketiga, dari segi Fungsi Bangsal Kencono di kompleks keraton sangat kompleks. Selain sebagai ruang pertemuan antara Raja dengan para tamu, Bangsal Kencono juga menjadi ruang untuk melakukan upacara adat maupun ritual keagamaan bagi masyarakat. Raja akan menjadi pemimpin upacara dan para abdi dalem serta staf keluarga keraton berada di lingkungan Bangsal Kencono untuk mengikuti jalannya upacara. Keempat, dari segi Susunan bangunan Bangsal Kencono di Keraton Yogyakarta cukup kompleks. Bangsal Kencono di Keraton Yogyakarta juga menjadi bagian dari ruang publik. Susunannya terbagi atas tiga bagian ruang yang disesuaikan pula dengan fungsi-fungsinya.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Bangunan Cagar Budaya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bangsal Kencono Keraton Yogyakarta ini seluruhnya menjadi bagian dari cagar budaya. Sampai saat ini, bentuk fisik rumah adat ini menjadi poros identitas utama budaya masyarakat Yogyakarta. Di samping itu, Bangsal Kencono juga memegang peranan penting dalam perjalanan sejarah Keraton Yogyakarta, termasuk di antaranya peradaban dan bukti eksistensi Kesultanan Ngayogyakarta Hadiningrat. Kawasan Keraton Ngayogyakarta Hadiningrat secara keseluruhan menjadi cagar budaya yang terdiri atas serangkaian ruang dan bangunan. Di mana masing-masing ruang memiliki nama, fungsi, dan pelingkup vegetasi tertentu. Ruang-ruang terbuka di antara Bangsal Kencono disebut dengan plataran dan dihubungkan oleh regol atu pintu gerbang kecil. Regol menjadi pembatas antara plataran satu dengan yang lainnya. Masing-masing bagunan yang berada di plataran memilki penyangga atapnya masing-masing. Di samping itu setiap bangunan dibangun dua tipologi yang berbeda. Pertama, bangsal dibangun dengan desain memiliki deretan tiang sebagai struktur penyangga atap. Kedua, gedhong, bangunan ini dibangun dengan tipologi memiliki bidang dinding dan penyangga ata. Keduanya dapat dibuat dari dua jenis material yang berbeda yaitu konstruksi kayu dan batu bata.\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Susunan Kawasan Bangsal Kencono Keraton Yogyakarta\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Kawasan inti Bangsal Kencono Keraton Yogyakarta terdiri atas berbagai susunan. Mulai dari Alun-alun Utara sampai Alun-alun Selatan. Bangsal Kencono memiliki beberapa bagian pemisah, pertama pada bagian depan yang disebut Gladhag pangurakan adalah gerbang utama sebagai pintu masuk utama ke bagian istana. Gerbang ini menghadap ke arah Alun-alun Lor Keraton Yogyakarta, yang merupakan lapangan luas memiliki dua pohon beringin kembar di tengah-tengah lapangan yang luas. Alun-alun berfungsi sebagai lokasi utama dalam berbagai upacara adat seperti grebeg Merapi, Sekaten, Suro, dan lain-lain. Kemudian di sisi baratnya terdapat Marjid Gedhe yang berfungsi sebagai tempat ibadah. Bagian pertama ini dilengkapi dengan bagian kedua dari Bangsal Kencono yang berupa bangsal pageralan yang berupa sebuah bangunan khusus tempat para punggawa kesultanan untuk menghadap raja sewaktu upacara resmi diselenggarakan. Bagian pagelaran ini berdekatan dengan Sitihinggil yang berasal dari dua suku kata Jawa “Siti” yang artinya tanah, dan “Hinggil” artinya tinggi. Bila diartikan secara harfiah maka Siti Hinggil adalah tanah yang tinggi, di mana bagunan ini diatapi dengan bangunan berbentuk joglo dan di dalam kawasan rumah joglo ini bagian tanahnya ditinggikan setinggi lutut manusia dewasa. Bagian ini merupakan tempat utama sebagai upacara resmi kesultanan Yogyakarta. Siti hinggil Ler memiliki area plataran yang merupakan lokasi lapang terletak di sebelah selatan alun-alun utara. Kedua, area Pagelaran yang merupakan area bagian paling depan di mana lokasi ini berfungsi sebagai tempat para abdi dalem menghadap Sultan ketika upacara-upacara kerajaan dilaksanakan. Sultan akan berada di Sitihinggil ketika memimpin upacara kerajaan. Sitihinggil memiliki kedudukan yang tinggi pula sebagai tempat resmi Sultan melaksanakan miyos atau siniwaka. Miyos merupakan sebuah kondisi di mana Sultan bersama para pengiringnya meninggalkan kediamannya. Sedangkan Siniwaka sendiri merupakan sebuah singgasana khusus untuk Sultan yang disebut dengan Lenggah Dampar. Pada area Pagelaran terdapat beberapa bagian antara lain Bangsal Pagelaran, Bangsal Pangrawit, Bangsal Pengapit terdiri dari pengapit wetan dan kilen, Bangsal Pemandengan terdiri dari pemandengan wetan dan kilen, Bangsal Pacikeran yang terdiri dari pacikeran Wetan dan Pacikeran Kilen. Pada bagian plataran ini juga terdapat Regol Brajanala yang menghubungkan Plataran Siti hinggil Ler dengan Plataran Kamandungan Ler. Sementara itu di kawasan Sitihinggil Ler ini terdapat beberapa bagian yang melengkapinya antara lain: Bangsal Sitihinggil itu sendiri, Bangsal Manguntur Tangkil, Bangsal Witana, Bangsal Kori yang terdiri dari kori wetan dan kori kilen, Bale Bang, Bale Angun-angun, dan Bangsal Pacaosan. Kemudian bangunan dilengkapi dengan Kamandungan Ler, yang merupakan bangunan utama untuk memutuskan perkara seperti ancaman hukuman mati bagi pelanggar peraturan. Kamandungan Lor adalah bagian dari bangsal sitihinggil, yang berupa sebuah plataran kedua dari bangunan tersebut. bangunan ini memiliki beberapa bangunan pendukung antara lain bangsal pancaniti, bale anti wahana, bangsal pacaosan. Kamandungan Lor dinamakan pula sebagai Plataran Keben. Penamaan itu merujuk pada kenyataan bahwa didekatnya terdapat pohon besar bernama pohon keben. Kamandhungan ler dapat terhubung dengan plataran Bangsal Sitihinggil melalui Regol, dan Regol itu disebut sebagai Regol Kamandungan. Kamandhungan Lor terhubung juga dengan bangsal Sri Manganti dengan Regol yang dinamakan Regol Srimanganti.\n\n
+        Selanjutnya, ialah bangunan penting bernama Bangsal Srimanganti yang memiliki fungsi khusus, selain sebagai tempat menerima tamu kerajaan, tempat ini kerap difungsikan pula sebagai lokasi pementasan budaya Keraton Yogyakarta. Bangsal Srimanganti juga memiliki plataran yang disebut juga dengan nama Plataran Srimanganti. Pada bagian ini terdapat bangunan utama yang terletak di sisi barat. Di bagian sisi timur Bangsal SriManganti terdapat bangunan bernama Bangsal Trajumas yang digunakan sebagai tempat untuk menyimpan pusaka milik Keraton Yogyakarta. Selain itu, Bangsal Sri Manganti didukung oleh beberapa bangunan lainnya seperti Bangsal Pacaosan, Kantor Keamanan Kraton, Kantor Tepas Dwarapura dan Tepas Halpitapura. Bangsal Srimanganti dilengkapi dengan regol penghubung dengan pelataran selanjutnya yakni plataran Kedhaton. Regol ini dinamakan Regol Danapratapa.\n\n
+        Area Kedhaton adalah area khusus untuk keluarga kerajaan, yang terdiri atas tempat tinggal untuk Sultan, ada keputren untuk istri Raja dan kesatrian untuk putra kerajaan. Kedhaton diketahui sebagai plataran utama dan memiliki hierari paling tinggi karena merupakan pusat kawasan Keraton Yogyakarta. Bangunan ini memiliki dua area utama yakni Bangsal Kencana dan Gedhong Prabayeksa. Keduanya merupakan bangunan yang dianggap sakral. Di mana Bangsal Kencono merupakan bangsal utama sebagai lokasi untuk menyelenggarakan upacara-upacara penting. Semenara Gedhong Prabayeksa merupakan bangunan utama untuk menyimpan pusaka utama Keraton Yogyakarta. Di kawasan ini terdapat bangunan pendukung lain dan sama sakralnya antara lain ada Bangsal Manis, Bangsal Mandhalasana, Bangsal Kotak, Gedhong Jene, Gedhong Trajutrisna, Gedhong Purwaretna, Gedhong Sedahan, Gedhong Patehan, Gedhong Gangsa, Gedhong Sarangbaya, Gedhong Kantor Parentah Hageng, Gedhong Danartapura, Gedhong Kantor Widyabudaya (Kraton Wetan), Kasatriyan, Museum HB IX, Museum Batik, Museum Keramik dan Kristal, Museum Lukisan, Kaputren, Masjid Panepen, Kraton Kilen, dan masing-masing plataran dihubungkan oleh regol. Regol penghubung itu bernama regol Kemagang karena regol ini menghubungkan bagian Kedhaton dengan plataran berikutnya yakni Kemagangan, yang merupakan area khusus untuk menerima abdi dalem yang hendak bertemu raja. Tepat ini kadang digunakan pula sebagai tempat berlatih dan ujian. Di sini juga menjadi lokasi untuk aple kesetiaan para abdi dalem sewaktu masih magang. Saat ini, Bangsal Kemagangan kerap digunakan sebagai kawasan untuk mementaskan wayang kulit dan untuk melaksanakan beberapa kegiatan pertunjukan lainnya. Plataran Kemagangan memiliki beberapa bangunan utama antara lain Bangsal Kemagangan, Bangsal Pacaosan, dan Panti Pareden. Panti Pareden digunakan untuk membuat gunungan ketika hendak melaksanakan upacara Grebeg. Sementara Bangsal Pacaosan dimanfaatkan sebagai tempat penjagaan abdi Dalem untuk menjaga keamanan. Kawasan Kemagangan memiliki regol yang berfungsi untuk menghubungkan antara Plataran Kemagangan dengan plataran selanjutnya yakni Plataran Kamandungan Kidul. Regol ini bernama Regol Gadhung Mlati.\n\n
+        Bagian Kamandungan Kidul merupakan sebuah bangsal tertua di kawasan keraton Yogyakarta. Kawasan ini memiliki dua bangunan utama yakni Bangsal kamandungan dan Bangsal Pacaosan. Bangsal Kamandungan Kodul diboyong oleh Sri Sultan Hamengku Buwono I dari Desa Sukowati, yang sekarang bernama Desa Karangnongko, Sragen. Di bangunan ini, Sultan Hamengkubuwono I tinggal selama masa berperang melawan VOC. Di samping Bangsal Kamandungan terdapat plataran yang memiliki regol untuk menghubungkannya dengan bangunan berikutnya yakni Sitihinggil Kidul yang merupakan tempat bagi Sultan untuk menyaksikan adu rampogan, tempat gladi resik untuk upacara Gerebeg, dan tempat berlatih langun kusumo atau prajurit perempuan, dan menjadi prosesi upacara pemakaman sultan menuju Imogiri. Pada tahun 1956, dibangun Gedhong Sasana Hinggil Dwi Abad yang dimaksudkan sebagai monumen peringatan 200 tahun berdirinya Keraton Yogyakarta. Rangkaian selanjutnya ialah bagian belakang ialah alun-alun Kidul merupakan tempat yang luas yang menjadi bagian dari Keraton Yogyakarta. Alun-alun kidul terletak di bagian selatan Keraton disebut juga dengan Pengkeran.Terakhir adalah Plengkung Nirbaya merupakan bangunan yang menjadi poros utama menuju gerbang utama.\n\n"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

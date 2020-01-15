@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul9">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Bonang (Jawa Timur)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu9bonangjawatimur"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bonang adalah salah satu alat musik tradisional Jawa Timur yang masih termasuk pengisi kesenian gamelan, alat musik ini yang dipukul / ditabuh pada bagian yang menonjol menggunakan alat pemukul khusus.\n\n
+    Keunikan bonang adalah ia tersusun dari banyak gong-gong kecil yang terbuat dari logam, banyak orang yang menyebutnya ceret / pot. Gong kecil tersebut disusun pada sebuah bingkai kayu dibentuk sedemikian rupa. \n\n
+Beberapa istilah pada alat musik tradisional bonang, yaitu:\n\n
+    •	Rancak: bingkai kayu pada alat musik bonang.\n
+    •	Brunjung / Jaleran: baris pertama bonang.\n
+    •	Dempok / Setren: baris kedua bonang.\n\n
+Dalam memainkan bonang, ada 2 macam susunan nada yang dikenal para pemusik gamelan yaitu slendro dan pelog, kurang lebih seperti ini: \n
+
+
+"/>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bonangjt"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

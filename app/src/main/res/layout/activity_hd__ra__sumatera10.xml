@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Belah Bubung  "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps15_belahbubung_kepriau"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Provinsi Kepulauan Riau –atau sering disingkat Kepri adalah salah satu provinsi di Indonesia yang baru terbentuk pada tahun 2002 silam. Provinsi ini merupakan provinsi yang terdiri atas gugusan pulau-pulau kecil di selat Malaka hasil pemekaran dari provinsi Riau, oleh karenanya ketika kita berbicara tentang bagaimana adat budaya masyarakat di sana, maka kita tidak akan bisa lepas dari budaya Melayu Riau secara umum. Hal ini termasuk juga ketika kita bicara tentang rumah adat Kepulauan Riau yang bernama Rumah Belah Bubung. \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Rumah Adat Kepulauan Riau \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Nah, di kesempatan artikel kali ini, kami akan mengulas secara lengkap tentang rumah adat Kepulauan Riau tersebut, mulai dari sejarah, gaya arsitektur, gambar, struktur, dan nilai-nilai filosofis yang terdapat di dalamnya. Bagi Anda yang ingin tahu bagaimana uniknya rumah Belah Bubung khas Melayu ini, silakan simak pembahasan berikut! \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="1.	Struktur Bangunan Rumah\n
+Sama seperti kebanyakan rumah adat Melayu, rumah adat Belah Bubung juga merupakan rumah dengan struktur panggung dengan tinggi sekitar 2 meter dari permukaan tanah. Dinamai belah bubung karena rangka atap dari rumah adat Kepulauan Riau ini dibuat menggunakan bubung (bambu) dan desainnya seperti terbelah dua. Selain itu, rumah ini juga memiliki nama-nama lain sesuai sebutan bagi bentuk atapnya. Nama tersebut antara lain rumah Lipat Kajang bila atapnya agak mendatar; rumah Lipat Pandan bila atapnya curam, rumah Atap Layar atau Ampar Labu bila bagian bawah atapnya ditambah dengan atap lain; rumah Perabung Panjang bila Perabung atapnya sejajar dengan jalan raya; dan rumah Perabung Melintang bila Perabungnya tidak sejajar dengan jalan. Rumah Belah Bubung secara keseluruhan dibuat menggunakan material yang berasal dari alam. Untuk tiang, gelagar, tangga, bendul, dan rasuk digunakan kayu; dinding dan lantai menggunakan papan; sementara atapnya yang berbentuk seperti pelana kuda terbuat dari daun nipah atau daun rumbia. Di masa sekarang, bambu juga sering digunakan untuk menggantikan kayu yang semakin sulit didapat. Begitupun dengan seng yang digunakan sebagai atap pengganti daun rumbia dan nipah. \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="2.	Fungsi Rumah Adat\n
+Rumah belah bubung adalah rumah adat yang digunakan sebagai tempat tinggal bagi kebanyakan masyarakat adat Melayu di Kepulauan Riau. Untuk menunjang fungsi tersebut, rumah ini dibagi menjadi beberapa bagian ruangan berdasarkan kegunaannya, yaitu:\n\n
+a.	Selasar atau pendopo\n Selasar ada 3 macam, yaitu selasar luar (bagian luar), selasar jatuh, dan selasar dalam. Selasar digunakan untuk menerima tamu, tempat bersantai, dan tempat meletakan alat-alat pertanian. \n\n
+b.	Rumah induk\n Bagian ini terbagi lagi ke dalam 3 ruangan, yaiu ruang muka (tempat ibu dan anak perempuan yang masih berumur dibawah 7 tahun), ruang tengah (tempat tidur anak laki-laki yang sudah berumur 7 tahun atau lebih), serta ruang dalam (tempat tidur orang tua).\n\n
+c.	Penganggah\n Disebut juga ruang dapur atau telo. Digunakan sebagai tempat menyimpan alat pertanian, cadangan makanan, serta tempat untuk aktivitas memasak.\n\n"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="3.	Ciri Khas dan Nilai Filosofis \n
+Masyarakat Melayu percaya bahwa untuk membangun rumah adat Kepulauan Riau ini mereka harus melakukan serangkaian proses panjang. Proses tersebut dilakukan agar nantinya rumah yang sudah dibangun dapat menjadi tempat tinggal yang nyaman bagi penghuninya. Proses tersebut meliputi musyawarah keluarga, penentuan hari baik, penentuan lokasi, pengumpulan bahan, dan seterusnya hingga rumah selesai di bangun. Setelah rumah berdiri, pemiliknya akan memberikan beragam hiasan atau ukiran dengan motif-motif khusus pada dinding rumahnya. Motif tersebut bisa berupa motif flora, motif fauna, motif alam, motif kaligrafi dan motif abstrak.\n\n
+a.	Motif flora\n Dapat ditemukan dalam bentuk kelompok kaluk pakis, kelompok bunga-bungaan, dan kelompok pucuk rebung.\n\n
+b.	Motif fauna\n Ditemukan dalam bentuk semut beriring, itik sekawan, dan lebah bergantung \n\n
+c.	Motif alam\n Ditemukan dalam bentuk Bintang-Bintang dan Awan Larat \n\n
+d.	Motif kaligrafi atau kalimah\n Merupakan ukiran yang berasal dari ayat-ayat al-Quran.\n\n
+e.	Motif abstrak\n Ditemukan dalam Selembayung yang diletakkan di puncak atap, Pinang-Pinang atau Gasing-Gasing, Sayap Layang-Layang yang diletakkan pada ujung kaki cucuran, Papan Tebuk; dan Balam Dua Selengek atau ukiran berbentuk burung Balam.\n\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

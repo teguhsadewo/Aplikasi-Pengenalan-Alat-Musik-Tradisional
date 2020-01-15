@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".H_P_Sumatera">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/rumahadat1"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps1_krongbade_aceh"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/rumahadat2"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps2_rumahbolon_sumut"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="180dp"/>
+
+
+
+            <Button
+                android:id="@+id/rumahadat3"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps6_rumahgadang_padang"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat4"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps7_rumahlimas_sumsel"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat5"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps10_rakitlimat_bangkabelitung"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat6"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps11_bumbunglima_bengkulu"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <Button
+                android:id="@+id/rumahadat7"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps12_sesatbalaiagung_lampung"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat8"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps13_rumahjambi_jambi"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat9"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps14_adatriau_riau"
+
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/rumahadat10"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ps15_belahbubung_kepriau"
+
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

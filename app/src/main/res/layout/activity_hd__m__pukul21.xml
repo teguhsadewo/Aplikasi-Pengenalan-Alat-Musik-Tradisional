@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul21">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Bonang (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu21bonangjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bonang adalah alat musik pukul yang terbuat dari logam-logam seperti kuningan, perunggu, atau besi. Cara memainkannya, bonang dipukul menggunakan pemukul khusus yang terbuat dari kayu yang dilapisi dengan kain atau karet. Ada 2 jenis bonang, pertama adalah bonang barung yang berukuran lebih besar dan bonang penerus yang berukuran lebih kecil.\n\n
+    Bonang barung - Bonang barung berukuran sedang, beroktaf tengah sampai tinggi, adalah salah satu dari instrumen-instrumen pemuka dalam Ansambel. Khususnya dalam teknik tabuhan pipilan, pola-pola nada yang selalu mengantisipasi nada-nada yang akan datang dapat menuntun lagu instrumen-instrumen lainnya. Pada jenis gendhing bonang, bonang barung memainkan pembuka gendhing (menentukan gendhing yang akan dimainkan) dan menuntun alur lagu gendhing. Pada teknik tabuhan imbal-imbalan, bonang barung tidak berfungsi sebagai lagu penuntun; ia membentuk pola-pola lagu jalin-menjalin dengan bonang panerus, dan pada aksen aksen penting bonang boleh membuat sekaran (lagu-lagu hiasan), biasanya di akhiran kalimat lagu.\n\n
+    Bonang Penerus - Bonang Penerus adalah bonang yang paling kecil, beroktaf tinggi. Pada teknik tabuhan pipilan, bonang panerus berkecepatan dua kali lipat daripada bonang barung. Walaupun mengantisipasi nada-nada balungan, bonang panerus tidak berfungsi sebagai lagu tuntunan, karena kecepatan dan ketinggian wilayah nadanya. Dalam teknik tabuhan imbal-imbalan, bekerja sama dengan bonang barung, bonang panerus memainkan pola-pola lagu jalin menjalin.\n
+Bonang Penerus cara memainkannya yaitu sama persis dengan Bonang Barung. Bonang Penerus hanya tinggal mengikuti kemana alur lagu dari Bonang Barung.
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

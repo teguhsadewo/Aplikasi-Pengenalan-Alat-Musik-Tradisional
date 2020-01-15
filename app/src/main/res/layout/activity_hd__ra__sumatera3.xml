@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Gadang "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps6_rumahgadang_padang"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Gadang adalah nama untuk rumah adat Minangkabau yang merupakan rumah tradisional dan banyak di jumpai di provinsi Sumatra Barat, Indonesia. Rumah ini juga disebut dengan nama lain oleh masyarakat setempat dengan nama Rumah Bagonjong atau ada juga yang menyebut dengan nama Rumah Baanjuang.\n\n
+Rumah dengan model ini juga banyak dijumpai di sumatra barat, Namun tidak semua kawasan di Minangkabau (darek) yang boleh didirikan rumah adat ini, hanya pada kawasan yang sudah memiliki status sebagai nagari saja Rumah Gadang ini boleh didirikan. Begitu juga pada kawasan yang disebut dengan rantau, rumah adat ini juga dahulunya tidak ada yang didirikan oleh para perantau Minangkabau.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Fungsi\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:text="      Rumah Gadang sebagai tempat tinggal bersama, mempunyai ketentuan-ketentuan tersendiri. Jumlah kamar bergantung kepada jumlah perempuan yang tinggal di dalamnya. Setiap perempuan dalam kaum tersebut yang telah bersuami memperoleh sebuah kamar. Sementara perempuan tua dan anak-anak memperoleh tempat di kamar dekat dapur. Gadis remaja memperoleh kamar bersama di ujung yang lain.\n\n
+Seluruh bagian dalam Rumah Gadang merupakan ruangan lepas kecuali kamar tidur. Bagian dalam terbagi atas lanjar dan ruang yang ditandai oleh tiang. Tiang itu berbanjar dari muka ke belakang dan dari kiri ke kanan. Tiang yang berbanjar dari depan ke belakang menandai lanjar, sedangkan tiang dari kiri ke kanan menandai ruang. Jumlah lanjar bergantung pada besar rumah, bisa dua, tiga dan empat. Ruangnya terdiri dari jumlah yang ganjil antara tiga dan sebelas.\n\n
+Rumah Gadang biasanya dibangun di atas sebidang tanah milik keluarga induk dalam suku/kaum tersebut secara turun temurun dan hanya dimiliki dan diwarisi dari dan kepada perempuan pada kaum tersebut. Dihalaman depan Rumah Gadang biasanya selalu terdapat dua buah bangunan Rangkiang, digunakan untuk menyimpan padi. Rumah Gadang pada sayap bangunan sebelah kanan dan kirinya terdapat ruang anjung (Bahasa Minang: anjuang) sebagai tempat pengantin bersanding atau tempat penobatan kepala adat, karena itu rumah Gadang dinamakan pula sebagai rumah Baanjuang. Anjung pada kelarasan Koto-Piliang memakai tongkat penyangga, sedangkan pada kelarasan Bodi-Chaniago tidak memakai tongkat penyangga di bawahnya. Hal ini sesuai filosofi yang dianut kedua golongan ini yang berbeda, golongan pertama menganut prinsip pemerintahan yang hierarki menggunakan anjung yang memakai tongkat penyangga, pada golongan kedua anjuang seolah-olah mengapung di udara. Tidak jauh dari komplek Rumah Gadang tersebut biasanya juga dibangun sebuah surau kaum yang berfungsi sebagai tempat ibadah, tempat pendidikan dan juga sekaligus menjadi tempat tinggal lelaki dewasa kaum tersebut yang belum menikah.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Arsitektur\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat ini memiliki keunikan bentuk arsitektur dengan bentuk puncak atapnya runcing yang menyerupai tanduk kerbau dan dahulunya dibuat dari bahan ijuk yang dapat tahan sampai puluhan tahun, namun belakangan atap rumah ini banyak berganti dengan atap seng. Rumah Gadang ini dibuat berbentuk empat persegi panjang dan dibagi atas dua bahagian, muka dan belakang. Bagian depan dari Rumah Gadang biasanya penuh dengan ukiran ornamen dan umumnya bermotif akar, bunga, daun serta bidang persegi empat dan genjang. Sedangkan bagian luar belakang dilapisi dengan belahan bambu. Rumah tradisional ini dibina dari tiang-tiang panjang, bangunan rumah dibuat besar ke atas, tetapi tidak mudah rebah oleh goncangan, dan setiap elemen dari Rumah Gadang mempunyai makna tersendiri yang dilatari oleh tambo yang ada dalam adat dan budaya masyarakat setempat.\n\n
+Pada umumnya Rumah Gadang mempunyai satu tangga yang terletak pada bagian depan. Sementara dapur dibangun terpisah pada bagian belakang rumah yang didempet pada dinding.\n\n
+Karena wilayah Minangkabau rawan gempa sejak dulunya karena berada di pegunungan Bukit Barisan, maka arsitektur Rumah Gadang juga memperhitungkan desain yang tahan gempa. Seluruh tiang Rumah Gadang tidak ditanamkan ke dalam tanah, tetapi bertumpu ke atas batu datar yang kuat dan lebar. Seluruh sambungan setiap pertemuan tiang dan kasau (kaso) besar tidak memakai paku, tetapi memakai pasak yang juga terbuat dari kayu. Ketika gempa terjadi Rumah Gadang akan bergeser secara fleksibel seperti menari di atas batu datar tempat tonggak atau tiang berdiri. Begitu pula setiap sambungan yang dihubungkan oleh pasak kayu juga bergerak secara fleksibel, sehingga Rumah Gadang yang dibangun secara benar akan tahan terhadap gempa.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ukiran\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Pada bagian dinding Rumah Gadang di buat dari bahan papan, sedangkan bagian belakang dari bahan bambu. Papan dinding dipasang vertikal, sementara semua papan yang menjadi dinding dan menjadi bingkai diberi ukiran, sehingga seluruh dinding menjadi penuh ukiran. Penempatan motif ukiran tergantung pada susunan dan letak papan pada dinding Rumah Gadang.\n\n
+Pada dasarnya ukiran pada Rumah Gadang merupakan ragam hias pengisi bidang dalam bentuk garis melingkar atau persegi. Motifnya umumnya tumbuhan merambat, akar yang berdaun, berbunga dan berbuah. Pola akar biasanya berbentuk lingkaran, akar berjajaran, berhimpitan, berjalinan dan juga sambung menyambung. Cabang atau ranting akar berkeluk ke luar, ke dalam, ke atas dan ke bawah.\n\n
+Disamping motif akar, motif lain yang dijumpai adalah motif geometri bersegi tiga, empat dan genjang. Motif daun, bunga atau buah dapat juga diukir tersendiri atau secara berjajaran.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Proses Pembuatan\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Menurut tradisinya, tiang utama Rumah Gadang yang disebut tonggak tuo yang berjumlah empat buah/batang diambil dari hutan secara gotong royong oleh anak nagari, terutama kaum kerabat, dan melibatkan puluhan orang. Batang pohon yang ditebang biasanya adalah pohon juha yang sudah tua dan lurus dengan diameter antara 40 cm hingga 60 cm. Pohon juha terkenal keras dan kuat. Setelah di bawa ke dalam nagari pohon tersebut tidak langsung di pakai, tetapi direndam dulu di kolam milik kaum atau keluarga besar selama bertahun-tahun.\n\n
+Setelah cukup waktu batang pohon tersebut diangkat atau dibangkit untuk dipakai sebagai tonggak tuo. Prosesi mengangkat/membangkit pohon tersebut disebut juga sebagai mambangkik batang tarandam (membangkitkan pohon yang direndam), lalu proses pembangunan Rumah Gadang berlanjut ke prosesi berikutnya, mendirikan tonggak tuo atau tiang utama sebanyak empat buah, yang dipandang sebagai menegakkan kebesaran.\n\n
+Batang pohon yang sudah direndam selama bertahun-tahun tersebut kemudian menjadi sangat keras dan tak bisa dimakan rayap, sehingga bisa bertahan sebagai tonggak tuo atau tiang utama selama ratusan tahun. Perendaman batang pohon yang akan dijadikan tonggak tuo selama bertahun-tahun tersebut merupakan salah satu kunci yang membuat Rumah Gadang tradisional mampu bertahan hingga ratusan tahun melintasi zaman.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Adopsi\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Keunikan bentuk atap Rumah Gadang yang melengkung dan lancip, telah menginspirasi beberapa arsitek di belahan negeri lain, seperti Ton van de Ven di Negeri Belanda yang mengadopsi desain Rumah Gadang pada bangunan The House of the Five Senses. Bangunan yang dioperasikan sejak tahun 1996 itu digunakan sebagai gerbang utama dari Taman Hiburan Efteling. Bangunan setinggi 52 meter dan luas atap 4500 meter persegi itu merupakan bangunan berkonstruksi kayu dengan atap jerami yang terbesar di dunia menurut Guinness Book of Records.\n
+Desain Rumah Gadang yang banyak terdapat di Negeri Sembilan juga diadopsi pada bangunan paviliun Malaysia di World Shanghai Expo 2010 yang diselenggarakan di Shanghai, China pada tahun 2010.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Simbol\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="Gonjong (bagian atap yang melengkung dan lancip) Rumah Gadang menjadi simbol atau ikon bagi masyarakat Minangkabau di samping ikon yang lain, seperti warna hitam-merah-kuning emas, rendang, dan lainnya. Hampir seluruh kantor pemerintahan di Sumatra Barat memakai desain Rumah Gadang dengan atap gonjongnya, walaupun dibangun secara permanen dengan semen dan batu. Ikon gonjong juga dipakai di bagian depan rumah makan Padang yang ada di berbagai tempat di luar Sumatra Barat. Logo-logo lembaga atau perkumpulan masyarakat Minang juga banyak yang memakai ikon gonjong dengan segala variasinya.\n"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

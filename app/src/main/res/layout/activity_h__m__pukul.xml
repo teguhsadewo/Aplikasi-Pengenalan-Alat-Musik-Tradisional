@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/h_m_pukul"
+    tools:context=".H_M_Pukul">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pukul1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu1arambasumut"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/pukul2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu2dollbengkulu"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"/>
+
+            <Button
+                android:id="@+id/pukul3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu3bendelampung"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu4gendangbangkabelitung"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu5angklungjabar"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/pukul6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu6gendangkepulauanriau"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/pukul7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu7gamelanjawatengah"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu8gendangyogyakarta"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <Button
+                android:id="@+id/pukul9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu9bonangjawatimur"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu10gendangbanten"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu11cengcengbali"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu12tumakalimantanbarat"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu13kolintangsulawesiutara"
+
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu14gandagorontalo"
+
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul15"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu15tifapapua"
+
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu16gongjawatengah"
+
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul17"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu17bedugjawatengah"
+
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul18"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu18kenongjawatengah"
+
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul19"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu19saronsulawesitengah"
+
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu20rebanamelayu"
+
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu21bonangjawatengah"
+
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu21talempongjawatengah"
+
+                android:layout_marginTop="780dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu23caklemongbangka"
+
+                android:layout_marginTop="780dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul24"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu24kompanglampung"
+
+                android:layout_marginTop="780dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul25"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu25gambangbetawi"
+
+                android:layout_marginTop="890dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <Button
+                android:id="@+id/pukul26"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu26kongamakuludanpapua"
+
+                android:layout_marginTop="890dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/pukul27"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apu27butsakepapua"
+
+                android:layout_marginTop="890dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

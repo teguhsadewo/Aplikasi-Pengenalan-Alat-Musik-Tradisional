@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul18">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Kenong (Jawa Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu18kenongjawatengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Kenong merupakan salah satu alat musik yang menyusun gamelan Jawa. Kenong biasanya dimainkan dengan dipukul oleh satu alat pemukul. Alat ini merupakan pengisi akor atau harmoni dalam permainkan gamelan, kenong berfungsi sebagai penentu batas-batas gatra, menegaskan irama. Kenong juga termasuk dalam alat musik berpencu, namun ukuran lebih besar daripada bonang. Alat ini juga dipukul menggunakan alat pemukul kayu yang dililitkan kain. Jumlah dalam satu set bervariasi tapi biasanya sekitar 10 buah.\n\n
+    Bentuk - Kenong merupakan unsur instrumen pencon gamelan yang paling gemuk, dibandingkan dengan kempul dan gong yang walaupun besar namun berbentuk pipih. Kenong ini disusun pada pangkon berupa kayu keras yang dialasi dengan tali, sehingga pada saat dipukul kenong tidak akan bergoyang ke samping namun dapat bergoyang ke atas bawah, sehingga menghasilkan suara. Bentuk kenong yang besar menghasilkan suara yang rendah namun nyaring dengan timber yang khas (dalam telinga masyarakat Jawa ditangkap berbunyi ning-nong, sehingga dinamakan kenong). Dalam gamelan, suara kenong mengisi sela-sela antara kempul.  \n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

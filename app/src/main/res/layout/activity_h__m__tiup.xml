@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/h_m_tiup"
+    tools:context=".H_M_Tiup">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/tiup1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at1serunekalee"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/tiup2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at2saluangpadang"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"/>
+
+            <Button
+                android:id="@+id/tiup3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at3accordionsumsel"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/tiup4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at4serunaibali"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/tiup5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at5nafirimaluku"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/tiup6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at6fumalukuutara"
+
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/tiup7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at7sulingbambujawabarat"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/tiup8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at8tritonpapua"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/tiup9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at9terompetreogponorogo"
+
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/tiup10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/at10pikonpapua"
+
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

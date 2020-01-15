@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul19">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Saron (Sulawesi Tengah)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu19saronsulawesitengah"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Saron atau yang biasanya disebut juga ricik ,adalah salah satu instrumen gamelan yang termasuk keluarga balungan. Instrumen yang terbuat dari lembaran-lembaran logam ini dimainkan dengan cara dipukul menggunakan alat pemukul khusus yang terbuat dari kayu.\n\n
+Dalam satu set gamelan biasanya mempunyai 4 saron, dan semuanya memiliki versi pelog dan slendro. Saron menghasilkan nada satu oktaf lebih tinggi daripada demung, dengan ukuran fisik yang lebih kecil. Tabuh saron biasanya terbuat dari kayu, dengan bentuk seperti palu.\n\n
+    Cara menabuhnya ada yang biasa sesuai nada, nada yang imbal, atau menabuh bergantian antara saron 1 dan saron 2. Cepat lambatnya dan keras lemahnya penabuhan tergantung pada komando dari kendang dan jenis gendhingnya. Pada gendhing Gangsaran yang menggambarkan kondisi peperangan misalnya, ricik ditabuh dengan keras dan cepat. Pada gendhing Gati yang bernuansa militer, ricik ditabuh lambat namun keras. Ketika mengiringi lagu ditabuh pelan.\n\n
+    Dalam memainkan saron, tangan kanan memukul wilahan / lembaran logam dengan tabuh, lalu tangan kiri memencet wilahan yang dipukul sebelumnya untuk menghilangkan dengungan yang tersisa dari pemukulan nada sebelumnya. Teknik ini disebut memathet (kata dasar: pathet = pencet).\n
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

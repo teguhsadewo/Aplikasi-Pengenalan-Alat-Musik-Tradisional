@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+
+    /*signingConfigs {*/
+        /*release {*/
+            /*storeFile file("/Applications/Android Studio.app/bin/me-biubiubiu")*/
+            /*storePassword "12345678"*/
+            /*keyAlias "me-biubiubiu-alias"*/
+            /*keyPassword "12345678"*/
+        /*}*/
+    /*}*/
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            /*signingConfig signingConfigs.release*/
+        }
+    }
+}
+
+dependencies {
+    implementation 'me.biubiubiu.justifytext:library:1.1'
+}

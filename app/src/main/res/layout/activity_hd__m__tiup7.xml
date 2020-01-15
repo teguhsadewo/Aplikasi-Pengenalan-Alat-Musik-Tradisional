@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Suling Bambu (Jawa Barat)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at7sulingbambujawabarat"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Suling adalah alat musik dari keluarga alat musik tiup kayu atau terbuat dari bambu. Suara suling berciri lembut dan dapat dipadukan dengan alat musik lainnya dengan baik. Suling modern untuk para ahli umumnya terbuat dari perak, emas atau campuran keduanya. Sedangkan suling untuk pelajar umumnya terbuat dari nikel-perak, atau logam yang dilapisi perak.\n\n
+        Suling konser standar ditalakan di C dan mempunyai jangkauan nada 3 oktaf dimulai dari middle C. Akan tetapi, pada beberapa suling untuk para ahli ada kunci tambahan untuk mencapai nada B di bawah middle C. Ini berarti suling merupakan salah satu alat musik orkes yang tinggi, hanya piccolo yang lebih tinggi lagi dari suling. Piccolo adalah suling kecil yang ditalakan satu oktaf lebih tinggi dari suling konser standar. Piccolo juga umumnya digunakan dalam orkes.\n\n
+        Suling konser modern memiliki banyak pilihan. Thumb key B-flat (diciptakan dan dirintis oleh Briccialdi) standar. B foot joint, akan tetapi, adalah pilihan ekstra untuk model menengah ke atas dan profesional.\n\n
+        Suling open-holed, juga biasa disebut French Flute (di mana beberapa kunci memiliki lubang di tengahnya sehingga pemain harus menutupnya dengan jarinya) umum pada pemain tingkat konser. Namun beberapa pemain suling (terutama para pelajar, dan bahkan beberapa para ahli) memilih closed-hole plateau key. Para pelajar umumnya menggunakan penutup sementara untuk menutup lubang tersebut sampai mereka berhasil menguasai penempatan jari yang sangat tepat.\n\n
+        Beberapa orang mempercayai bahwa kunci open-hole mampu menghasilkan suara yang lebih keras dan lebih jelas pada nada-nada rendah. Suling konser pada sebelum Era Klasik (1750) memakai Suling Blok (seperti gambar atas), sedangkan pada sebelum Era Romantis (Era Klasik 1750-1820) pakai Suling Albert (kayu hitam berlubang dan dilengkapi klep), dan sejak Era Romantis (1820) memakai suling Boehm (kayu hitam atau metal dilengkapi klep semua yang disebut juga suling Boehm, sistem Carl Boehm), atau suling saja. Khusus musik keroncong di Indonesia pada Era Stambul (1880-1920) memakai suling Albert, dan pada Era Keroncong Abadi (1920-1960) telah memakai suling Bohm.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

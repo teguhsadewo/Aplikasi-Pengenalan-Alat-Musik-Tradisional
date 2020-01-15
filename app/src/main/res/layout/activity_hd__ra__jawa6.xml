@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Joglo Jawa Timur"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj18_joglo_jatim"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Jawa Timur – Indonesia merupakan negara dengan beragam budaya yang ada. Kekayaan budaya yang dimiliki menjadikan nilai yang sangat luhur dan mencirikan identitas bangsa itu sendiri.\n\n
+Salah satu ciri budaya yang dimiliki oleh bangsa Indonesia adalah rumah adat dengan nama khas di setiap daerahnya. Rumah adat Jawa Timur dikenal dengan nama Joglo.\n\n
+Rumah adat Jawa Timur Joglo dikenal dengan bentuk limas dengan atap yang sangat megah. Sebutan Joglo adalah dimaksudkan untuk atapnya yang besar dengan mengambil stilasi model sebuah gunung.\n\n
+Joglo memiliki dasar filosofi yang tidak jauh beda dengan rumah adat Joglo di Jawa Tengah. Filosofinya berupa makna pengaruh Agama Islam, Hindu dan Budha  yang menjadi satu dan mengakar pada bangunan tersebut.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Rumah Joglo Sebagai Rumah Adat Jawa Timur\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Joglo pada tempo sebelumnya dibangun untuk menunjukkan strata atau status sosial tertentu dalam masyarakat. Mayoritas Rumah Joglo dimiliki oleh para bangsawan dengan salah satu tujuan untuk menerima tamu dengan jumlah yang besar. Namun setelah mengalami perkembangan zaman, Joglo diidentitaskan sebagai rumah adat yang boleh dimiliki semua orang.\n\n
+Rumah adat Jawa Timur Joglo memiliki keunikan tersendiri yang membedakan dengan rumah adat lainnya. Salah satu keunikannya adalah bahan pembuatan rumah yang dominan terbuat dari kayu jati.\n\n
+Selain itu, beberapa keunikan yang lain dapat dilihat dari jenis-jenis Rumah Joglo yang digunakan. Berikut beberapa jenis Rumah Joglo yang banyak digunakan.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="1.    Joglo Sinom\n
+Joglo Sinom berciri khas memiliki 36 pilar dan 4 saka guru. Konsep bangunan ini merupakan perkembangan dari saka Joglo yang menggunakan teras keliling. Masing-masing puncak dari keempat sisi didesain secara tinggi dan bertingkat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="2.    Joglo Pangrawit\n
+Joglo Pangrawit memiliki ciri khas yang lebih detail dari Joglo Sinom. Halaman rumah lebih luas dengan jumlah pilar yang lebih banyak. Rumah Joglo Pangrawit memiliki atap yang menjulang dan mengerucut dengan setiap sudutnya yang memiliki pilar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="3.    Joglo Hageng\n
+Joglo Hageng memiliki konsep yang lebih rumit dari Joglo Pangrawit, dimana jumlah pilarnya lebih banyak dan halaman yang lebih luas. Ukuran ruangannya lebih pendek dengan atap yang tumpul. Rumah ini biasa dimiliki oleh keluarga yang berpenghasilan lebih mencukupi.\n\n
+Selain dari jenis-jenis Rumah Joglo, terdapat sejumlah keunikan lainnya yang lebih utama mewakili Rumah Joglo itu sendiri. Keunikan-keunikan lainnya adalah ada pada bagian-bagian Rumah Joglo itu sendiri. Berikut bagian-bagian rumah adat Jawa Timur yang sarat akan keunikannya.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Keunikan Rumah Adat Jawa Timur Dilihat Dari Pembagian Ruangannya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Jika dilihat Rumah Adat Jawa Timur yang sering dikenal dengan Rumah Joglo ini memiliki keunikan tersendiri. Bagian-bagian ruangan dari Rumah Joglo banyak mencirikan keunikan khas sebagai rumah adat Jawa Timur. Diantara keunikannya tersebut yakni sebagai berikut :\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="1. Pendopo Yang Megah\n\n
+        Pendopo adalah bagian khas depan dari rumah adat Jawa Timur dengan halaman yang sangat luas. Pada bagian pendopo ini sering dilakukan pertemuan dengan warga dalam rangka musyawarah dan berdiskusi.\n\n
+Pendopo juga digunakan untuk membahas acara adat atau hajatan-hajatan tertentu. Dengan ini, pendopo memiliki banyak fungsi sebagai wujud terdepan rumah adat Jawa Timur.\n\n
+Ciri khas dari pendopo ini adalah bangunannya yang sangat megah dengan ruangan yang sangat luas tanpa sekat. Terdapat pilar-pilar penyangga di setiap sisi dan sudutnya.\n\n
+Empat pilar utama penyangga yang ada di tengah dinamakan saka guru dan mewakili keempat arah mata angin. Bentuk pendopo ini adalah bujur sangkar dengan bahan-bahan berkualitas tinggi yang digunakan pada bagian atap.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="2. Pringgitan Sebagai Lorong Masuk\n\n
+        Pringgitan terletak di antara pendopo dan omah jero (rumah dalam) dan difungsikan sebagai jalan masuk pada rumah bagian dalam. Wujud pringgitan terlihat seperti serambi berbentuk tiga persegi.\n\n
+Serambi-serambi tersebut menghadap ke arah pendopo dan menjadi komponen tersendiri yang dapat menarik tamu yang sedang berkunjung. Lorong ini juga kerap digunakan sebagai tempat pertunjukan wayang kulit.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="3. Emperan Sebagai Teras Untuk Bersantai\n\n
+        Emperan merupakan sebuah teras di depan pendopo yang digunakan untuk bersantai-santai. Selain itu, emperan juga difungsikan sebagai tempat untuk menerima tamu dan kegiatannya lainnya. Biasanya dalam emperan terdapat sepasang kursi kayu dan meja. Lebar emperan hanya sekitar 2 meter saja.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="4. Omah Njero Yang Privatif\n\n
+        Omah njero atau dikatakan sebagai “rumah dalam” adalah bagian ruangan khusus di bagian dalam sebagai tempat untuk bersantai bagi keluarga. Sebutan selain omah njero adalah omah mburi, dalam ageng, atau omah saja. Karena sifatnya yang privatif, tidak semua tamu dibolehkan masuk pada ruangan ini.\n\n
+Omah njero juga dilengkapi dengan penyekat atau pembatas antar ruangan berupa papan kayu, dan bukan terbuat dari dinding. Penampilannya sangat unik karena ada banyak kursi dan atribut-atribut lain yang menghiasi pada ruangan ini. Omah njero juga merupakan akses jalan masuk menuju senthong (kamar khusus).\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="5. Senthong Kiwa Sebagai Wilayah Ruangan Sebelah Kiri\n\n
+        Nama senthong dapat diartikan lain sebagai kamar. Sehingga demikian, senthong kiwa merupakan sebutan lain dari wilayah beberapa ruangan yang berada di sebelah kiwa (kiri).\n\n
+Senthong kiwa terdiri dari berbagai macam ruangan yang dapat difungsikan sebagai kamar tidur, gudang, atau tempat menyimpan persediaan makanan. Desain ruangan-ruangan senthong kiwa lebih menarik, karena kebanyakan dibuat sebagai kamar pribadi.\n
+
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="6. Senthong Tengah Sebagai Wilayah Sakral\n\n
+        Senthong tengah merupakan wilayah ruangan yang terletak di tengah bagian dalam. Sebutan senthong tengah juga dapat diartikan lain sebagai pedaringan, krobongan, atau boma.\n\n
+Letak ruangan ini berada jauh di dalam rumah dan berjarak sangat jauh dari pringgitan. Senthong tengah digunakan untuk menyimpan benda-benda berharga seperti keris, emas, dan harta-harta berharga lainnya\n\n
+Banyak orang yang menyebut senthong sebagai wilayah sakral karena erat digunakan sebagai tempat menyimpan barang-barang pusaka. Ruangan yang dianggap sakral ini biasanya diberi penerangan yang baik di siang hari maupun malam hari. Selain itu, juga diberi bantal, kasur, cermin, serta sisir rambut yang dibuat dari bahan berupa tanduk.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="7. Senthong Tengen Sebagai Wilayah Ruangan Sebelah Kanan\n\n
+        Sama halnya dengan senthong kiri, senthong kanan juga merupakan wilayah ruangan yang terdiri atas berbagai ruangan, namun terletak di sebelah kanan. Kamar-kamar di senthong kanan juga dapat difungsikan sebagai kamar tidur, gudang, atau tempat menyimpan persediaan makanan.\n\n
+Selayaknya dengan senthong kiri, senthong kanan juga didesain dengan sangat indah, karena juga banyak difungsikan sebagai tempat istirahat.\n
+
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="8. Gandhok Sebagai Gudang\n\n
+        Gandhok dalam bahasa modernnya adalah gudang. Ruangan ini terdiri dari dua bagian, yakni Gandok kiwo (kiri) dan Gandok tengen (kanan) yang tersebar di belakang rumah.\n\n
+Gudang ini juga didesain dengan unsur Jawa yang sangat melekat pada tiang dan atapnya. Gandhok pada umumnya difungsikan sebagai gudang tempat menyimpan barang atau lumbung tempat menyimpan bahan makanan.\n\n
+Itulah keunikan rumah adat Jawa Timur Joglo sebagai rumah adat yang cukup terkenal. Hal-hal yang menjadikan Rumah Joglo unik adalah bentuk bangunannya, bahan pembuatnya serta bagian-bagian rumah yang sangat melekat unsur Kebudayaan Jawanya.\n\n
+Rumah adat Jawa Timur Joglo memiliki nilai filosofis yang sudah sangat melekat dalam bangunannya. Selain itu, Rumah Joglo juga tidak bisa dilepaskan dari sejarah Kebudayaan Indonesia yang diwariskan secara turun-temurun.\n
+"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

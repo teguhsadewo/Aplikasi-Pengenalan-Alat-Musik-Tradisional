@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Sesat Balai Agung  "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps12_sesatbalaiagung_lampung"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Lampung dikenal dengan nama Nuwow Sesat. ‘Nuwow’ artinya rumah dan ‘sesat’ berarti adat. Pada awalnya Nuwow Sesat digunakan sebagai tempat dilangsungkannya pertemuan bagi masyarakat suku Lampung. Namun Nuwow Sesat juga memiliki fungsi lain.\n\n
+Nuwow Sesat berbentuk seperti rumah panggung. Hal ini dilakukan karena kondisi alam Lampung yang dialiri banyak sungai. Rumah ini sendiri biasa dibangun membelakangi aliran sungai. Perumahannya dibuat mengikuti alur sungai dengan pola yang rapat. Selain itu juga berfungsi untuk menghindari binatang buas.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Jenis Rumah Adat Lampung, Nuwow Sesat\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Lampung ternyata memiliki sebuah nama lain yang unik yaitu Nuwow Sesat seperti yang sudah dijelaskan diatas. Tapi ternyata selain memiliki nama yang unik rumah adat Lampung juga memiliki beberapa jenis Nuwow Sesat. Ulasan selengkapnya mari simak dibawah ini:\n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="1. Sesat Balai Agung\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Merupakan rumah adat Lampung yang biasa digunakan sebagai ikon. Bangunan ini merupakan tempat pertemuan para penyimbang adat atau biasa disebut dengan purwatin. Para purwatin melakukan musyawarah atau pepung adat di Balai Agung.\n\n
+Untuk dapat memasuki Sesat Balai Agung terlebih dahulu harus melewati jambat agung atau tangga. Tangga ini sering disebut juga dengan lorong agung. Dibagian atas jambat agung terdapat payung berwarna putih, kuning dan merah. Ketiganya merupakan lambang dari satu kesatuan masyarakat di Lampung.\n\n
+Payung yang berwarna putih memiliki arti tingkat marga yang dimiliki. Payung berwarna kuning melambangkan tingkat kampung, sedangkan payung berwarna merah melambangkan tingkat suku di Lampung.\n\n
+Nuwow Sesat ini juga memiliki lambang burung Garuda. Burung Garuda dipercaya sebagai kendaraan Dewa Wisnu pada jaman dahulu. Pada masa kini lambang Garuda tersebut digunakan sebagai tempat duduk pengantin saat dilangsungkannya acara pernikahan adat suku Lampung.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="2. Nuwow Balak\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Nuwow Balak atau rumah besar merupakan rumah adat Lampung yang digunakan sebagai tempat tinggal bagi penyimbang adat atau kepala suku. Rumah ini memiliki ukuran 30 x 15 meter. Pada bagian depannya terdapat beranda sebagai tempat untuk bersantai atau menerima tamu.\n\n
+Serambi nya tidak memiliki dinding, dan pada bagian depan terdapat tangga yang digunakan untuk turun ke tanah. Disamping tangga bagian bawah terdapat tempat untuk mencuci kaki dan meletakkan alas kaki agar tidak mengotori rumah. Tempat ini disebut dengan nama garang hadap.\n\n
+Bangunan utama rumah adat Lampung Nuwow Balak ini terbagi menjadi beberapa ruangan. Ada dua buah ruang pertemuan, satu buah ruang keluarga dan delapan buah kamar. Diantaranya, ada sebuah kamar yang digunakan sebagai tempat tinggal bagi istri kepala adat.\n\n
+Dapurnya berada di bagian belakang dan terpisah dari bangunan rumah utama. Dapur ini dihubungkan dengan sebuah bangunan yang mirip seperti sebuah jembatan. Atapnya terbuat dari ijuk enau berbentuk seperti perahu terbalik secara melintang.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="3. Nuwow Lunik\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Nuwow Lunik yang memiliki arti rumah kecil merupakan rumah adat Lampung yang biasa digunakan oleh rakyat biasa. Rumah tradisional ini memiliki ukuran yang lebih kecil. Rumah ini tidak memiliki beranda dan pada bagian serambi hanya terdapat sebuah tangga dibagian pintu masuk yang mengarah ke tanah.\n\n
+Nuwow Lunik memiliki bentuk yang lebih sederhana jika dibandingkan dengan Nuwow Balak. Hanya terdapat beberapa kamar tidur. Bagian dapurnya pun menjadi satu dengan bangunan utama. Atapnya memiliki bentuk yang lebih bervariasi, ada yang seperti perahu terbalik namun ada juga yang berbentuk seperti limas.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Bagian-Bagian Rumah Adat Lampung\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="Jika tadi sudah mengetahui beberapa jenis dari rumah adat, sekarang kita mengenal lebih jauh tentang bagian-bagian yang ada pada rumah adat Lampung. Pada umumnya bagian-bagian rumah adat Lampung adalah sebagai berikut:\n\n
+•	Ijan Geladak,\n
+yaitu tangga masuk yang dilengkapi dengan rurung agung atau atap.\n\n
+•	Anjungan atau serambi,\n adalah sebuah tempat yang digunakan untuk pertemuan kecil.\n\n
+•	Pusiban,\n merupakan ruangan yang digunakan sebagai tempat musyawarah resmi.\n\n
+•	Ruang Tetabuhan,\n yaitu tempat yang digunakan untuk menyimpan alat-alat musik khas.\n\n
+•	Ruang Gajah Merem,\n merupakan tempat istirahat untuk para penyimbang adat.\n\n
+•	Kebik Tengah,\n adalah tempat tidur bagi anak ketika atau penyimbang batin.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Material Bangunan Rumah Adat Lampung\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat lampung memiliki pondasi berupa batu yang berbentuk persegi. Batu ini disebut juga umpak batu yang memiliki tiang penyangga sebanyak 35 buah dan tiang induk sebanyak 20 buah. Lantainya terbuat dari papan atau khesi dan ada pula yang terbuat dari bambu.\n\n
+Dinding rumah ini terbuat dari papan kayu yang disusun secara berjajar. Pintunya terbuat dari kayu membentuk setangkup ganda. Jendelanya juga demikian, namun berukuran lebih kecil. Terdapat empat buah jendela pada bagian depan yang dilapisi teralis kayu.\n\n
+Atapnya memiliki ujung bubungan yang berpusat pada satu titik tengah di bagian atas yang terbuat dari kayu bulat yang bersusun dan berlapis tembaga. Bagian ini juga diberi perhiasan.\n\n
+Demikianlah pembahasan mengenai rumah adat Lampung. Setiap daerah pasti memiliki keunikannnya tersendiri, tak terkecuali Propinsi Lampung. Untuk itu sebaiknya kita sebagai rakyat Indonesia hendaknya turut melestarikan kebudayaan Indonesia. Warisan adat istiadat yang kaya ini harus dijaga.\n\n
+Jika tidak bertindak dari sekarang, maka generasi selanjutnya sangat mungkin untuk tidak mengetahui sejarah dan kebudayaan dari daerahnya sendiri. Namun bukan berarti membanggakannya secara berlebihan sehingga merendahkan yang lain. Saling toleransi sangat diperlukan bagi keberlangsungan di masa depan.\n
+"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

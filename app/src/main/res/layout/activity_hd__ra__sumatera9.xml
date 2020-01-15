@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Selaso Jatuh Kembar  "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps14_adatriau_riau"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Riau – Rumah adat riau atau sering di sebut dengan istilah selaso jatuh kembar terdiri dari berbagai ruangan seperti ruangan besar untuk tempat tidur, ruangan bersila,  anjungan dan dapur.\n\n
+Untuk Rumah adat riau ini juga di lengkapi dengan balai adat yang sering digunakan untuk musyawarah dan pertemuan adat. Rumah adat riau atau selato jatuh kembar ini adalah salah satu rumah adat tradisional berjenis bangunan yang berbentuk rumah.\n\n
+Selaso jatuh kembar juga memiliki arti rumah yang memiliki dua selasar (selaso, salaso). Rumah adat ini memiliki lantai yang lebih rendah dari ruangan tengah, dimana bangunan ini selalu di beri hiasan berupa ukiran.\n\n
+Di puncak atap bangunan ini selalu ada hiasan kayu yang mencuat bersilangan dan selalu di beri hiasan berupa ukiran. Ukiran ini selalu disebut dengan Salembayung atau Sulobuyung. Simbol ini selalu melambangkan pengakuan terhadap Tuhan yang maha esa.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Mengenal Rumah Adat Riau\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Dari berbagai keragaman rumah adat atau tradisional di rinau, ada beberapa persamaan atau jenis yang sama. Pada umumnya rumah ini berbentuk rumah panggung yang terdiri atas tiang yang berbentuk persegi panjang.\n\n
+Ruangan ini memiliki tangga, pintu, dinding dan susunan ruangan sama serta memiliki ukiran melayu seperti selambayung, lebah bergayut dll. Rumah adat riau memiliki beberapa keunikan diantaranya adalah:\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bentuk Bangunan Rumah Adat Riau\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="1. Beratap Silang\n\n
+        Rumah adat riau  ini terdiri dari dua silangan yang pada ujung atap dan kaki atap. Kedua bagian ini melengkung ke atas, namun lengkungan ujung atap ini harus lebih kuat di bandingkan atap kaki. Hiasan pada ujung kaki ini disebut sulo bayung dan atap kaki disebut sayok layanagan.\n\n
+Rumah ini memiliki arti tersendiri yang menghubungkan antara manusia dan penciptanya. Manusia yang mempunyai banyak cobaan yang kadang menghanyutkan dan dapat membawa manusia kedalam kehidupan yang lebih kelam.\n\n
+Bentuk atap ini menyerutkan agar pemiliknya tidak lupa ibadah dimana nanti akhir hidupnya bisa kembali dengan keadaan suci. Material yang digunakan masyarakat riau ini adalah daun rumbia yang diikatkan dengan tali atau rotan pada tulang atapnya.\n\n
+Sedangkan ujung atap yang berat di pasak pada atap dengan menggunakan nibung. Material ini sering digunakan pada masyarakat riau yang bertujuan agar terhindar dari sengatan matahari.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="2. Loteng\n\n
+        Di rumah adat riau ini memiliki dua lonteng yang disebut langsa pada bagian dapur disebut panas. Tidak semua rumah adat ini diberi lonteng, biasanya di ruang tamu di biarkan terbuka. Dengan tujuan jika ada pernikahan tempat tersebut bisa di letakkan untuk pelaminan. Material yang sering digunakan pada lonteng adalah papan kayu yang kuat dan keras seperti merbau meskipun lebih tipis dibandingkan lantai.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="3. Lubang Air/ Ventilasi\n\n
+Rumah adat riau memiliki lubang air yang sering disebut dengan ventilasi. Ventilasi ini memiliki kegunaan untuk memasukkan atau mengeluarkan udara. Lubang air ini mengambil bentuk simetris atau persegi delapan, enam, empat ataupun lingkaran.\n\n
+Simbol ini menjadi simbol keyakinan oleh masyarakat melayu. Lubang air biasanya pada bagian atas pintu dan jendela rumah. Lubang air terbuat dari kayu sungkai yang biasanya juga di gunakan untuk pintu dan jendela.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="4. Dinding Yang Berbentuk Miring\n\n
+Dinding yang ada di dalam rumah adat ini tidak seperti rumah-rumah lain, didalam rumah ini dibuat miring 20’ hingga 30’. Terdapat dinding yang miring ini memberikan aerodinamika pada rumah-rumah adat yang terletak di pinggir sungai atau laut yang anginnya cukup kencang.\n\n
+Bentuk ini terinspirasi dari bentuk kapal yang terbukti dari hiasan pada kaki dinding yang mirip dengan perahu. Dinding ini juga direkatkan dengan jenang, untuk merapatkan dinding yang cekung dan dimasukkan didalam bagian yang lurus hingga tidak tembus angin ataupun cahaya. Menggunakan kayu yang keras dan tidak berserabut dinding ini dibuat dua lapis pada bagian dalam dan luar.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="5. Lantai Yang Terbuat dari Kayu Nibung\n\n
+Lantai rumah adat riau ini dibuat sangat rapi, sedangkan bagian dapur dibuat agak jarang. Bagian lantai ini terbuat dari kayu nibung yang diletakkan pada belakang ataupun kamar mandi yang sering terkena oleh air. Ketinggian lantai biasanya dibentuk dengan berdasarkan tinggi tiang rumah dengan rasio 20cm sampai dengan 60cm.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="6. Bendul/Penguat Ujung Lantai\n\n
+Bendul adalah batas lantai yang terbuat dari kayu yang tidak boleh bersambung karna fungsinya untuk penguat dan pengikat ujung-ujung lantai.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="7. Pintu Rumah Adat\n\n
+Pintu ini memiliki fungsi tersendiri yang dimana fungsinya sebagai jalan utama jika ada tamu di ruang pertama tidak perlu berlalu lalang didepan tamu. Untuk pintu pada rumah adat ini hanya boleh digunakan oleh yang punya rumah atau saudara terdekat.\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="8. Tangga Yang Ganjil\n\n
+Tangga pada rumah adat ini biasanya dibuat ganjil sesuai dengan tinggi rendahnya rumah tersebut. Pada tangga yang dibuat biasanya persegi atau bulat yang biasanya dilengkapi dengan tangan tangga  yang diberi ornamen atau papan tembus.\n\n
+Tangga ini biasanya terletak disamping rumah untuk menghindari pandangan langsung menuju rumah, namun juga ada yang memasangnya didepan rumah.\n\n
+Anak tangga ini biasanya terbuat dari kayu nibung atau kayu yang keras lainnya yang bisa tahan terhadap serangan panas. Biasanya permukaan tangga ini dimulai dengan meletakkan bayu atau kayu keras disandingkan di kanannya dengan tempat air untuk mencuci kaki bagi orang yang ingin masuk kedalam rumah.\n\n
+Itulah beberapa keunikan yang ada pada rumah adat riau yang bisa kita ketahui. Rumah adat riau ini memang beda degan rumah saat ini dan memiliki banyak keunikan didalam bangunannya. Dengan itu kita bisa mengetahui beberapa keunikan rumah adat riau yang sudah ada di atas.\n
+"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

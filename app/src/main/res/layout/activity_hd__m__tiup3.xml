@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Tiup3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n According (Sumatera Selatan)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/at3accordionsumsel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Akordeon, alat music yang sekilas mirip dengan piano ini merupakan alat music tradisional yang berasal dari sumatera selatan. Cara menggunakan accordion yaitu dengan menggendonnya dibagian depan atau dada, meniup dan menekan tombol-tombol sebagai not sesuai dengan nada yang ingin dikeluarkan.\n
+            "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Sejara According\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Alat music tradisional dari Sumatera Selatan ini yakni Accordion merupakan hasil dari masuknya budaya luar. Karena alat music Accordion ini sudah ada sejak tahun 1822 yang diciptakan oleh Christian Fried yakni seorang seniman asal Berlin dan dipatenkan pada tahun 1892 oleh Cyrill Demian. Awal mula diciptakan Accordion tidak memiliki tuts seluas dan selengkap sekarnag melainkan masih sedikit dan sederhana. Seiring perkembangn jaman kini Accordion semakin canggih dengan tuts yang lebih lengkap dan suara yang lebih bagus.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bentuk Accordion\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Accordion memiliki bentuk dua buah kotak kayu untuk bagian sisi kanan dan kiri menjadi satu. Bagian-bagian yang ada pada Accrodion yaitu bellow tubuh, palet dan bagain lainnya. Bellow merupakan bagian Accordion yang berfungsi untuk menciptakan tekanan udara seingga menghasilkan suara. Sedangkan palet sering memiliki fungsi untuk mengontrol keluar masuknya udara sehingga bentuknyapun menyerupai katup.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Jenis According\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Diluar alat music tradisonal Sumatera Selatan secara umum terdapat empat jenis accordion yaitu:\n\n
+    a.	Accordion berwarna\n
+    b.	Accordion Contertinas\n
+    c.	Accordion Diatonis, dan\n
+    d.	Accordion yang tidak asing lagi yaitu accordion Piano.\n\n
+Accordion diatonic adalah accordion yang paling terkenal diseluruh dunia, yang sering kali digunakan sebagai pengiing tarian berkelompok di Eropa.\n\n
+        Accordion diatonic ini memperoleh suara paling tinggi dibandingkan accordion yang lainnya, sedangkan accordion concertinas mempunyai bentuk sedikit lebih aneh. Terdapat kisi-kisi udara yang berjumlah empat sampai dua belas. Di beberapa wilayah Rusia ternyata accordion berwanalah yang paling popular.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Cara memainkan Accordion \n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Sebelum memainkan accordion pastikan posisi accordion tidak salah. Pasang tali dibagian dada layaknya menggunakan ransel namun dibagian depan. Posisi palet disebelah kiri dan jangan lupa masukkan tangan kirri ke tali yang ada pada bagian bawah palet dan bagain kiri juga terdapat bass dan chord. Sedangkan untuk tangan kanan kamu bisa memainkan tutus layaknya piano.\n\n"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

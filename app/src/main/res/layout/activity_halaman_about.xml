@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HalamanAbout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <me.biubiubiu.justifytext.library.JustifyTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Halaman About"/>
+
+    </LinearLayout>
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="      Perkembangan teknologi saat ini sudah semakin pesat berkembang. Perkembangan teknologi ini mempengaruhi seluruh aspek kehidupan bermasyarakat seperti di kantor. sekolah, kampus, lapangan, jalanan dan dimanapun kita berada. Perkembangan teknologi juga menjadi masyarakat di Indonesia sudah mulai merubah gaya hidupnya. Semakin berkembangnya zaman dan teknologi lambat laut semua akan beralih pada dunia digital. contohnya saja dalam media pembelajaran.  untuk membantu siswa memahami lebih baik tentang materi yang disampaikan saat ini seorang guru mulai menggunakan teknologi untuk mengajar. seperti salah satunya adalah adanya proyektor pada ruangan kelas, absesi dengan menggunakan finger print dan masih banyak lagi. Dari perkembangan teknologi tersebut maka kami selaku mahasiswa ingin membantu para guru untuk mengajar dalam hal ini adalah pembelajaran tentang Pengenalan Alat Musik Tradisional Indonesia. Diharapkan dengan adanya palikasi ini semog dapat membantu guru dalam penyampaian materi dan juga untuk terus melestarikan alat musik tradisional ini agar tidak dilupakan.\n\n
+        Tidak hanya memberikan mengalkan alat musik tradisional khas indonesia aplikasi ini juga memberikan pengetahuan tentang rumah adat yang ada di Indoneia, memberikan definisi fungsi rumah adat, dan juga fungsi dari setiap detail bangunan yang dibuat. semoga dengan adanya materi ini diharapkan seluruh siswa memahami tentang arti penting dari budaya di Indonesia dan terus menjaganya agar Indonesia selalu punya budaya yang tidak di miliki oleh negara lain.\n"
+
+        />
+</RelativeLayout>

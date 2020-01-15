@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Sumatera5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Sumatera \n Rumah Rakit Limas "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ps10_rakitlimat_bangkabelitung"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rakit Limas adalah rumah adat dari Bangka Belitung. Rumah adat rakit limas banyak dikenal sebagai rumah adat dari Bangka Belitung. Namun secara garis besar, rumah ada di Bangka Belitung terdiri atas tiga jenis yaitu Rumah Rakit, Rumah Limas, dan Rumah Panggung. Rakit dan limas yang menjadi bagian dari jenis rumah adat inilah yang kemudian dikenal sebagai rumah adat dari daerah ini. Ketiga rumah adat ini memiliki arsitektur yang berlainan namun di antara ketiganya memiliki persamaan. Ketiganya banyak menggunakan arsitektur dan adat Melayu pada ketiga bangunannya.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Rumah Rakit\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Rakit merupakan salah satu rumah adat Bangka Belitung. Di masa sekarang, rumah adat rakit yang dibangun di pinggiran sungai Musi merupakan hunian masyarakat keturunan Tionghoa. Keberadaan sungai Musi ini jugalah yang menjadi salah satu latar belakang adanya bangunan rumah adat Rakit ini. Rumah adat Rakit ini berasal dari Sumatera Selatan yang merupakan cikal bakal dari adanya provinsi Bangka Belitung ini di masa sekarang. Rumah adat Rakit ini diyakini sebagai rumah adat yang tertua berada di Sumatera Selatan. Bahkan ada yang menyebutkan jika rumah adat Rakit ini telah ada semenjak jaman kerajaan Sriwijaya. Pada masanya, para warga negara asing yang berasal dari Inggris, Spanyol, Cina dan Belanda diharuskan untuk bertempat tinggal di rumah adat Rakit ini ketika sedang berkunjung ke kerajaan Sriwijaya. Sumber sejarah lain menyebutkan bahwa pernah ada kamar dagang Belanda beserta gudangnya juga didirikan di atas salah satu rumah adat Rakit yang ada di pinggiran sungai Musi ini pada masanya. Sehingga tidak salah jika selain digunakan sebagai tempat tinggal, rumah adat rakit ini dikenal sebagai pusat kegiatan ekonomi.\n\n
+Penamaan rumah rakit sendiri berasal dari bentuk bangunan ini. Struktur bangunan dan rupa bangunan rumah adat Rakit ini menyerupai bentuk rakit yang lengkap. Hal ini juga menyesuikan dengan lokasi pembangunan dari rumah adat ini. Banyak masyarakat yang memiliki rumah adat rakit ini meyakini bahwa sungai adalah sumber mata pencaharian dan sumber air. Sehingga sungai pun dianggap sebagai sumber kehidupan sehingga banyak yang akhirnya tinggal di dekat aliran sungai. Hal yang unik dari adanya rumah adat Rakit ini adalah rumah ini bukan hanya digunakan sebagai tempat tinggal terapung. Di sisi lain rumah ini juga digunakan sarana transportasi dari satu tempat ke tempat yang lain. Kebanyakan dari rumah adat Rakit selalu menetap dan menghadap ke arah daratan. Rumah adat Rakit diikat dengan tali yang dihubungkan dengan tonggak di tepian sungai dan disangga oleh beberapa tiang yang ditancapkan ke dasar sungai. Para pemiliki rumah adat Rakit ini memiliki pedoman untuk membuat lantai rumah mereka tidak basah oleh air yang ada di bawahnya karena memang tujuannya untuk ditinggali sehingga sebisa mungkin agar bisa nyaman bagi para penghuninya.\n\n
+Bahan utama yang digunakan untuk membangun rumah adat Rakit ini adalah bambu. Adapun bukan sembarang jenis bambu yang bisa digunakan sebagai pelampung rumah rakit. Yaitu bambu Manyan yang bisa dan biasa digunakan sebagai pelampung rumah ini. Kelebihan dari bambu Manyan ini adalah ukurannya yang besar dan daya tahan dari bambu ini sehingga cocok dijadikan sebagai bahan pelampung. Namun, ada juga beberapa orang yang menggunakan balok kayu sebagai pelampung dari rumah adat rakit ini. Adapun jenis kayu yang sering digunakan sebagai pelampung adalah kayu trembesi dan kayu seru yang banyak ditemukan di hutan Bangka.\n\n
+Dinding kayu bangunan rumah adat Rakit ini bisanya menggunakan papan kayu. Selain itu, sebagian masyarakat juga ada yang menggunakan cacahan bambu yang kemudian direntangkan sehingga membentuk luasan yang disebut dengan pepuluh.[6] Ulit yang merupakan anyaman daun banyak digunakan sebagai atap dari rumah adat Rakit. Bisa juga digunakan daun nipah kering sebagai bagian dari atap. Rotan memegang peranan penting dalam pembangunan rumah ini karena digunakan sebagai pengikat dinding dan atap. Rotan yang kecil digunakan sebagai pengikat atap rumah dan yang besar digunakan sebagai pengikat balok kayu ataupun bambu pelampung. Di masa sekarang yang telah modern, rumah adat Rakit menggunakan seng sebagai bahan atap. Atap dari rumah rakit ini berbentuk limas dengan bubungan yang sejajar dengan arah sungai.\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Rumah Limas\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Limas yang merupakan salah satu rumah adat dari Bangka Belitung ini merupakan bentuk adopsi gaya bangunan dari rumah adat Sumatera Selatan. Sebelum menjadi provinsi Bangka Belitung, provinsi ini telah menjadi bagian dari provinsi Sumatera Selatan. Tidaklah mengherankan jika banyak ditemukan persamaan di antara keduanya. Rumah adat Limas biasanya melambangkan status sosial pemilik rumah karena kebanyakan orang yang memiliki rumah adat dengan model ini adalah keturunan keluarga Kesultanan Palembang, pejabat pemerintahan Hindia Belanda, dan saudagar kaya.\n\n
+Sebagaimana namanya yaitu Limas, hal ini berdasarkan pada bentuk atap dari rumah adat ini yang memiliki bentuk seperti limas. Pada bangunan ini terdapat penambahan-penambahan ukuran pada bagian sisi bangunan yaitu dengan memberikan ukuran yang lebih panjang pada bagian atapnya. Hal ini mengacu pada gaya bangunan Melayu Bubung Panjang. Bahan bangunan rumah adat Limas menggunakan bahan kayu unglen ataupun merbau. Pemilihan jenis kayu ini dikarenakan kelebihan jenis kayu ini yang lebih tahan terhadap air. Adapun bagian dinding dari bangunan ini terbuat dari papan-papan kayu yang disusun secara tegak. Anak tangga (undakan) banyak diletakkan pada sisi kanan dan kiri bangunan sebagai jalan masuk menuju ke arah rumah adat Limas.\n\n
+Lantai dari bangunan ini memiliki ketinggian yang tidak seragam yang disebut dengan Bengkilas. Perbedaan derajat tamu yang memasuki rumah tersebutlah yang menjadi alasan mengapa lantai dari bangunan ini tidak seragam dalam hal ketinggiannya. Selain itu, fungsi dan tujuan penggunaan dari bagian bangunan tersebutlah yang membedakan tingkatan dari ketinggian bangunan tersebut. Lantai yang tertinggi biasanya digunakan untuk acara yang berkaitan dengan kepentingan keluarga, seperti halnya hajatan. Sedangkan untuk para tamu istimewa yang hadir biasanya akan dijamu di teras atau di lantai kedua. Rumah adat Limas ini sudah cukup jarang ditemui karena bahan-bahan penyusunnya sudah jarang digunakan. Keunikan lain dari rumah adat ini adalah beberapa di antaranya ada yang menggunakan atap dari genting tanah liat. Rumah panggung yang kental dengan adat Melayu merupakan salah satu ciri khas dari rumah adat Limas ini. Adapun penggunaan kayu yang menjadi penyusun dari bangunan ini merupakan cerminan dari kesederhanaan sebagaimana halnya prinsip yang dipegang oleh masyarakat Melayu.\n\n
+Gaya bangunan rumah adat Limas banyak mengadopsi gaya Eropa karena pengaruh di masa kolonial. Rumat adat Limas memiliki penampilan yang cenderung modern.Beberapa orang sering menambahkan ruang pada bangunan ini jika dibandingkan dengan bangunan aslinya. Ruang baru yang ditambahkan dibuat dalam bentuk memanjang ke belakang dengan posisi ruang tamu berada di depan. Bisa juga dengan dibuat melebar dengan ruang tamu dan kamar tidur dalam posisi sejajar satu sama lain.\n\n
+"/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Tambahan: Rumah Panggung\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Panggung merupakan salah satu bangunan rumah adat yang ada di Bangka Belitung. Bangunan ini memiliki ciri khas dengan mengadopsi gaya bangunan Melayu Awal, Melayu Bubungan Limas, dan Melayu Bubungan Panjang. Rumah Melayu Awal adalah rumah yang menggunakan alang-alang, akar pohon, dedaunan, bambu, kayu, dan rotan sebagai bahan-bahan penyusun bangunannya. Rumah Panggung yang memiliki ciri Melayu Awal ini memiliki atap yang tinggi dan sedikit kemiringan pada bagian bangunannya. Jumlah jendela dan bukaan dari rumah ini sangat banyak. Selain itu Rumah Panggung ini memiliki beranda di bagian depan rumahnya. Rumah adat Panggung ini terdiri atas rumah induk dan dapur.\n\n
+Rumah ini memiliki 9 tiang yang menjadi bagian dari bangunannya. Dalam hal ini ada falsafah yang dianut mengenai jumlah tiang yang digunakan. Hal ini mengikuti pada kebiasaan nenek moyang mereka yang bisa menggunakan bangunan yang terdiri atas 9 tiang sebagai penyangganya. Namun akan ada sebuah tiang yang berada di bagian tengah rumah sebagai penyangga utama. Pelepah kayu biasa dipergunakan sebagai bagian dinding dari bangunan rumah jenis ini. Namun tak jarang sesekali bambu juga dipergunakan sebagai bahan penyusun dinding rumah. Jika biasanya rumah modern menggunakan cat sebagai pelapis akhir, maka pada bangunan ini sama sekali tidak menggunakan pewarna untuk melapisi bagian luar dindingnya.\n
+"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

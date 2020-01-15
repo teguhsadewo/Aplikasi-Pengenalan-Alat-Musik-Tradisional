@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Pukul10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gendang (Banten)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/apu10gendangbanten"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Gendang termasuk dalam klasifikasi alat musik perkusi. Gendang terbuat dari kayu denga selaput (membran) yang menghasilkan bunyi bila dipukul. Ada berbagai ukuran gendang, yaitu gendang kecil, sedang, dan besar. Gendang yang berukuran kecil disebut rebana. Gendang yang berukuran sedang dan besar ada juga yang menyebutnya redap. Penjelasan alat musik tradisional Kendang. Kendang, kendhang, atau biasa disebut juga dengan gendang merupakan alat musik yang dimainkan dengan cara di pukul.\n\n
+Biasa dimainkan dengan tangan atau dengan alat pemukul gendang. Hampir semua daerah di Indonesia memiliki gendang dengan ciri khas masing-masing. Kendang juga merupakan salah satu instrumen dalam Gamelan Jawa Tengah yang salah satu fungsi utamanya mengatur irama. Jenis. Berikut jenis-jenis kendang : \n\n
+    •	Kendang yang kecil disebut ketipung.\n
+    •	Kendang sedang disebut kendang ciblon/kebar.\n
+    •	Pasangan ketipung ada satu lagi bernama kendang \n        gedhe biasa disebut kendang kalih.\n\n
+    Kendang kalih dimainkan pada lagu atau gendhing yang berkarakter halus seperti ketawang, gendhing kethuk kalih, dan ladrang irama dadi. Bisa juga dimainkan cepat pada pembukaan lagu jenis lancaran, ladrang irama tanggung. Untuk wayangan ada satu lagi kendhang yang khas yaitu kendhang kosek. Kendang dimainkan.\n
+Dalam budaya Banten, kendang biasa digunakan untuk mengiringi gerakan silat. Alat musik yang dimainkan dengan cara dipukul ini tersebar di seluruh propinsi Jabar dan Banten.\n
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

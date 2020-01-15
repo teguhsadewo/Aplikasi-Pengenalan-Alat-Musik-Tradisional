@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_RA_Jawa2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Rumah Adat Pulau Jawa \n Rumah Kebaya"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/pj8_kebaya_jakarta"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah Adat Betawi – Suku Betawi adalah suku di Negara Indonesia yang sebagian besar penduduknya bertempat tinggal di DKI Jakarta. Mereka adalah penduduk yang menempati Batavia sejak abad ke 17.Seiring berkembangnya kemajuan zaman, kebudayaan lokal asli seperti pakaian adat, tarian adat dan rumah adat Betawi semakin tergerus. Anak-anak Betawi sekarang tidak tahu tentang asal-usul kebudayaan Betawi.\n\n
+        Jika hal ini dibiarkan, seiring berjalannya waktu kebudayaan asli Betawi akan hilang, bahkan tak sedikit anak-anak Betawi tidak tahu tentang rumah adat mereka.Rumah adat Betawi terdiri dari 3 jenis rumah adat yaitu, Rumah Joglo, Rumah Gudang dan Rumah Kebaya. Namun secara resmi rumah adat Betawi adalah rumah Kebaya. Masing-masing rumah adat tersebut memiliki ciri khas yang berbeda antara satu dengan yang lain. Berikut ulasan selengkapnya:\n
+        "/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="1. Rumah Kebaya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah adat Betawi yang satu ini memiliki ciri khas atap seperti pelana yang dilipat. Jika atap rumah dilihat dari samping maka atap akan terlihat seperti lipatan kebaya. Dari situlah mengapa rumah ini diberi nama rumah Kebaya. Selain itu pada rumah kebaya juga terdapat ruangan-ruangan dengan berbagai fungsi.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Fungsi Ruangan Pada Rumah Kebaya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah kebaya memiliki beberapa ruangan-ruangan seperti rumah pada umumnya. Setiap ruangan mempunyai fungsi yang berbeda-beda. Berikut adalah ruangan-ruangan pada rumah kebaya beserta fungsinya:\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="  •	Paseban\n
+Ruangan ini berbentuk seperti kamar yang digunakan untuk menginap para tamu. Jika ada saudara atau teman yang berkunjung kemudian menginap, maka mereka akan di tempatkan di ruangan ini. Jika sedang tidak ada tamu, ruangan ini biasanya digunakan untuk shalat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="  •	Teras\n
+Ciri khas dari rumah kebaya adalah teras yang luas. Biasanya terdapat meja dan kursi yang berfungsi untuk bersantai dan beristirahat bersama keluarga. Selain itu tempat ini juga digunakan untuk menerima tamu.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="  •	Ruang Tempat Tidur\n
+Seperti rumah pada umumnya rumah kebaya juga memiliki ruangan untuk tidur. Rumah kebaya ini memiliki 4 ruangan tidur. Pemilik rumah biasanya menempati kamar dengan ukuran paling besar.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="  •	Pangkeng\n
+Ruangan ini adalah ruangan bersantai untuk keluarga pada malam hari. Ruangan ini biasanya digunakan untuk sekedar bersenda gurau para anggota keluarga. Suasana keakraban anggota keluarga menjadi semakin hangat dan dekat.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="  •	Srondoyan\n
+Ruangan ini biasa disebut dapur. Biasanya terletak di bagian paling belakang dan jadi satu dengan ruang makan. Seperti pada umumnya ruangan ini digunakan untuk mengolah masakan.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Material Untuk Membangun Rumah Kebaya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="Pada zaman dahulu orang yang menempati rumah Kebaya adalah golongan orang terpandang. Rumah Kebaya merupakan rumah adat Betawi yang resmi dan mempunyai keunikan tersendiri berbeda dengan rumah adat yang lain. Material untuk membangun rumah kebaya ini juga tidak sembarangan.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="  1. Material Atap\n
+Atap dari rumah kebaya ini terbuat dari genteng tanah liat. Tetapi ada juga yang terbuat dari anyaman daun kirai atau yang sering disebut atep. Untuk kontruksi kuda-kuda dan gording menggunakan kayu gowok atau kayu kecapi.\n\n
+Reng sebagai dudukan atap genteng, terbuat dari bambu yang dibelah. Sedangkan kaso berfungsi untuk dudukan reng terbuat dari bambu utuh. Pemasangan reng dan kaso menggunakan bambu tali, yaitu dengan bambu yang dibelah kemudian dijadikan tali.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="2. Material Dinding\n
+Kayu yang digunakan untuk material dinding depan adalah kayu gowok atau kayu nangka, biasanya di cat dengan warna cerah seperti warna hijau atau warna kuning. Sedangkan untuk dinding lainnya menggunakan anyaman dari bambu. Daun pintu dan jendela untuk rumah kebaya berukuran besar.\n\n
+Pada daun pintu terdapat jalusi (lubang udara) agar udara dalam ruangan selalu berganti. Hal ini bertujuan agar udara dalam ruangan tetap segar dan sirkulasi udara tetap terjaga. Sehingga penghuni rumah merasa nyaman.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="3. Material Struktur\n
+Pondasi pada rumah kebaya terbuat dari susunan batu kali dengan sistem umpak. Sedangkan untuk landasan dinding menggunakan pasangan batu bata. Untuk kolom-kolom bangunan rumah ini terbuat dari kayu nangka.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nilai Filosofis Rumah Kebaya\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Rumah kebaya memiliki teras yang luas disertai meja dan kursi, hal ini memiliki nilai filosofis tersendiri. Ruang teras tersebut mengandung arti bahwa orang Betawi senantiasa terbuka. Selalu menghargai tamu yang datang.\n
+Orang Betawi tidak membeda-bedakan, siapapun orang yang datang bertamu tetap akan di terima dengan ramah. Walaupun berbeda keyakinan berbeda suku, orang Betawi tetap menerima dan menjamu tamu seperti hal nya tamu lain. Orang Betawi memiliki semangat menerima perbedaan keragaman etnis\n\n
+        Rumah Kebaya biasanya dilengkapi dengan pagar yang mengelilingi rumah. Ini artinya walaupun orang betawi terbuka, mereka tetap memiliki batas. Mereka dapat membedakan mana hal yang positif dan mana hal yang negatif.\n
+Saat ini banyak sekali kebudayaan luar yang masuk ke Negeri kita, semakin lama jika dibiarkan kebudayaan kita akan luntur bahkan hilang. Jika tidak hati-hati semakin lama kebudayaan asli Indonesia akan hilang. Menurut filosofi di atas, orang Betawi akan tetap menerima kebudayaan yang baik dan meninggalkan kebudayaan yang buruk.\n\n
+"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="2. Rumah Gadang\n"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:background="@drawable/pj9_gadangbetawi_jakarta"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Walaupun hanya rumah kebaya yang resmi menjadi rumah adat Betawi, tidak ada salahnya anda mengetahui beberapa hal mengenai rumah Gudang. Rumah adat Betawi yang satu ini biasanya terletak di daerah terpencil., sehingga bangunannya masih asli, belum tercampur oleh budaya luar.\n\n
+Rumah Gudang berbentuk persegi panjang dengan ukuran yang bervariasi. Atap rumah gudang berbentuk seperti pelana kuda dan disusun dengan kerangka kuda-kuda. Bagian depan rumah diberi atap miring yang disebut markis atau topi . Markis ini berfungsi untuk menahan paparan sinar matahari dan air hujan.\n\n
+Rumah ini dibagi hanya menjadi 2 bagian, yaitu bagian depan dan bagian tengah. Sementara untuk bagian belakang disatukan dengan bagian tengah. Ruangan bagian depan digunakan untuk menerima tamu. Sedangkan ruangan bagian tengah biasa digunakan untuk ruang berkumpul keluarga.\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="3. Rumah Joglo\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Bangunan rumah adat Betawi ini mirip dengan rumah adat dari Jawa, terutama bagian atapnya. Rumah Joglo Betawi ini memiliki bentuk bujur sangkar. Rumah Joglo terbagi menjadi tiga ruang, yaitu ruang depan, ruang tengah dan ruang belakang. \n\n
+Ruang depan biasa disebut dengan serambi depan, ruangan ini berfungsi untuk menerima tamu. Untuk ruang tengah biasanya untuk ruang makan, ruang berkumpul keluarga dan juga ruang tidur. Sedangkan ruang belakang digunakan untuk dapur dan kamar mandi.\n\n
+Rumah Joglo biasanya terletak di tengah kota. Pengaruh dari Budaya Jawa yang terdapat pada rumah ini adalah atapnya. Sekarang ini rumah Joglo Betawi sudah menyesuaikan dengan keadaan lingkungan sekitar.\n\n
+        Dapat disimpulkan bahwa rumah adat Betawi terdiri dari 3 jenis yaitu Rumah kebaya, Rumah Gudang dan Rumah Joglo. Akan tetapi rumah adat Betawi yang resmi adalah rumah Kebaya. Masin-masing rumah memiliki keunikan dan ciri khas masing-masing.\n\n
+Semakin pesatnya kemajuan teknologi, informasi, dan komunikasi membuat budaya luar mudah masuk ke dalam kehidupan di Negeri ini. Jangan sampai kebudayaan asli Indonesia hilang hanya karena pengaruh dari luar. Tetap menerima Kebudayaan dari luar tetapi harus tetap selektif, dapat membedakan mana yang baik dan mana yang buruk.\n"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

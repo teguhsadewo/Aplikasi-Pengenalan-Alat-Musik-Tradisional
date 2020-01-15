@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background"
+    tools:context=".HD_M_Petik2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/myriadpro"
+        android:text="Alat Musik Tradisonal \n Gambus (Jambi)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/ape2gambusjambi"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:text="      Alat musik Tradisional Gambus adalah salah satu jenis instrumental musik tradisional yang terdapat hampir di seluruh kawasan Melayu. Gambus sekilas menyerupai dengan gitar, namun memiliki bentuk yang mirip dengan buah labu dibagi dua. Alat musik Gambus merupakan salah satu alat musik petik yang berdawai.\n\n
+        Alat musik ini memiliki fungsi sebagai pengiring tarian zapin yang berasal dari Timur Tengah, versi melayu menggunakan string 9-12 kawat yang dipetik. Secara umum ada dua jenis gambus yang digunakan, Gambus Hadramaut dan Gambu Hijaz.\n\n
+        Alat musik ini juga pengiring nyatian pada waktu diselengarakan pesta pernikahan atau acara syukuran. Alat musik ini identik dengan nyayian yang bernafaskan Islam. Dalam mengiringi penyanyi, alat musik ini juga diiringi dengan alat musik lai, seperti marwas untuk memperindah irama nanyian. Bentuknya yang unik seperti bentuk buah labu siam atau labu air, menjadikanna mudah dikenal.\n\n
+        "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Asal Usul. \n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      Selain di Riau Alat Musik Gambus juga dapat ditemui di beberapa daerah lainnya diantaranya seperti Deli Sumatera utara, Jambi, Kalimantan, Sulawesi, Lombok, Malaysia, Singapura, dan Brunei. Alat musik Gambus dipercaya oleh sebagian masyarakat di Riau sebagai hasil modifikasi atau peniruan alat musik Al’ud yang berasal dari Arab, namun ada juga yang beranggapan bahwa Gambus adalah alat musik asli dari daerah Riau.\n\n
+        Anggapan sebagaian masyarakat dan para seniman tradisi yang mengatakan bahwa Gambus Melayuadalah alat musik asli dari daerah Riau, hal ini didasari dari masih adanya dongeng-dongeng di tengah masyarakat Melayu Riau yang menceritakan tentang awal mula adanya alat musik gambus Melayu Riau.\n\n
+        "/>
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Salah satu dongengnya adalah seperti di Bawah ini: \n\n"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="      ‘Tersebutlah kisah pada zaman dahulu, ada seorang pemuda yang sedang jatuh hati kepada seorang wanita, namun sang pemuda tidak berani untuk mendekati sang wanita, dikarenakan status sosial mereka yang jauh berbeda, sang pemuda pun hanya bisa melihat dan mengagumi sang wanita dari kejauhan saja. \n\n
+        Pada Suatu ketika, sang pemuda tidak sengaja melihat wanita idamannya sedang duduk di balai depan rumah panggungnya dengan kaki tergerai kebawah, sang pemuda mencoba untuk lihat lebih dekat, namun yang terlihat hanyalah sebagas kaki dan betisnya saja. Betis dan kaki sang wanita tersebut terus terbayang oleh sang pemuda, hingga akhirnya terpikir oleh sang pemuda untuk membuat bentuk yang menyerupai kaki sang wanita tersebut dari sebagtang kayu agar bisa dipeluk dan dibelainya.\n\n
+        Setelah jadi bentuk kaki itu dipeluk dan dibelainya sambil menyanyikan lagu-lagu asmara. Lama kelamaan timbullah inspirasi pemuda tadi agar kayu yang menyerupai bentuk kaki tersebut bisa menghasilkan bunyi, kemudian direntangkannyalah beberapa dawai dari bagian yang berbentuk kaki sampai kebagian yang berbentuk betis.\n\n
+Dengan cara memetik dawai-dawai itu dihasilkanlah nada-nada yang dapat mengiringi lagu-lagu yang dinyanyikannya. Dari sinilah awal mula adalnya alat musik Gambus Melayu Riau.\n\n
+        Alat musik gambus ini pada awalnya dikenal oleh masyarakat Melayu yang bedian di wilayah pesisir pantai, bersama dengan masuknya pada pedagang dari daerah Timur Tengah. Masa pedagang dari daerah Timur Tengah. Masa perdangangan ini dimulai sekitar abad ke 7 hingga abad ke 15an. Selain berdagang, mereka biasanya berdakwah, memperkenalkan ajaran Islam kepada masyarakat setempat.\n\n
+        Disamping berdagang dan berdakwah, para pedagang ini juga membawa peralatan musik, diatantaranya adalah Gambus. Masukknya para pedagang dari Timur Tengah khususnya di daerah Riau, telah meninggalkan pengaruhnya dalam bidan budaya dan kesenian.\n\n
+        Kesenian yang berkembang dimasyarakat Melayu Riau diantaranya adalah kesenian gambus dan tari Zapin. Kesenian gambus ini pada mulanya banyak derkembang di Pulai Bengkalis, Pulai Penyengat dan liak Sri Indrapura.\n\n
+        Pada mulanya Gambus di dalam masyarakat Melayu Riau hanya dimainkan secara tunggal dalam mengiringi lagu-lagu yang dinyanyikan sendiri oleh si pemain Gambus esbagai hiburan di dalam rumah dengan sya’ir yang bernafaskan Islam, tanpa diiringi oleh alat musik lainya.\n\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
